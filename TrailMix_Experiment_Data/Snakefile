@@ -1,0 +1,237 @@
+from itertools import product
+import random
+sys.setrecursionlimit(10000)
+
+DAMAGE=["high", "high"]
+MAXVAL=0
+ENDOS=["E1"]
+CONTS=["B2y"]
+endos_regex = '|'.join(ENDOS)
+conts_regex = '|'.join(CONTS)
+#ENDOS=["D1", "T2e", "J2", "HV4b", "Y1", "K3", "L1c1c", "E1a1a1b2", "L0f", "L5a", "Q3a1", "X2m2", "Z4a1a1"] 
+#CONTS=["Node1000", "Node2000", "Node3000", "Node4000", "X2m2", "Z4a1a1"]
+NFRAG=200000
+FRAGLEN_ENDO=50
+FRAGLEN_CONT=125
+#distance_params = [("mid", "mid")]
+
+ruleorder: gzip_fq > trimmed > add_bacterial_numt_reads
+
+def unique_combinations_of_two(endo_list, cont_list, idx_list, limit=10):
+    mix_combinations = []
+    for endo, cont, idx in product(endo_list, cont_list, idx_list):
+        if len(set([endo, cont])) == 2:
+            mix_combinations.append((endo, cont, DAMAGE[0], DAMAGE[1], idx))
+    return random.sample(mix_combinations, min(limit, len(mix_combinations)))
+
+def unique_combinations_of_three(endo_list, cont_list, idx_list, dist_params, limit=10):
+    mix_combinations = []
+    all_sources = endo_list + cont_list
+    for source1, source2, source3, idx, (d1, d2) in product(all_sources, all_sources, all_sources, idx_list, dist_params):
+        if len(set([source1, source2, source3])) == 3:
+            mix_combinations.append((source1, source2, source3, d1, d2, idx))
+    
+    print(f"Generated {len(mix_combinations)} unique combinations")
+    return random.sample(mix_combinations, min(limit, len(mix_combinations)))
+
+def get_first_damage():
+    return DAMAGE[0]
+
+def get_second_damage():
+    return DAMAGE[1]
+
+ruleorder: art_endo > art_cont
+
+rule all:
+    input:
+        expand("seqs/endo/mutilated/{endo}_gen_{idx}_d{dam}.fa", idx=range(0, MAXVAL+1), endo=ENDOS, dam=DAMAGE),
+        expand("seqs/endo/fragments/{endo}_gen_{idx}_d{dam}.fa.gz", idx=range(0, MAXVAL+1), endo=ENDOS, dam=DAMAGE),
+        expand("seqs/endo/fragments/{endo}_gen_{idx}_d{dam}_adpt.fa",endo=ENDOS,idx=range(0, MAXVAL+1), dam=DAMAGE),
+        expand("simulations/1/endo/{endo}_gen_{idx}_d{dam}_s1.fq.gz",endo=ENDOS,idx=range(0, MAXVAL+1), dam=DAMAGE),
+        expand("simulations/1/endo/{endo}_gen_{idx}_d{dam}_s2.fq.gz",endo=ENDOS,idx=range(0, MAXVAL+1), dam=DAMAGE),
+        expand("simulations/1/endo/{endo}_gen_{idx}_d{dam}_r1.fq.gz",endo=ENDOS,idx=range(0, MAXVAL+1), dam=DAMAGE),
+        expand("simulations/1/endo/{endo}_gen_{idx}_d{dam}_r2.fq.gz",endo=ENDOS,idx=range(0, MAXVAL+1), dam=DAMAGE),
+        expand("simulations/1/endo/{endo}_gen_{idx}_d{dam}_bact.fq.gz",endo=ENDOS,idx=range(0, MAXVAL+1), dam=DAMAGE),
+        expand("seqs/cont/fragments/{cont}_gen_{idx}_d{dam}_adpt.fa",cont=CONTS,idx=range(0, MAXVAL+1), dam=DAMAGE),
+        expand("simulations/1/cont/{cont}_gen_{idx}_d{dam}_s1.fq.gz",cont=CONTS,idx=range(0, MAXVAL+1), dam=DAMAGE),
+        expand("simulations/1/cont/{cont}_gen_{idx}_d{dam}_s2.fq.gz",cont=CONTS,idx=range(0, MAXVAL+1), dam=DAMAGE),
+        expand("simulations/1/cont/{cont}_gen_{idx}_d{dam}_r1.fq.gz",cont=CONTS,idx=range(0, MAXVAL+1), dam=DAMAGE),
+        expand("simulations/1/cont/{cont}_gen_{idx}_d{dam}_r2.fq.gz",cont=CONTS,idx=range(0, MAXVAL+1), dam=DAMAGE),
+        expand("simulations/1/cont/{cont}_gen_{idx}_d{dam}_bact.fq.gz",cont=CONTS,idx=range(0, MAXVAL+1), dam=DAMAGE),
+        ["simulations/2/0.65_0.35/{0}_{1}_gen_{4}_d{2}_d{3}.fq.gz".format(*combination) \
+        for combination in unique_combinations_of_two(ENDOS, CONTS, range(0, MAXVAL+1))],
+        #["simulations/3/0.3_0.3_0.4/{0}_{1}_{2}_gen_{5}_d{3}_d{4}.fq.gz".format(*combination) for combination in \
+        #  unique_combinations_of_three(ENDOS, CONTS, range(0, MAXVAL+1), distance_params)]
+
+
+rule faidx:
+    input: "{something}.fa"
+    output: "{something}.fa.fai"
+    shell: "samtools faidx {input}"
+
+# -s uniform.gz
+rule fragsim_adptsim_endo:
+    input:
+        input_1="seqs/endo/mutilated/{endo}_gen_{idx}_d{dam}.fa",
+        input_2="seqs/endo/mutilated/{endo}_gen_{idx}_d{dam}.fa.fai"
+    output:
+        "seqs/endo/fragments/{endo}_gen_{idx}_d{dam}.fa.gz",
+        "seqs/endo/fragments/{endo}_gen_{idx}_d{dam}_adpt.fa"
+    wildcard_constraints:
+        dam='|'.join(DAMAGE),
+        endo=endos_regex
+    shell:
+        """
+        /home/ctools/gargammel/src/fragSim -n {NFRAG} -s uniform.gz --circ {wildcards.endo} {input.input_1} | gzip > {output[0]}
+        /home/ctools/gargammel/src/adptSim -l 125 -artp {output[1]} {output[0]}
+        """
+
+# -l {FRAGLEN_CONT}
+rule fragsim_adptsim_cont:
+    input:
+        input_1="seqs/cont/mutilated/{cont}_gen_{idx}_d{dam}.fa",
+        input_2="seqs/cont/mutilated/{cont}_gen_{idx}_d{dam}.fa.fai"
+    output:
+        "seqs/cont/fragments/{cont}_gen_{idx}_d{dam}.fa.gz",
+        "seqs/cont/fragments/{cont}_gen_{idx}_d{dam}_adpt.fa"
+    wildcard_constraints:
+        dam='|'.join(DAMAGE),
+        cont=conts_regex
+    shell:
+        """
+        /home/ctools/gargammel/src/fragSim -n {NFRAG} -s uniform.gz --circ {wildcards.cont} {input.input_1} | gzip > {output[0]}
+        /home/ctools/gargammel/src/adptSim -l 125 -artp {output[1]} {output[0]}
+        """
+
+rule art_endo:
+    input:
+        "seqs/endo/fragments/{something}_adpt.fa"
+    output:
+        "simulations/{k}/{something}_s1.fq",
+        "simulations/{k}/{something}_s2.fq"
+    params:
+        out_prefix="simulations/{k}/{something}_s"
+    shell:
+        "/home/ctools/gargammel/art_src_MountRainier_Linux/art_illumina -ss HS25 -amp -na -p -l 125 -c 1 -i {input} -o {params.out_prefix}"
+
+rule art_cont:
+    input:
+        "seqs/cont/fragments/{something}_adpt.fa"
+    output:
+        "simulations/{k}/{something}_s1.fq",
+        "simulations/{k}/{something}_s2.fq"
+    params:
+        out_prefix="simulations/{k}/{something}_s"
+    shell:
+        "/home/ctools/gargammel/art_src_MountRainier_Linux/art_illumina -ss HS25 -amp -na -p -l 125 -c 1 -i {input} -o {params.out_prefix}"
+
+
+rule deamsim:
+    input:
+        "{something}.fa.gz"
+    output:
+        "{something}_d{dam}.fa"
+    shell:
+        """
+            /home/ctools/gargammel/src/deamSim -matfile {wildcards.dam} {input} > {output}
+        """
+
+rule gzip_fq:
+    input:
+        "{prefix}.fq"
+    output:
+        "{prefix}.fq.gz"
+    shell:
+        "gzip -k {input}"
+
+rule gzip_fa:
+    input:
+        "{prefix}.fa"
+    output:
+        "{prefix}.fa.gz"
+    shell:
+        "gzip -k {input}"
+
+rule unzip_fa:
+    input:
+        "simulations/{prefix}.fa.gz"
+    output:
+        "simulations/{prefix}.fa"
+    shell:
+        "gzip -d {input}"
+
+
+rule trimmed:
+    input:
+        input_1="simulations/1/{endo_or_cont}/{endo}_gen_{idx}_d{dam}_s1.fq.gz",
+        input_2="simulations/1/{endo_or_cont}/{endo}_gen_{idx}_d{dam}_s2.fq.gz"
+    output:
+        output_1="simulations/1/{endo_or_cont}/{endo}_gen_{idx}_d{dam}.fq.gz",
+        output_2="simulations/1/{endo_or_cont}/{endo}_gen_{idx}_d{dam}_r1.fq.gz",
+        output_3="simulations/1/{endo_or_cont}/{endo}_gen_{idx}_d{dam}_r2.fq.gz"
+    params:
+        out_prefix="simulations/1/{endo_or_cont}/{endo}_gen_{idx}_d{dam}"
+    wildcard_constraints:
+        dam='|'.join(DAMAGE),
+        idx="\d+"
+    shell:
+        "/home/ctools/leeHom-1.2.15/src/leeHom --ancientdna -fq1 {input.input_1} -fq2 {input.input_2} -fqo {params.out_prefix}"
+
+
+rule mutilate_single_endo:
+    input: "seqs/endo/{endo}.fa"
+    output: expand("seqs/endo/mutilated/{{endo}}_gen_{{idx}}.fa", idx=range(0, MAXVAL+1), endo=ENDOS)
+    wildcard_constraints:
+        endo="[^/]+",
+        idx="\d+"
+    shell: "cp {input} {output}"
+    #shell: "python mitochondrialSimulator.py -g {MAXVAL} -o seqs/endo/mutilated/{wildcards.endo}_gen \
+    #        --name={wildcards.endo} {wildcards.endo}.conf {input}"
+
+rule mutilate_single_cont:
+    input: "seqs/cont/{cont}.fa"
+    output: expand("seqs/cont/mutilated/{{cont}}_gen_{{idx}}.fa", idx=range(0, MAXVAL+1), cont=CONTS)
+    wildcard_constraints:
+        cont="[^/]+",
+        idx="\d+"
+    params:
+        name=lambda wildcards: wildcards.cont
+    shell: "cp {input} {output}"
+    #shell: "zcat {input.original} {input.bacteria} | gzip -c > {output.modified}"
+    #shell: "python mitochondrialSimulator.py -g {MAXVAL} -o seqs/cont/mutilated/{params.name}_gen \
+    #        --name={params.name} {wildcards.cont}.conf {input}"
+
+#zcat {input.original} {input.bacteria} | gzip -c > {output.modified}
+
+rule add_bacterial_numt_reads:
+    input:
+        original="{sample}.fq.gz",
+        bacteria="refSoil_n100000.fq.gz",
+        numts="numts.fq.gz"
+    output:
+        modified="{sample}_bact.fq.gz"
+    shell:
+        """
+        zcat {input.bacteria} {input.numts} {input.original} | gzip > {output.modified}
+        """
+
+rule mix_endo_cont:
+    input:
+        input_1="simulations/1/endo/{{endo}}_gen_{{idx}}_d{damage}_bact.fq.gz".format(damage=get_first_damage()),
+        input_2="simulations/1/cont/{{cont}}_gen_{{idx}}_d{damage}_bact.fq.gz".format(damage=get_first_damage())
+    output: "simulations/2/0.65_0.35/{{endo}}_{{cont}}_gen_{{idx}}_d{damage1}_d{damage2}.fq.gz".format(damage1=get_first_damage(), damage2=get_second_damage())
+    shell:
+        "python mix.py {input.input_1} {input.input_2} --props 0.65 0.35 | ./shuf.sh | gzip > {output}"
+
+rule mix_endo_cont_third:
+    input:
+        input_1="simulations/1/endo/{endo}_gen_{idx}_d{damage1}.fq.gz",
+        input_2="simulations/1/cont/{cont1}_gen_{idx}_d{damage1}.fq.gz",
+        input_3="simulations/1/cont/{cont2}_gen_{idx}_d{damage1}.fq.gz"
+    output: 
+        "simulations/3/0.3_0.3_0.4/{endo}_{cont1}_{cont2}_gen_{idx}_d{damage1}_d{damage1}.fq.gz"
+    params:
+        damage1=lambda wildcards: wildcards.damage1,
+    shell:
+        "python mix.py {input.input_1} {input.input_2} {input.input_3} --props 0.3 0.3 0.4 | gzip > {output}"
+
