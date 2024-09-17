@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 # Get the input file name
 input_file="$1"
 output_prefix="$2"
