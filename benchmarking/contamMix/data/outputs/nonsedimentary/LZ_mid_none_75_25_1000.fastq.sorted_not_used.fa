@@ -1,0 +1,33 @@
+Min_depth=1
+Min_diff=0.001
+Indel_min_diff=0.001
+Initial_size=16569
+Used the following SNPs:
+73	A	G	4	0	4	1	G
+594	C	T	1	0	1	1	T
+825	T	A	1	0	1	1	A
+1018	G	A	3	0	3	1	A
+2271	C	T	1	0	1	1	T
+2706	A	G	2	0	2	1	G
+2758	G	A	3	0	3	1	A
+3990	C	T	6	0	6	1	T
+4769	A	G	2	0	2	1	G
+7133	C	T	2	0	2	1	T
+7146	A	G	2	0	2	1	G
+8701	A	G	3	0	3	1	G
+8782	G	A	5	0	5	1	A
+9540	T	C	8	0	8	1	C
+10704	G	A	5	0	5	1	A
+10873	T	C	4	0	4	1	C
+12276	G	A	4	0	4	1	A
+12572	G	A	1	0	1	1	A
+12705	C	T	6	0	6	1	T
+13506	C	T	2	0	2	1	T
+13650	C	T	3	0	3	1	T
+14000	T	A	4	0	4	1	A
+14560	G	A	2	0	2	1	A
+14612	G	A	4	0	4	1	A
+14766	C	T	2	0	2	1	T
+16118	G	A	1	0	1	1	A
+16311	T	C	1	0	1	1	C
+The final size is: 16569

@@ -1,0 +1,7 @@
+Min_depth=1
+Min_diff=0.001
+Indel_min_diff=0.001
+Initial_size=16569
+Used the following SNPs:
+16519	T	C	4	0	4	1	C
+The final size is: 16569

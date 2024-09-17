@@ -1,0 +1,10 @@
+Min_depth=1
+Min_diff=0.001
+Indel_min_diff=0.001
+Initial_size=16569
+Used the following SNPs:
+6427	C	T	7	0	7	1	T
+6434	C	T	8	0	8	1	T
+16223	C	T	6	0	6	1	T
+16519	T	A	2	0	2	1	A
+The final size is: 16569

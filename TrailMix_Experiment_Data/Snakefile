@@ -2,10 +2,10 @@ from itertools import product
 import random
 sys.setrecursionlimit(10000)
 
-DAMAGE=["high", "high"]
+DAMAGE=["mid", "mid"]
 MAXVAL=0
-ENDOS=["E1"]
-CONTS=["B2y"]
+ENDOS=["C4e"]
+CONTS=["V2a1a"]
 endos_regex = '|'.join(ENDOS)
 conts_regex = '|'.join(CONTS)
 #ENDOS=["D1", "T2e", "J2", "HV4b", "Y1", "K3", "L1c1c", "E1a1a1b2", "L0f", "L5a", "Q3a1", "X2m2", "Z4a1a1"] 
@@ -13,7 +13,7 @@ conts_regex = '|'.join(CONTS)
 NFRAG=200000
 FRAGLEN_ENDO=50
 FRAGLEN_CONT=125
-#distance_params = [("mid", "mid")]
+distance_params = [("mid", "mid")]
 
 ruleorder: gzip_fq > trimmed > add_bacterial_numt_reads
 
@@ -58,10 +58,10 @@ rule all:
         expand("simulations/1/cont/{cont}_gen_{idx}_d{dam}_r1.fq.gz",cont=CONTS,idx=range(0, MAXVAL+1), dam=DAMAGE),
         expand("simulations/1/cont/{cont}_gen_{idx}_d{dam}_r2.fq.gz",cont=CONTS,idx=range(0, MAXVAL+1), dam=DAMAGE),
         expand("simulations/1/cont/{cont}_gen_{idx}_d{dam}_bact.fq.gz",cont=CONTS,idx=range(0, MAXVAL+1), dam=DAMAGE),
-        ["simulations/2/0.65_0.35/{0}_{1}_gen_{4}_d{2}_d{3}.fq.gz".format(*combination) \
+        ["simulations/2/0.2_0.8/{0}_{1}_gen_{4}_d{2}_d{3}.fq.gz".format(*combination) \
         for combination in unique_combinations_of_two(ENDOS, CONTS, range(0, MAXVAL+1))],
-        #["simulations/3/0.3_0.3_0.4/{0}_{1}_{2}_gen_{5}_d{3}_d{4}.fq.gz".format(*combination) for combination in \
-        #  unique_combinations_of_three(ENDOS, CONTS, range(0, MAXVAL+1), distance_params)]
+        ["simulations/3/0.3_0.3_0.4/{0}_{1}_{2}_gen_{5}_d{3}_d{4}.fq.gz".format(*combination) for combination in \
+          unique_combinations_of_three(ENDOS, CONTS, range(0, MAXVAL+1), distance_params)]
 
 
 rule faidx:
@@ -99,7 +99,7 @@ rule fragsim_adptsim_cont:
         cont=conts_regex
     shell:
         """
-        /home/ctools/gargammel/src/fragSim -n {NFRAG} -s uniform.gz --circ {wildcards.cont} {input.input_1} | gzip > {output[0]}
+        /home/ctools/gargammel/src/fragSim -n {NFRAG} -l {FRAGLEN_CONT} --circ {wildcards.cont} {input.input_1} | gzip > {output[0]}
         /home/ctools/gargammel/src/adptSim -l 125 -artp {output[1]} {output[0]}
         """
 
@@ -219,9 +219,9 @@ rule mix_endo_cont:
     input:
         input_1="simulations/1/endo/{{endo}}_gen_{{idx}}_d{damage}_bact.fq.gz".format(damage=get_first_damage()),
         input_2="simulations/1/cont/{{cont}}_gen_{{idx}}_d{damage}_bact.fq.gz".format(damage=get_first_damage())
-    output: "simulations/2/0.65_0.35/{{endo}}_{{cont}}_gen_{{idx}}_d{damage1}_d{damage2}.fq.gz".format(damage1=get_first_damage(), damage2=get_second_damage())
+    output: "simulations/2/0.2_0.8/{{endo}}_{{cont}}_gen_{{idx}}_d{damage1}_d{damage2}.fq.gz".format(damage1=get_first_damage(), damage2=get_second_damage())
     shell:
-        "python mix.py {input.input_1} {input.input_2} --props 0.65 0.35 | ./shuf.sh | gzip > {output}"
+        "python mix.py {input.input_1} {input.input_2} --props 0.2 0.8 | ./shuf.sh | gzip > {output}"
 
 rule mix_endo_cont_third:
     input:
