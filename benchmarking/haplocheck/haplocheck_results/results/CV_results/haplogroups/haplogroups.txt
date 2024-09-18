@@ -1,0 +1,2 @@
+"SampleID"	"Haplogroup"	"Rank"	"Quality"	"Range"	"Not_Found_Polys"	"Found_Polys"	"Remaining_Polys"	"AAC_In_Remainings"	"Input_Sample"
+"CV_mid_mid_30000_sorted.bam"	"HV"	"1"	"0.9433"	"1-16569"	"263G"	"750G 1438G 2706G 4769G 7028T 8860G 15326G"	"483T 624T 16519C"	""	"483T 624T 750G 1438G 2706G 4769G 7028T 8860G 15326G 16519C"

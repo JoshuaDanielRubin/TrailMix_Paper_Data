@@ -1,0 +1,12 @@
+
+mtDNA Variant Detection v2.0.0-rc7
+https://github.com/seppinho/mutserve
+(c) Sebastian Schoenherr, Hansi Weissensteiner, Lukas Forer
+1 files added.
+[Run]     CV_mid_mid_30000_sorted.bam...
+[Done]    CV_mid_mid_30000_sorted.bam. Execution Time: 00:00:01
+[Run]     Merge output files...
+[Done]    Merge output files. Execution Time: 00:00:00
+
+Execution Time: 0 min, 2 sec
+

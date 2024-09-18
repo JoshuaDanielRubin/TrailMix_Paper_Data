@@ -1,0 +1,92 @@
+24/08/25 16:11:38 No hdfs folders created.
+24/08/25 16:11:38 Executing Job installation....
+24/08/25 16:11:38 Executing Job setups....
+24/08/25 16:11:38 Planner: WDL evaluated.
+24/08/25 16:11:38 Planner: DAG created.
+24/08/25 16:11:38   Nodes: 1
+24/08/25 16:11:38     Validate Input
+24/08/25 16:11:38       Inputs: 
+24/08/25 16:11:38       Outputs: 
+24/08/25 16:11:38   Dependencies: 0
+24/08/25 16:11:38 Executor: execute DAG...
+24/08/25 16:11:38 ------------------------------------------------------
+24/08/25 16:11:38 Validate Input
+24/08/25 16:11:38 ------------------------------------------------------
+24/08/25 16:11:39   Validate Input [0 sec]
+24/08/25 16:11:39 Planner: WDL evaluated.
+24/08/25 16:11:43 Planner: WDL evaluated.
+24/08/25 16:11:43 Details:
+24/08/25 16:11:43   Name: job-20240825-161138
+24/08/25 16:11:43   Job-Id: job-20240825-161138
+24/08/25 16:11:43   Submitted On: Sun Aug 25 16:11:38 CEST 2024
+24/08/25 16:11:43   Completed On: Thu Jan 01 01:00:00 CET 1970
+24/08/25 16:11:43   Inputs:
+24/08/25 16:11:43     Input Files (VCF/BAM/CRAM): /net/mimer/mnt/tank/projects2/hominin/benchmarking/haplocheck/CV/input/files
+24/08/25 16:11:43     Reference FASTA: rCRS.fasta
+24/08/25 16:11:43     Input Format: bam
+24/08/25 16:11:43     Level: 0.01
+24/08/25 16:11:43     Minimal Base Quality: 20
+24/08/25 16:11:43     Minimal Map Quality: 20
+24/08/25 16:11:43     Threads for Variant Calling: 45
+24/08/25 16:11:43   Outputs:
+24/08/25 16:11:43     Contamination HTML Report: /net/mimer/mnt/tank/projects2/hominin/benchmarking/haplocheck/CV/report/report
+24/08/25 16:11:43     Contamination File: /net/mimer/mnt/tank/projects2/hominin/benchmarking/haplocheck/CV/contamination/contamination
+24/08/25 16:11:43     Final Haplogroups (using complete input profile): /net/mimer/mnt/tank/projects2/hominin/benchmarking/haplocheck/CV/haplogroups/haplogroups
+24/08/25 16:11:43     BAM Output Filename: /net/mimer/mnt/tank/projects2/hominin/benchmarking/haplocheck/CV/temp/output/output
+24/08/25 16:11:43 Preparing Job....
+24/08/25 16:11:43 Executing Job....
+24/08/25 16:11:43 Planner: WDL evaluated.
+24/08/25 16:11:43 Planner: DAG created.
+24/08/25 16:11:43   Nodes: 4
+24/08/25 16:11:43     Variant Calling using mutserve (v2.0.0-rc7)
+24/08/25 16:11:43       Inputs: files archive level baseQ mapQ threads 
+24/08/25 16:11:43       Outputs: 
+24/08/25 16:11:43     Haplogroup Classification
+24/08/25 16:11:43       Inputs: 
+24/08/25 16:11:43       Outputs: 
+24/08/25 16:11:43     Contamination Detection
+24/08/25 16:11:43       Inputs: 
+24/08/25 16:11:43       Outputs: 
+24/08/25 16:11:43     Sending Mail
+24/08/25 16:11:43       Inputs: 
+24/08/25 16:11:43       Outputs: 
+24/08/25 16:11:43   Dependencies: 3
+24/08/25 16:11:43     Variant Calling using mutserve (v2.0.0-rc7)->Haplogroup Classification
+24/08/25 16:11:43     Haplogroup Classification->Contamination Detection
+24/08/25 16:11:43     Contamination Detection->Sending Mail
+24/08/25 16:11:43 Executor: execute DAG...
+24/08/25 16:11:43 ------------------------------------------------------
+24/08/25 16:11:43 Variant Calling using mutserve (v2.0.0-rc7)
+24/08/25 16:11:43 ------------------------------------------------------
+24/08/25 16:11:43 Command: [/usr/lib/jvm/java-13-openjdk-amd64/bin/java, -jar, mutserve.jar, call, --level, 0.01, --reference, rCRS.fasta, --mapQ, 20, --baseQ, 20, --deletions, --output, /net/mimer/mnt/tank/projects2/hominin/benchmarking/haplocheck/CV/input/files/out.vcf.gz, --no-ansi, /net/mimer/mnt/tank/projects2/hominin/benchmarking/haplocheck/CV/input/files, --threads, 45]
+24/08/25 16:11:43 Working Directory: /net/mimer/mnt/tank/projects2/hominin/benchmarking/haplocheck/apps/haplocheck/1.3.2
+24/08/25 16:11:46 Exit Code: 0
+24/08/25 16:11:46   Variant Calling using mutserve (v2.0.0-rc7) [2 sec]
+24/08/25 16:11:46 ------------------------------------------------------
+24/08/25 16:11:46 Haplogroup Classification
+24/08/25 16:11:46 ------------------------------------------------------
+24/08/25 16:11:47   Haplogroup Classification [0 sec]
+24/08/25 16:11:47 ------------------------------------------------------
+24/08/25 16:11:47 Contamination Detection
+24/08/25 16:11:47 ------------------------------------------------------
+24/08/25 16:11:48   Contamination Detection [0 sec]
+24/08/25 16:11:48 ------------------------------------------------------
+24/08/25 16:11:48 Sending Mail
+24/08/25 16:11:48 ------------------------------------------------------
+24/08/25 16:11:48   Sending Mail [0 sec]
+24/08/25 16:11:48 Job Execution successful.
+24/08/25 16:11:48 Exporting Data...
+24/08/25 16:11:48   Exporting parameter report...
+24/08/25 16:11:48   Added 1 downloads.
+24/08/25 16:11:48   Added 0 custom downloads.
+24/08/25 16:11:48   Exporting parameter contamination...
+24/08/25 16:11:48   Added 1 downloads.
+24/08/25 16:11:48   Added 0 custom downloads.
+24/08/25 16:11:48   Exporting parameter haplogroups...
+24/08/25 16:11:48   Added 1 downloads.
+24/08/25 16:11:48   Added 0 custom downloads.
+24/08/25 16:11:48 Data Export successful.
+24/08/25 16:11:48 Cleaning up...
+24/08/25 16:11:48 Cleaning up uploaded local files...
+24/08/25 16:11:48 Cleaning up temporary local files...
+24/08/25 16:11:48 Cleanup successful.

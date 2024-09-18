@@ -1,0 +1,2 @@
+"Sample"	"Contamination Status"	"Contamination Level"	"Distance"	"Sample Coverage"
+"CV_mid_mid_30000_sorted.bam"	"YES"	"0.159"	"18"	"182"
