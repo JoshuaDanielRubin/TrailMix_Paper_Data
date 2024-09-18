@@ -1,0 +1,64 @@
+/home/projects/mito_haplotype/env/lib/python3.8/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.24.3
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+mixemt/bin/mixemt samples/bams/sedimentary/GQ_mid_mid_5_5_4000.fastq.sorted.bam --ref rCRS.fa --seed 42 -v -V -s GQ_mid_mid_5_5_4000_NoVarCheck
+
+Read reference sequence "NC_012920.1" from "rCRS.fa".
+Reading haplogroups from 'mixemt' package (phylotree/mtDNA_tree_Build_17.csv)
+Using 4070 variant sites from 5408 haplogroups.
+Read 3557 alignments from "samples/bams/sedimentary/GQ_mid_mid_5_5_4000.fastq.sorted.bam".
+Using 3549 aligned fragments (MQ>=30) (3148 distinct sub-haplotypes)
+
+Building EM input matrix...
+  processed 500 fragments...
+  processed 1000 fragments...
+  processed 1500 fragments...
+  processed 2000 fragments...
+  processed 2500 fragments...
+  processed 3000 fragments...
+Done.
+
+Starting EM run 1...
+............................................................................................................
+Converged! (1083)
+
+Saving results to GQ_mid_mid_5_5_4000_NoVarCheck.*
+
+
+Top 10 haplogroups by proportion...
+1       0.402846        Q2b
+2       0.316189        G3a3
+3       0.059311        H7d3
+4       0.048183        M56
+5       0.043009        H2a1d
+6       0.032751        H27/H27e
+7       0.027953        R24
+8       0.016745        H1aw
+9       0.013217        H14b2
+10      0.009658        J1d3a1
+
+
+Top 10 haplogroups by read probabilities...
+Q2b     2891
+G3a3    167
+H7d3    28
+H2a1d   14
+H1aw    11
+H27/H27e        10
+M56     8
+R24     7
+J1d3a1  6
+H14b2   4
+
+
+Refining contribution estimates...
+Starting EM run 1...
+............
+Converged! (125)
+hap#   Haplogroup      Contribution   Reads
+-------------------------------------------
+hap1   Q2b                   0.4300     126
+hap2   G3a3                  0.3579      79
+hap3   H7d3                  0.0731      19
+hap4   H2a1d                 0.0516      15
+hap5   H27/H27e              0.0598      12
+hap6   H1aw                  0.0277      11

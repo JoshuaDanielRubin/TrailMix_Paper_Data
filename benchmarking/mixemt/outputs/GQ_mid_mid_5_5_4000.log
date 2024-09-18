@@ -1,0 +1,187 @@
+/home/projects/mito_haplotype/env/lib/python3.8/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.24.3
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+mixemt/bin/mixemt samples/bams/sedimentary/GQ_mid_mid_5_5_4000.fastq.sorted.bam --ref rCRS.fa --seed 42 -v -s GQ_mid_mid_5_5_4000
+
+Read reference sequence "NC_012920.1" from "rCRS.fa".
+Reading haplogroups from 'mixemt' package (phylotree/mtDNA_tree_Build_17.csv)
+Using 4070 variant sites from 5408 haplogroups.
+Read 3557 alignments from "samples/bams/sedimentary/GQ_mid_mid_5_5_4000.fastq.sorted.bam".
+Using 3549 aligned fragments (MQ>=30) (3148 distinct sub-haplotypes)
+
+Building EM input matrix...
+  processed 500 fragments...
+  processed 1000 fragments...
+  processed 1500 fragments...
+  processed 2000 fragments...
+  processed 2500 fragments...
+  processed 3000 fragments...
+Done.
+
+Starting EM run 1...
+
+
+
+
+
+
+
+
+
+............................................................................................................
+Converged! (1083)
+
+Saving results to GQ_mid_mid_5_5_4000.*
+
+Checking diagnostic variants:
+Q2b (57 unique variants)
+    146T: 6/6
+    152C: 1/6
+    182C: 4/4
+    195T: 1/1
+    228T: 3/7
+    247G: 10/10
+    489C: 3/5
+    744G: 9/18
+    769G: 15/15
+    825T: 21/21
+   1018G: 15/15
+   1462A: 9/16
+   2758G: 12/12
+   2885T: 11/11
+   3594C: 17/17
+   4104A: 22/22
+   4117C: 13/21
+   4312C: 16/16
+   5456T: 4/12
+   5460G: 11/11
+   5843G: 10/22
+   7146A: 18/18
+   7256C: 26/26
+   7521G: 22/22
+   8468C: 11/11
+   8655C: 14/14
+   8790A: 8/17
+  10400T: 15/17
+  10598G: 10/13
+  10664C: 10/10
+  10688G: 12/12
+  10810T: 14/14
+  10915T: 16/16
+  11061T: 9/14
+  11914G: 14/14
+  12267G: 6/12
+  12268C: 7/13
+  12940A: 9/14
+  13105A: 24/24
+  13276A: 10/10
+  13500C: 8/16
+  13506C: 18/18
+  13650C: 13/13
+  14783C: 14/15
+  15043A: 18/21
+  15070T: 13/22
+  15301A: 22/23
+  16066G: 5/12
+  16129A: 4/9
+  16145A: 3/6
+  16187C: 1/1
+  16189T: 2/2
+  16230A: 2/2
+  16241A: 2/2
+  16278C: 8/8
+  16286T: 5/9
+  16311T: 16/16
+Keeping 'Q2b': 51/57 unique variant bases observed at least 3 times.
+G3a3 (15 unique variants)
+    152T: 5/6
+    195T: 1/1
+    709A: 8/17
+   4833G: 12/20
+   5108C: 8/12
+  12408C: 15/25
+  14569A: 9/13
+  15746G: 9/21
+  16129G: 5/9
+  16187C: 1/1
+  16189T: 2/2
+  16230A: 2/2
+  16274A: 2/6
+  16362C: 10/17
+  16390A: 8/16
+Keeping 'G3a3': 10/15 unique variant bases observed at least 3 times.
+H7d3 (8 unique variants)
+    195T: 1/1
+   4793G: 0/19
+  12630A: 19/29
+  15301G: 1/23
+  15409T: 0/16
+  16187C: 1/1
+  16189T: 2/2
+  16230A: 2/2
+Ignoring 'H7d3': only 1/8 unique variant bases observed.
+H2a1d (10 unique variants)
+    195T: 1/1
+    951A: 0/18
+   4769G: 16/18
+   6260A: 0/18
+   8679G: 0/12
+  15301G: 1/23
+  16187C: 1/1
+  16189T: 2/2
+  16230A: 2/2
+  16354T: 0/18
+Ignoring 'H2a1d': only 1/10 unique variant bases observed.
+H27/H27e (7 unique variants)
+    195T: 1/1
+  11719A: 12/14
+  15301G: 1/23
+  16187C: 1/1
+  16189T: 2/2
+  16230A: 2/2
+  16316G: 0/16
+Ignoring 'H27/H27e': only 1/7 unique variant bases observed.
+H1aw (8 unique variants)
+    195T: 1/1
+    460C: 0/9
+   3010A: 0/19
+   8701G: 11/11
+  15301G: 1/23
+  16187C: 1/1
+  16189T: 2/2
+  16230A: 2/2
+Ignoring 'H1aw': only 1/8 unique variant bases observed.
+
+Top 10 haplogroups by proportion...
+1       0.402846        Q2b
+2       0.316189        G3a3
+3       0.059311        H7d3
+4       0.048183        M56
+5       0.043009        H2a1d
+6       0.032751        H27/H27e
+7       0.027953        R24
+8       0.016745        H1aw
+9       0.013217        H14b2
+10      0.009658        J1d3a1
+
+
+Top 10 haplogroups by read probabilities...
+Q2b     2891
+G3a3    167
+H7d3    28
+H2a1d   14
+H1aw    11
+H27/H27e        10
+M56     8
+R24     7
+J1d3a1  6
+H14b2   4
+
+
+Refining contribution estimates...
+Starting EM run 1...
+......
+Converged! (62)
+hap#   Haplogroup      Contribution   Reads
+-------------------------------------------
+hap1   Q2b                   0.5057     178
+hap2   G3a3                  0.4943     178

@@ -1,0 +1,127 @@
+/home/projects/mito_haplotype/env/lib/python3.8/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.24.3
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+mixemt/bin/mixemt samples/bams/empirical/mezB9687_15000.fq_sorted.bam --ref rCRS.fa --seed 42 -v -V -s mezB9687_NoVarCheck
+
+Read reference sequence "NC_012920.1" from "rCRS.fa".
+Reading haplogroups from 'mixemt' package (phylotree/mtDNA_tree_Build_17.csv)
+Using 4070 variant sites from 5408 haplogroups.
+Read 6162 alignments from "samples/bams/empirical/mezB9687_15000.fq_sorted.bam".
+Using 5808 aligned fragments (MQ>=30) (5145 distinct sub-haplotypes)
+
+Building EM input matrix...
+
+
+
+
+
+
+
+  processed 500 fragments...
+  processed 1000 fragments...
+  processed 1500 fragments...
+  processed 2000 fragments...
+  processed 2500 fragments...
+  processed 3000 fragments...
+  processed 3500 fragments...
+  processed 4000 fragments...
+  processed 4500 fragments...
+  processed 5000 fragments...
+Done.
+
+Starting EM run 1...
+
+
+
+
+
+
+
+
+
+..........................................................................................................................................................................................
+Converged! (1864)
+
+Saving results to mezB9687_NoVarCheck.*
+
+
+Top 10 haplogroups by proportion...
+1       0.060084        T2b3
+2       0.055426        T2b17a
+3       0.038707        U3a2a1a
+4       0.036767        B4b1a2d
+5       0.034086        M9a1b1a1
+6       0.033639        T2l
+7       0.031454        D4j1a1
+8       0.026458        R30a1a
+9       0.026183        I1a1d
+10      0.025995        F1a3b
+
+
+Top 10 haplogroups by read probabilities...
+T2b3    3829
+U3a2a1a 143
+B4b1a2d 78
+M9a1b1a1        59
+L2e1a   49
+L1c3b'c 49
+D4j1a1  48
+F1a3b   45
+I1a1d   45
+H2a1d   36
+
+
+Refining contribution estimates...
+Starting EM run 1...
+..............
+Converged! (141)
+hap#   Haplogroup      Contribution   Reads
+-------------------------------------------
+hap01  T2b3                  0.0950      20
+hap02  T2b17a                0.0576      19
+hap03  U3a2a1a               0.0404      42
+hap04  B4b1a2d               0.0394      55
+hap05  M9a1b1a1              0.0355      36
+hap06  T2l                   0.0356      14
+hap07  D4j1a1                0.0335      27
+hap08  R30a1a                0.0279      34
+hap09  I1a1d                 0.0274      22
+hap10  F1a3b                 0.0307      40
+hap11  H2a1d                 0.0279      39
+hap12  L3h1a2a               0.0243      30
+hap13  H1e1a1                0.0249      19
+hap14  L1c3b'c               0.0253      34
+hap15  T2c1a                 0.0265      11
+hap16  L2e1a                 0.0214      55
+hap17  H1e2a                 0.0228      13
+hap18  D4b2b2c               0.0207      19
+hap19  L4b2a1                0.0228      24
+hap20  M5a2a2                0.0188      18
+hap21  H27/H27e              0.0188      19
+hap22  N1a1a1a1a             0.0171      21
+hap23  F2c2                  0.0166      18
+hap24  L3f3                  0.0225      24
+hap25  M7c3                  0.0157      19
+hap26  T2b25                 0.0155      12
+hap27  H3aq                  0.0152      14
+hap28  HV13a                 0.0148      17
+hap29  T2b6                  0.0195      14
+hap30  J1b4a                 0.0149      16
+hap31  L5b2                  0.0130      17
+hap32  H7b1                  0.0118      10
+hap33  H2a1g                 0.0174      16
+hap34  H5v                   0.0117      13
+hap35  W5a2                  0.0135      13
+hap36  X2b5                  0.0102      10
+hap37  K1a1c                 0.0094      33
+hap38  H3b4                  0.0099      13
+hap39  L1c1a2                0.0087      12
+hap40  H1q3                  0.0106      17
+hap41  M24b                  0.0079      17
+hap42  H2a1a2                0.0071      12
+hap43  L2b3c                 0.0062      16
+hap44  L3d1a1a               0.0073      10
+hap45  B4a1c3a               0.0058      18
+hap46  D5b1d                 0.0054      12
+hap47  R0a2e                 0.0045      12
+hap48  M8a1                  0.0045      30
+hap49  J1c3g                 0.0063      15

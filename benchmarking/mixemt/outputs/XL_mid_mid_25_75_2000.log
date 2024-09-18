@@ -1,0 +1,186 @@
+/home/projects/mito_haplotype/env/lib/python3.8/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.24.3
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+mixemt/bin/mixemt samples/bams/sedimentary/XL_mid_mid_25_75_2000.fastq.sorted.bam --ref rCRS.fa --seed 42 -v -s XL_mid_mid_25_75_2000_NoDropout
+
+Read reference sequence "NC_012920.1" from "rCRS.fa".
+Reading haplogroups from 'mixemt' package (phylotree/mtDNA_tree_Build_17.csv)
+Using 4070 variant sites from 5408 haplogroups.
+Read 1745 alignments from "samples/bams/sedimentary/XL_mid_mid_25_75_2000.fastq.sorted.bam".
+Using 1734 aligned fragments (MQ>=30) (1632 distinct sub-haplotypes)
+
+Building EM input matrix...
+  processed 500 fragments...
+  processed 1000 fragments...
+  processed 1500 fragments...
+Done.
+
+Starting EM run 1...
+
+
+
+..................................................................................................
+Converged! (983)
+
+Saving results to XL_mid_mid_25_75_2000_NoDropout.*
+
+Checking diagnostic variants:
+L5a (46 unique variants)
+    146T: 4/4
+    152C: 1/3
+    182T: 0/1
+    709A: 5/8
+    851G: 4/9
+   1822C: 4/6
+   2758G: 9/9
+   2885T: 3/3
+   3423C: 10/11
+   4312C: 8/8
+   5111T: 5/8
+   5147A: 10/15
+   5656G: 4/6
+   6182A: 3/6
+   6297C: 6/9
+   7146A: 7/7
+   7424G: 10/16
+   7972G: 7/9
+   8155A: 7/11
+   8188G: 6/7
+   8468C: 3/3
+   8582T: 5/7
+   9305A: 9/13
+   9329A: 7/13
+  10664C: 9/9
+  10915T: 7/7
+  11025C: 6/7
+  11881T: 5/6
+  11914G: 5/5
+  12236A: 4/6
+  12432T: 3/5
+  12950G: 6/7
+  13276A: 10/10
+  13722G: 9/10
+  14212C: 7/10
+  14239T: 8/10
+  14581C: 7/9
+  14905A: 8/14
+  14971C: 9/11
+  15217A: 9/13
+  15884A: 8/12
+  16148T: 0/4
+  16166G: 0/0
+  16230A: 2/2
+  16355T: 5/7
+  16362C: 3/6
+Keeping 'L5a': 41/46 unique variant bases observed at least 3 times.
+X2m2 (18 unique variants)
+    143A: 2/5
+    152T: 2/3
+    182C: 1/1
+    195C: 0/1
+    225A: 0/1
+    226C: 0/1
+   1719A: 5/13
+   4059T: 7/10
+   6221C: 1/5
+   6371T: 3/8
+   6713T: 2/12
+   8473C: 1/3
+  13966G: 1/9
+  14470C: 3/11
+  16189C: 0/1
+  16217C: 0/1
+  16230A: 2/2
+  16278T: 2/2
+Ignoring 'X2m2': only 4/18 unique variant bases observed.
+M74b2 (20 unique variants)
+    152T: 2/3
+    182C: 1/1
+    489C: 0/1
+   5054A: 0/6
+   6755A: 0/16
+   6884T: 11/11
+   7775A: 0/6
+   8080A: 0/14
+   8167C: 0/10
+  10268T: 0/3
+  10400T: 0/14
+  10993A: 0/12
+  12007A: 0/6
+  12651A: 0/7
+  14783C: 0/10
+  15043A: 0/5
+  15301A: 0/5
+  15908C: 0/10
+  16230A: 2/2
+  16311C: 4/4
+Ignoring 'M74b2': only 2/20 unique variant bases observed.
+M11 (17 unique variants)
+    152T: 2/3
+    182C: 1/1
+    215G: 0/1
+    318C: 0/0
+    326G: 0/1
+    489C: 0/1
+   1095C: 0/8
+   6531T: 11/14
+   7642A: 0/8
+   8108G: 0/12
+   9950C: 0/10
+  10400T: 0/14
+  11969A: 0/6
+  14783C: 0/10
+  15043A: 0/5
+  15301A: 0/5
+  16230A: 2/2
+Ignoring 'M11': only 1/17 unique variant bases observed.
+R0a2e (15 unique variants)
+     58C: 0/9
+     64T: 0/9
+    152T: 2/3
+    182C: 1/1
+   2355G: 0/2
+   2442C: 0/13
+   3847C: 0/9
+   4106T: 0/13
+   7256T: 7/9
+   8701G: 6/12
+  10493G: 0/9
+  13188T: 0/5
+  15674C: 0/8
+  16126C: 0/8
+  16230A: 2/2
+Ignoring 'R0a2e': only 2/15 unique variant bases observed.
+
+Top 10 haplogroups by proportion...
+1       0.531965        L5a
+2       0.071027        X2m2
+3       0.039224        M74b2
+4       0.038002        M11
+5       0.035300        R0a2e
+6       0.027866        X2g
+7       0.023868        H1e1a1
+8       0.023415        N11b
+9       0.022950        H27/H27e
+10      0.022077        J1c2b1
+
+
+Top 10 haplogroups by read probabilities...
+L5a     1434
+X2m2    94
+R0a2e   13
+M74b2   11
+M11     10
+H27/H27e        7
+HV1d    7
+N11b    7
+R30a1a  6
+H2a1d   6
+
+
+Refining contribution estimates...
+Starting EM run 1...
+
+Converged! (1)
+hap#   Haplogroup      Contribution   Reads
+-------------------------------------------
+hap1   L5a                   1.0000    1737

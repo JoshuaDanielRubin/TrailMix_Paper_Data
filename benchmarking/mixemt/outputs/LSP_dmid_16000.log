@@ -1,0 +1,425 @@
+/home/projects/mito_haplotype/env/lib/python3.8/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.24.3
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+mixemt/bin/mixemt samples/bams/sedimentary/LSP/LSP_dmid_16000_16000_sorted.bam --ref rCRS.fa --seed 42 -v -s LSP_dmid_16000
+
+Read reference sequence "NC_012920.1" from "rCRS.fa".
+Reading haplogroups from 'mixemt' package (phylotree/mtDNA_tree_Build_17.csv)
+Using 4070 variant sites from 5408 haplogroups.
+Read 15994 alignments from "samples/bams/sedimentary/LSP/LSP_dmid_16000_16000_sorted.bam".
+Using 15958 aligned fragments (MQ>=30) (11029 distinct sub-haplotypes)
+
+Building EM input matrix...
+  processed 500 fragments...
+  processed 1000 fragments...
+  processed 1500 fragments...
+  processed 2000 fragments...
+  processed 2500 fragments...
+  processed 3000 fragments...
+  processed 3500 fragments...
+  processed 4000 fragments...
+  processed 4500 fragments...
+  processed 5000 fragments...
+  processed 5500 fragments...
+  processed 6000 fragments...
+  processed 6500 fragments...
+  processed 7000 fragments...
+  processed 7500 fragments...
+  processed 8000 fragments...
+  processed 8500 fragments...
+
+
+
+
+
+  processed 9000 fragments...
+  processed 9500 fragments...
+  processed 10000 fragments...
+  processed 10500 fragments...
+  processed 11000 fragments...
+Done.
+
+Starting EM run 1...
+
+
+
+
+
+
+
+
+...............................................................................
+Converged! (794)
+
+Saving results to LSP_dmid_16000.*
+
+Checking diagnostic variants:
+L2a1d (50 unique variants)
+    143A: 14/39
+    146C: 13/34
+    150C: 28/28
+    152C: 17/27
+    182T: 4/7
+    195C: 4/5
+    247G: 28/28
+    825T: 90/90
+   2416C: 25/82
+   2758G: 79/79
+   2789T: 24/74
+   2885T: 77/77
+   4312C: 82/82
+   5196C: 24/83
+   7146A: 72/72
+   7175C: 27/79
+   7274T: 21/75
+   7771G: 20/71
+   8206A: 26/83
+   8468C: 84/84
+   8655C: 84/84
+   9221G: 25/81
+   9530C: 27/88
+  10115C: 24/80
+  10664C: 78/78
+  10688G: 73/73
+  10810T: 85/85
+  10915T: 86/86
+  11386C: 30/95
+  11914A: 57/73
+  11944C: 15/66
+  12612G: 20/74
+  12693G: 15/66
+  13105A: 70/70
+  13276A: 94/94
+  13506C: 88/88
+  13590A: 32/93
+  13803G: 23/85
+  13934T: 32/100
+  14566G: 22/81
+  15301A: 29/84
+  15784C: 23/81
+  16129G: 42/42
+  16187C: 2/2
+  16189T: 2/2
+  16230A: 7/7
+  16294T: 4/31
+  16309A: 39/39
+  16311T: 25/42
+  16390A: 26/84
+Keeping 'L2a1d': 48/50 unique variant bases observed at least 3 times.
+S3 (26 unique variants)
+     63C: 15/61
+     64T: 15/60
+     66A: 14/59
+    146T: 21/34
+    151T: 6/28
+    182C: 3/7
+    710C: 37/98
+   5302C: 24/89
+   5492C: 26/90
+   8277C: 0/4
+   8404C: 28/93
+   9938C: 19/77
+  10398G: 46/83
+  10786C: 30/95
+  11151T: 27/90
+  11914G: 16/73
+  15204C: 27/83
+  15301G: 55/84
+  15317A: 32/87
+  15663C: 31/82
+  15664T: 30/81
+  16140C: 7/28
+  16187T: 0/2
+  16189C: 0/2
+  16287T: 12/29
+  16311C: 17/42
+Keeping 'S3': 23/26 unique variant bases observed at least 3 times.
+P9a (8 unique variants)
+    152T: 10/27
+    195T: 1/5
+   3172A: 22/69
+  13452A: 34/87
+  14788C: 42/89
+  15607G: 40/81
+  16187C: 2/2
+  16189T: 2/2
+Keeping 'P9a': 5/8 unique variant bases observed at least 3 times.
+H2a1d (8 unique variants)
+    195T: 1/5
+    951A: 0/69
+   4769G: 93/93
+   6260A: 0/93
+   8679G: 0/74
+  16187C: 2/2
+  16189T: 2/2
+  16354T: 0/72
+Ignoring 'H2a1d': only 1/8 unique variant bases observed.
+M7c (13 unique variants)
+    195T: 1/5
+    489C: 0/4
+   4071T: 0/74
+   4850T: 87/87
+   6455T: 0/90
+   9824C: 0/85
+  10400T: 0/87
+  11665T: 0/82
+  12091C: 0/69
+  14783C: 0/87
+  15043A: 0/85
+  16187C: 2/2
+  16189T: 2/2
+Ignoring 'M7c': only 1/13 unique variant bases observed.
+H27c (7 unique variants)
+    195T: 1/5
+   4838C: 0/87
+  11719A: 82/82
+  16129A: 0/42
+  16187C: 2/2
+  16189T: 2/2
+  16316G: 0/44
+Ignoring 'H27c': only 1/7 unique variant bases observed.
+T2c1a2 (24 unique variants)
+    195T: 1/5
+    709A: 0/97
+   1888A: 0/74
+   4216C: 0/85
+   4917G: 0/81
+   5817T: 99/99
+   6261A: 0/93
+   8455T: 0/88
+   8697A: 0/85
+  10463C: 0/86
+  10822T: 0/82
+  11251G: 0/87
+  11812G: 0/71
+  13368A: 0/83
+  13973T: 0/85
+  14233G: 0/79
+  14905A: 0/74
+  15452A: 0/80
+  15928A: 0/95
+  16126C: 0/44
+  16187C: 2/2
+  16189T: 2/2
+  16292T: 0/31
+  16296T: 0/32
+Ignoring 'T2c1a2': only 1/24 unique variant bases observed.
+U5b2b2 (20 unique variants)
+    150T: 0/28
+    195T: 1/5
+   1721T: 0/73
+   3197C: 0/84
+   4616T: 73/73
+   7768G: 0/68
+   8027A: 0/83
+   9477A: 0/97
+  11467G: 0/92
+  11653G: 0/77
+  12308G: 0/68
+  12372A: 0/71
+  12634G: 0/77
+  13617C: 0/97
+  13630G: 0/96
+  13637G: 0/95
+  14182C: 0/75
+  16187C: 2/2
+  16189T: 2/2
+  16270T: 0/4
+Ignoring 'U5b2b2': only 1/20 unique variant bases observed.
+M65b (12 unique variants)
+    195T: 1/5
+    241G: 0/28
+    489C: 0/4
+    511T: 0/0
+   3398C: 0/77
+   8865A: 57/75
+  10400T: 0/87
+  12007A: 0/71
+  14783C: 0/87
+  15043A: 0/85
+  16187C: 2/2
+  16189T: 2/2
+Ignoring 'M65b': only 1/12 unique variant bases observed.
+U1a3 (18 unique variants)
+    195T: 1/5
+    285T: 0/13
+   2218T: 0/10
+  10203A: 55/81
+  11467G: 0/92
+  12308G: 0/68
+  12372A: 0/71
+  12879C: 0/76
+  13104G: 0/68
+  13681G: 0/83
+  14063C: 0/84
+  14070G: 0/84
+  14364A: 0/86
+  15148A: 0/70
+  15954C: 0/81
+  16187C: 2/2
+  16189C: 0/2
+  16249C: 0/7
+Ignoring 'U1a3': only 1/18 unique variant bases observed.
+H1bh (6 unique variants)
+    195T: 1/5
+   3010A: 0/86
+  11377A: 36/94
+  16187C: 2/2
+  16189T: 2/2
+  16239T: 0/7
+Ignoring 'H1bh': only 1/6 unique variant bases observed.
+H3at1 (6 unique variants)
+    195T: 1/5
+   6776C: 0/84
+   9525A: 21/86
+  15224T: 0/70
+  16187C: 2/2
+  16189T: 2/2
+Ignoring 'H3at1': only 1/6 unique variant bases observed.
+L1c1a1b (39 unique variants)
+    186A: 0/4
+    189C: 0/3
+    195T: 1/5
+    297G: 0/3
+    316A: 0/14
+   2141C: 0/80
+   3666A: 0/78
+   3796T: 0/81
+   3843G: 0/77
+   4454A: 0/98
+   5277C: 0/87
+   5951G: 0/93
+   6071C: 0/87
+   7055G: 0/92
+   7389C: 0/70
+   8027A: 0/83
+   8087C: 0/74
+   8769G: 0/81
+   9072G: 0/67
+   9580G: 0/90
+  10321C: 0/81
+  10586A: 0/87
+  11899C: 0/78
+  12164A: 59/92
+  12810G: 0/81
+  13174C: 0/74
+  13485G: 0/92
+  13789C: 0/82
+  14000A: 0/83
+  14034C: 0/70
+  14040A: 0/72
+  14088C: 0/82
+  14148G: 0/75
+  14178C: 0/74
+  14560A: 0/83
+  14911T: 0/77
+  15777A: 0/76
+  16184T: 0/0
+  16293G: 0/31
+Ignoring 'L1c1a1b': only 1/39 unique variant bases observed.
+H3aq (5 unique variants)
+    195T: 1/5
+   1018A: 16/73
+   6776C: 0/84
+  16187C: 2/2
+  16189T: 2/2
+Ignoring 'H3aq': only 1/5 unique variant bases observed.
+Q3b (24 unique variants)
+    195T: 1/5
+    489C: 0/4
+   4117C: 0/73
+   4335T: 0/78
+   5460A: 0/82
+   5843G: 0/92
+   8454G: 0/88
+   8790A: 0/86
+   9254G: 0/86
+  10400T: 0/87
+  10750G: 0/97
+  12684A: 19/69
+  12940A: 0/83
+  13500C: 0/92
+  14484C: 0/75
+  14783C: 0/87
+  15043A: 0/85
+  15172A: 0/72
+  16129A: 0/42
+  16187C: 2/2
+  16189T: 2/2
+  16241G: 0/7
+  16249C: 0/7
+  16362C: 0/78
+Ignoring 'Q3b': only 1/24 unique variant bases observed.
+H5a6a (10 unique variants)
+    195T: 1/5
+    456T: 0/45
+    769A: 26/93
+   4336C: 0/83
+   5319G: 0/85
+   5450T: 0/75
+   8563G: 0/75
+  16187C: 2/2
+  16189T: 2/2
+  16304C: 0/37
+Ignoring 'H5a6a': only 1/10 unique variant bases observed.
+U1a1c1b (24 unique variants)
+    195T: 1/5
+    285T: 0/13
+   2218T: 0/10
+   4991A: 0/91
+   6026A: 0/90
+   6041T: 83/83
+   6293C: 0/89
+   7253G: 0/86
+   7581C: 0/68
+  11467G: 0/92
+  12308G: 0/68
+  12372A: 0/71
+  12879C: 0/76
+  13104G: 0/68
+  14070G: 0/84
+  14364A: 0/86
+  15106A: 0/81
+  15115C: 0/81
+  15148A: 0/70
+  15217A: 0/73
+  15954C: 0/81
+  16187C: 2/2
+  16189C: 0/2
+  16249C: 0/7
+Ignoring 'U1a1c1b': only 1/24 unique variant bases observed.
+
+Top 10 haplogroups by proportion...
+1       0.218992        L2a1d
+2       0.202806        S3
+3       0.132805        P9a
+4       0.065197        H2a1d
+5       0.061724        M7c
+6       0.055605        H27c
+7       0.045943        T2c1a2
+8       0.039820        U5b2b2
+9       0.026629        M65b
+10      0.023390        U1a3
+
+
+Top 10 haplogroups by read probabilities...
+L2a1d   9196
+S3      1153
+P9a     151
+H2a1d   78
+M7c     61
+H27c    50
+U5b2b2  49
+M65b    49
+U1a3    45
+L1c1a1b 38
+
+
+Refining contribution estimates...
+Starting EM run 1...
+.......
+Converged! (76)
+hap#   Haplogroup      Contribution   Reads
+-------------------------------------------
+hap1   L2a1d                 0.2912     563
+hap2   S3                    0.3132     372
+hap3   P9a                   0.3956     186

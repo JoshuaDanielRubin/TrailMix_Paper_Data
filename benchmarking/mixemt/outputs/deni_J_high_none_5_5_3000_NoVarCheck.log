@@ -1,0 +1,79 @@
+NoVarCheck
+/home/projects/mito_haplotype/env/lib/python3.8/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.24.3
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+mixemt/bin/mixemt samples/bams/nonsedimentary/deni_J_high_none_5_5_3000.fastq.sorted.bam --ref rCRS.fa --seed 42 -v -V -s deni_J_high_none_5_5_3000_NoVarCheck
+
+Read reference sequence "NC_012920.1" from "rCRS.fa".
+Reading haplogroups from 'mixemt' package (phylotree/mtDNA_tree_Build_17.csv)
+Using 4070 variant sites from 5408 haplogroups.
+Read 2144 alignments from "samples/bams/nonsedimentary/deni_J_high_none_5_5_3000.fastq.sorted.bam".
+Using 1842 aligned fragments (MQ>=30) (1707 distinct sub-haplotypes)
+
+Building EM input matrix...
+  processed 500 fragments...
+  processed 1000 fragments...
+  processed 1500 fragments...
+Done.
+
+Starting EM run 1...
+...................................................................................
+Converged! (834)
+
+Saving results to deni_J_high_none_5_5_3000_NoVarCheck.*
+
+
+Top 10 haplogroups by proportion...
+1       0.136511        J1c2a1a
+2       0.030982        H2a1a1
+3       0.029325        J1c3e1
+4       0.027421        G2a1d1
+5       0.026073        T2c1a2
+6       0.024426        J1c5c1
+7       0.020123        R7a1a
+8       0.019900        G3b2
+9       0.019487        H27f
+10      0.018010        U1a1a1a
+
+
+Top 10 haplogroups by read probabilities...
+J1c2a1a 1082
+H2a1a1  47
+G2a1d1  30
+R7a1a   29
+L0d2c1a 21
+L2a4a   17
+F2a1    16
+T2c1a2  15
+J1c5c1  15
+U2e1b1  14
+
+
+Refining contribution estimates...
+Starting EM run 1...
+.....
+Converged! (55)
+hap#   Haplogroup      Contribution   Reads
+-------------------------------------------
+hap01  J1c2a1a               0.2393      26
+hap02  H2a1a1                0.0528      22
+hap03  G2a1d1                0.0406      12
+hap04  T2c1a2                0.0417      16
+hap05  J1c5c1                0.0703       0
+hap06  R7a1a                 0.0558      24
+hap07  G3b2                  0.0470      15
+hap08  H27f                  0.0376      12
+hap09  U1a1a1a               0.0446      17
+hap10  F2a1                  0.0422      20
+hap11  U3a2a1a               0.0250      15
+hap12  M35a2                 0.0305      11
+hap13  D4e1c                 0.0383      11
+hap14  Z7                    0.0252      10
+hap15  L0d2c1a               0.0339      19
+hap16  L0a2d                 0.0232      15
+hap17  B4a1a1b               0.0347      16
+hap18  L2e1a                 0.0181       8
+hap19  U2e1b1                0.0246      15
+hap20  L2b2                  0.0199      10
+hap21  L5a1a                 0.0154      14
+hap22  L2a4a                 0.0240      20
+hap23  L1b1a3a               0.0154      11

@@ -1,0 +1,61 @@
+/home/projects/mito_haplotype/env/lib/python3.8/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.24.3
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+mixemt/bin/mixemt samples/bams/sedimentary/CB_mid_mid_75_25_3500.fastq.sorted.bam --ref rCRS.fa --seed 42 -v -V -s CB_mid_mid_75_25_3500_NoVarCheck
+
+Read reference sequence "NC_012920.1" from "rCRS.fa".
+Reading haplogroups from 'mixemt' package (phylotree/mtDNA_tree_Build_17.csv)
+Using 4070 variant sites from 5408 haplogroups.
+Read 3116 alignments from "samples/bams/sedimentary/CB_mid_mid_75_25_3500.fastq.sorted.bam".
+Using 3112 aligned fragments (MQ>=30) (2788 distinct sub-haplotypes)
+
+Building EM input matrix...
+  processed 500 fragments...
+  processed 1000 fragments...
+  processed 1500 fragments...
+  processed 2000 fragments...
+  processed 2500 fragments...
+Done.
+
+Starting EM run 1...
+.............................................................................................................................................
+Converged! (1410)
+
+Saving results to CB_mid_mid_75_25_3500_NoVarCheck.*
+
+
+Top 10 haplogroups by proportion...
+1       0.559521        C4e
+2       0.060343        I4
+3       0.054689        V15
+4       0.047207        B2/B2r
+5       0.029940        C4a2b2
+6       0.026807        B4j
+7       0.025609        H27/H27e
+8       0.025299        D1f3
+9       0.023935        H105
+10      0.021719        H1c14
+
+
+Top 10 haplogroups by read probabilities...
+C4e     2599
+I4      81
+B2/B2r  28
+V15     20
+D1f3    8
+H27/H27e        8
+B4j     8
+H1c14   6
+C4a2b2  5
+H105    5
+
+
+Refining contribution estimates...
+Starting EM run 1...
+.......
+Converged! (76)
+hap#   Haplogroup      Contribution   Reads
+-------------------------------------------
+hap1   C4e                   0.6655     202
+hap2   I4                    0.0868      25
+hap3   V15                   0.1018      13
+hap4   B2/B2r                0.1459      29

@@ -1,0 +1,150 @@
+(env) jdru@node07:/home/projects2/hominin/benchmarking$ source /home/projects/mito_haplotype/env/bin/activate && ./run_mixemt.sh samples/bams/nonsedimentary/DF_mid_none_5_5_1000.fastq.sorted.bam  DF_mid_none_5_5_1000_NoDropout
+/home/projects/mito_haplotype/env/lib/python3.8/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.24.3
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+mixemt/bin/mixemt samples/bams/nonsedimentary/DF_mid_none_5_5_1000.fastq.sorted.bam --ref rCRS.fa --seed 42 -v -s DF_mid_none_5_5_1000_NoDropout
+
+Read reference sequence "NC_012920.1" from "rCRS.fa".
+Reading haplogroups from 'mixemt' package (phylotree/mtDNA_tree_Build_17.csv)
+Using 4070 variant sites from 5408 haplogroups.
+Read 880 alignments from "samples/bams/nonsedimentary/DF_mid_none_5_5_1000.fastq.sorted.bam".
+Using 875 aligned fragments (MQ>=30) (842 distinct sub-haplotypes)
+
+Building EM input matrix...
+  processed 500 fragments...
+Done.
+
+Starting EM run 1...
+
+
+
+
+
+
+
+
+.........................................................................................................................................................................................................
+Converged! (2012)
+
+Saving results to DF_mid_none_5_5_1000_NoDropout.*
+
+Checking diagnostic variants:
+F1a1d (57 unique variants)
+    146T: 5/5
+    152T: 3/3
+    182C: 1/1
+    195T: 2/2
+    247G: 1/1
+    769G: 5/5
+    825T: 5/5
+   1018G: 11/11
+   2758G: 5/5
+   2885T: 5/6
+   3594C: 5/5
+   3970T: 5/6
+   4086T: 3/5
+   4104A: 5/5
+   4312C: 2/2
+   6392C: 3/5
+   6962A: 4/4
+   7146A: 2/2
+   7256C: 5/5
+   7521G: 6/6
+   8468C: 3/3
+   8655C: 4/4
+   8701A: 2/5
+   9053A: 3/5
+   9540T: 8/12
+   9548A: 6/11
+  10310A: 1/2
+  10398A: 3/4
+  10609C: 4/4
+  10664C: 6/6
+  10688G: 8/8
+  10810T: 7/7
+  10873T: 5/5
+  10915T: 4/4
+  11380G: 2/2
+  11914G: 6/6
+  12406A: 2/3
+  12705C: 4/6
+  12882T: 6/8
+  13105A: 8/8
+  13276A: 7/7
+  13506C: 5/5
+  13650C: 13/13
+  13759A: 2/6
+  13928C: 2/3
+  15301G: 4/6
+  16129A: 0/2
+  16162G: 0/1
+  16172C: 0/0
+  16187C: 0/0
+  16189T: 0/0
+  16223C: 0/0
+  16230A: 0/0
+  16278C: 2/2
+  16304C: 0/2
+  16311T: 3/3
+  16399G: 1/1
+Keeping 'F1a1d': 36/57 unique variant bases observed at least 3 times.
+D1g3 (25 unique variants)
+    182C: 1/1
+    195T: 2/2
+    247G: 1/1
+    489C: 0/2
+   2092T: 4/8
+   2885C: 1/6
+   3010A: 6/7
+   4312C: 2/2
+   4883T: 1/2
+   5178A: 1/5
+   7146A: 2/2
+   8116G: 1/2
+   8414T: 0/1
+  10400T: 1/4
+  14668T: 0/3
+  14783C: 1/5
+  15043A: 2/4
+  15301A: 2/6
+  16129G: 2/2
+  16187T: 0/0
+  16189T: 0/0
+  16230A: 0/0
+  16278C: 2/2
+  16325C: 1/3
+  16362C: 1/2
+Ignoring 'D1g3': only 2/25 unique variant bases observed.
+
+Top 10 haplogroups by proportion...
+1       0.414686        F1a1d
+2       0.149565        D1g3
+3       0.086821        H27/H27e
+4       0.035826        M74b
+5       0.033908        H1ah
+6       0.032296        U5a2d1
+7       0.030103        H56a1
+8       0.026712        H1a
+9       0.026425        B5b2c
+10      0.024540        H1aw
+
+
+Top 10 haplogroups by read probabilities...
+F1a1d   765
+D1g3    37
+H27/H27e        9
+M74b    4
+U5a2d1  4
+B5b2c   4
+J1d3a1  3
+H56a1   3
+H2a1d   3
+H1aw    3
+
+
+Refining contribution estimates...
+Starting EM run 1...
+
+Converged! (1)
+hap#   Haplogroup      Contribution   Reads
+-------------------------------------------
+hap1   F1a1d                 1.0000     879

@@ -1,0 +1,131 @@
+/home/projects/mito_haplotype/env/lib/python3.8/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.24.3
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+mixemt/bin/mixemt samples/bams/sedimentary/EB_high_high_9500.fastq.sorted.bam --ref rCRS.fa --seed 42 -v -V -s EB_high_high_9500_NoVarCheck
+
+Read reference sequence "NC_012920.1" from "rCRS.fa".
+Reading haplogroups from 'mixemt' package (phylotree/mtDNA_tree_Build_17.csv)
+Using 4070 variant sites from 5408 haplogroups.
+Read 7974 alignments from "samples/bams/sedimentary/EB_high_high_9500.fastq.sorted.bam".
+Using 7071 aligned fragments (MQ>=30) (5867 distinct sub-haplotypes)
+
+Building EM input matrix...
+  processed 500 fragments...
+  processed 1000 fragments...
+  processed 1500 fragments...
+  processed 2000 fragments...
+  processed 2500 fragments...
+  processed 3000 fragments...
+  processed 3500 fragments...
+  processed 4000 fragments...
+  processed 4500 fragments...
+  processed 5000 fragments...
+  processed 5500 fragments...
+Done.
+
+Starting EM run 1...
+
+
+.................................................................................................
+Converged! (972)
+
+Saving results to EB_high_high_9500_NoVarCheck.*
+
+
+Top 10 haplogroups by proportion...
+1       0.113965        E1
+2       0.055619        B2v
+3       0.031740        L2b1a4
+4       0.028095        M41a1
+5       0.028004        B2i2a1a
+6       0.026322        M59
+7       0.022498        R1b1
+8       0.020111        U5a2b5
+9       0.019040        P4b
+10      0.018958        HV12
+
+
+Top 10 haplogroups by read probabilities...
+E1      4170
+B2v     249
+L2b1a4  88
+M52a1b1 58
+U5a2b5  51
+M59     50
+L0d1d   44
+R1b1    40
+P4b     37
+L3f1a   33
+
+
+Refining contribution estimates...
+Starting EM run 1...
+........
+Converged! (88)
+hap#   Haplogroup      Contribution   Reads
+-------------------------------------------
+hap01  E1                    0.1198     115
+hap02  B2v                   0.0601      31
+hap03  L2b1a4                0.0430      78
+hap04  M41a1                 0.0292      41
+hap05  B2i2a1a               0.0292      20
+hap06  M59                   0.0284      57
+hap07  R1b1                  0.0262      45
+hap08  U5a2b5                0.0227      30
+hap09  P4b                   0.0203      26
+hap10  HV12                  0.0207      23
+hap11  M52a1b1               0.0196      55
+hap12  A12a                  0.0189      28
+hap13  C5d2                  0.0185      30
+hap14  HV24                  0.0189      21
+hap15  J1d3a1                0.0175      49
+hap16  J1b4a1                0.0146      26
+hap17  H12                   0.0192      20
+hap18  H2a1a1                0.0156      32
+hap19  U5b1b1a1              0.0184       9
+hap20  B4c1b1                0.0147      30
+hap21  L3f1a                 0.0153      31
+hap22  M60b                  0.0131      23
+hap23  M7b1b                 0.0125      19
+hap24  M7b1a1e               0.0125      18
+hap25  H5e1a1                0.0125      20
+hap26  A2d2                  0.0145      20
+hap27  L0d1d                 0.0119      21
+hap28  N9b3                  0.0120      18
+hap29  P1                    0.0136      15
+hap30  J2b1a5                0.0115      13
+hap31  H1e1a1                0.0116      17
+hap32  H21                   0.0121      15
+hap33  U5b2c2a               0.0118      16
+hap34  G2a5                  0.0112      20
+hap35  L3h1b1                0.0204      36
+hap36  L2a1e1                0.0107      20
+hap37  L1c3c                 0.0103      23
+hap38  L3a1b                 0.0105      12
+hap39  L0d1c1a1a1            0.0099      16
+hap40  C4c2                  0.0094      14
+hap41  H1a9                  0.0095      18
+hap42  D4l1                  0.0095      18
+hap43  K1b2b                 0.0088      19
+hap44  A6a                   0.0098      14
+hap45  R23                   0.0078      15
+hap46  M51a2                 0.0078      11
+hap47  M74b2                 0.0077      13
+hap48  H27c                  0.0116      25
+hap49  L2a1c3a               0.0069      15
+hap50  A5a5                  0.0069      16
+hap51  M7c1c3b               0.0065      11
+hap52  K1c1a                 0.0063      15
+hap53  J2a2a1a1              0.0062      13
+hap54  B4a1c3a               0.0058      14
+hap55  L0d1c1a1b             0.0053      10
+hap56  H49a2                 0.0059      20
+hap57  H46                   0.0055      18
+hap58  H1ci                  0.0050      14
+hap59  L3f3                  0.0066      13
+hap60  X2b6                  0.0072      13
+hap61  H76                   0.0080      27
+hap62  K1a2a1                0.0038      11
+hap63  G3b                   0.0052      12
+hap64  D4a1                  0.0073      12
+hap65  L3h1a1                0.0041      23
+hap66  H1c2a                 0.0023      12

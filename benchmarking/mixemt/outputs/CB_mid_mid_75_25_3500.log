@@ -1,0 +1,179 @@
+/home/projects/mito_haplotype/env/lib/python3.8/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.24.3
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+mixemt/bin/mixemt samples/bams/sedimentary/CB_mid_mid_75_25_3500.fastq.sorted.bam --ref rCRS.fa --seed 42 -v -s CB_mid_mid_75_25_3500
+
+Read reference sequence "NC_012920.1" from "rCRS.fa".
+Reading haplogroups from 'mixemt' package (phylotree/mtDNA_tree_Build_17.csv)
+Using 4070 variant sites from 5408 haplogroups.
+Read 3116 alignments from "samples/bams/sedimentary/CB_mid_mid_75_25_3500.fastq.sorted.bam".
+Using 3112 aligned fragments (MQ>=30) (2788 distinct sub-haplotypes)
+
+Building EM input matrix...
+  processed 500 fragments...
+  processed 1000 fragments...
+  processed 1500 fragments...
+  processed 2000 fragments...
+  processed 2500 fragments...
+Done.
+
+Starting EM run 1...
+
+
+
+
+
+
+
+.............................................................................................................................................
+Converged! (1410)
+
+Saving results to CB_mid_mid_75_25_3500.*
+
+Checking diagnostic variants:
+C4e (54 unique variants)
+    146T: 8/8
+    151T: 5/8
+    152C: 5/8
+    182C: 1/1
+    195T: 1/1
+    247G: 5/5
+    489C: 0/2
+    769G: 15/15
+    825T: 14/14
+   1018G: 22/22
+   2758G: 12/12
+   2885T: 16/16
+   3552A: 18/19
+   3594C: 15/15
+   4104A: 15/15
+   4312C: 15/15
+   4715G: 15/21
+   6026A: 7/12
+   7146A: 17/17
+   7196A: 21/24
+   7256C: 13/13
+   7307G: 10/15
+   7521G: 17/17
+   8468C: 15/15
+   8584A: 15/19
+   8655C: 23/23
+   9545G: 11/14
+  10400T: 13/19
+  10664C: 12/12
+  10688G: 12/12
+  10810T: 18/18
+  10915T: 11/11
+  11914A: 10/17
+  11969A: 8/15
+  13105A: 15/15
+  13263G: 13/16
+  13276A: 15/15
+  13506C: 15/15
+  13650C: 13/13
+  14318C: 8/15
+  14783C: 5/9
+  15043A: 10/13
+  15204C: 15/19
+  15301A: 11/11
+  15479C: 9/16
+  15487T: 11/18
+  16129G: 14/14
+  16187C: 1/1
+  16189T: 1/1
+  16230A: 3/3
+  16278C: 6/6
+  16298C: 5/7
+  16311T: 9/9
+  16327T: 9/10
+Keeping 'C4e': 49/54 unique variant bases observed at least 3 times.
+I4 (22 unique variants)
+    152T: 3/8
+    182C: 1/1
+    195T: 1/1
+    199C: 0/1
+    204C: 0/1
+    250C: 0/5
+   1719A: 0/13
+   4529T: 0/15
+   8251A: 0/6
+   8519A: 12/19
+  10034C: 0/14
+  10238C: 0/13
+  10398G: 12/18
+  11914G: 7/17
+  12501A: 0/17
+  13780G: 0/13
+  15301G: 0/11
+  15924G: 0/18
+  16129A: 0/14
+  16187C: 1/1
+  16189T: 1/1
+  16391A: 13/16
+Ignoring 'I4': only 5/22 unique variant bases observed.
+V15 (11 unique variants)
+     72C: 0/8
+    152T: 3/8
+    182C: 1/1
+    195T: 1/1
+   4221T: 13/16
+   4580A: 0/12
+  11914G: 7/17
+  15301G: 0/11
+  15904T: 0/15
+  16187C: 1/1
+  16189T: 1/1
+Ignoring 'V15': only 3/11 unique variant bases observed.
+B2/B2r (18 unique variants)
+    152T: 3/8
+    182C: 1/1
+    195T: 1/1
+    499A: 0/2
+    827G: 2/14
+   3547G: 0/18
+   4820A: 6/17
+   4977C: 5/15
+   6473T: 4/14
+   9950C: 2/6
+  11177T: 2/9
+  11914G: 7/17
+  13590A: 5/16
+  15301G: 0/11
+  15535T: 3/22
+  16187C: 1/1
+  16189C: 0/1
+  16217C: 0/2
+Ignoring 'B2/B2r': only 7/18 unique variant bases observed.
+
+Top 10 haplogroups by proportion...
+1       0.559521        C4e
+2       0.060343        I4
+3       0.054689        V15
+4       0.047207        B2/B2r
+5       0.029940        C4a2b2
+6       0.026807        B4j
+7       0.025609        H27/H27e
+8       0.025299        D1f3
+9       0.023935        H105
+10      0.021719        H1c14
+
+
+Top 10 haplogroups by read probabilities...
+C4e     2599
+I4      81
+B2/B2r  28
+V15     20
+D1f3    8
+H27/H27e        8
+B4j     8
+H1c14   6
+C4a2b2  5
+H105    5
+
+
+Refining contribution estimates...
+Starting EM run 1...
+
+Converged! (1)
+hap#   Haplogroup      Contribution   Reads
+-------------------------------------------
+hap1   C4e                   1.0000    3115

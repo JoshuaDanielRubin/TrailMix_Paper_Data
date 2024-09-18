@@ -1,0 +1,89 @@
+rCheck
+/home/projects/mito_haplotype/env/lib/python3.8/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.24.3
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+mixemt/bin/mixemt samples/bams/nonsedimentary/Node337_P_mid_none_6000.fastq.sorted.bam --ref rCRS.fa --seed 42 -v -V -s Node337_P_mid_none_6000_NoVarCheck
+
+Read reference sequence "NC_012920.1" from "rCRS.fa".
+Reading haplogroups from 'mixemt' package (phylotree/mtDNA_tree_Build_17.csv)
+Using 4070 variant sites from 5408 haplogroups.
+Read 5273 alignments from "samples/bams/nonsedimentary/Node337_P_mid_none_6000.fastq.sorted.bam".
+Using 5226 aligned fragments (MQ>=30) (4570 distinct sub-haplotypes)
+
+Building EM input matrix...
+  processed 500 fragments...
+  processed 1000 fragments...
+  processed 1500 fragments...
+  processed 2000 fragments...
+  processed 2500 fragments...
+  processed 3000 fragments...
+  processed 3500 fragments...
+  processed 4000 fragments...
+  processed 4500 fragments...
+Done.
+
+Starting EM run 1...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+..........................................................................................................................................
+Converged! (1385)
+
+Saving results to Node337_P_mid_none_6000_NoVarCheck.*
+
+
+Top 10 haplogroups by proportion...
+1       0.471614        C1c
+2       0.174946        P1f
+3       0.072506        H27/H27e
+4       0.042325        H2a1d
+5       0.041810        H7h1
+6       0.034069        T2e2
+7       0.030191        F3b1
+8       0.021274        M12b1b
+9       0.013369        H1aw
+10      0.012626        B4a1a7
+
+
+Top 10 haplogroups by read probabilities...
+C1c     4156
+P1f     224
+H27/H27e        28
+T2e2    23
+H2a1d   20
+F3b1    20
+H7h1    15
+M12b1b  15
+L0g     15
+J2b     11
+
+
+Refining contribution estimates...
+Starting EM run 1...
+.........
+Converged! (93)
+hap#   Haplogroup      Contribution   Reads
+-------------------------------------------
+hap01  C1c                   0.4948     226
+hap02  P1f                   0.1818      82
+hap03  H27/H27e              0.0888      28
+hap04  H2a1d                 0.0449      23
+hap05  H7h1                  0.0463      15
+hap06  T2e2                  0.0350      23
+hap07  F3b1                  0.0312      18
+hap08  M12b1b                0.0219      15
+hap09  U5b1b1a1a             0.0139      11
+hap10  R9b1a1a               0.0165      10
+hap11  L0g                   0.0103      17
+hap12  J2b                   0.0105      11
+hap13  L2b/L2b3              0.0041      10

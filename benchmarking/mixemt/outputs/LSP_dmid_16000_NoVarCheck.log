@@ -1,0 +1,102 @@
+/home/projects/mito_haplotype/env/lib/python3.8/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.24.3
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+mixemt/bin/mixemt samples/bams/sedimentary/LSP/LSP_dmid_16000_16000_sorted.bam --ref rCRS.fa --seed 42 -v -V -s LSP_dmid_16000_NoVarCheck
+
+Read reference sequence "NC_012920.1" from "rCRS.fa".
+Reading haplogroups from 'mixemt' package (phylotree/mtDNA_tree_Build_17.csv)
+Using 4070 variant sites from 5408 haplogroups.
+Read 15994 alignments from "samples/bams/sedimentary/LSP/LSP_dmid_16000_16000_sorted.bam".
+Using 15958 aligned fragments (MQ>=30) (11029 distinct sub-haplotypes)
+
+Building EM input matrix...
+  processed 500 fragments...
+  processed 1000 fragments...
+  processed 1500 fragments...
+  processed 2000 fragments...
+  processed 2500 fragments...
+  processed 3000 fragments...
+  processed 3500 fragments...
+  processed 4000 fragments...
+  processed 4500 fragments...
+  processed 5000 fragments...
+  processed 5500 fragments...
+  processed 6000 fragments...
+  processed 6500 fragments...
+  processed 7000 fragments...
+  processed 7500 fragments...
+  processed 8000 fragments...
+  processed 8500 fragments...
+  processed 9000 fragments...
+  processed 9500 fragments...
+  processed 10000 fragments...
+  processed 10500 fragments...
+  processed 11000 fragments...
+Done.
+
+Starting EM run 1...
+
+
+
+
+
+
+
+
+
+
+
+...............................................................................
+Converged! (794)
+
+Saving results to LSP_dmid_16000_NoVarCheck.*
+
+
+Top 10 haplogroups by proportion...
+1       0.218992        L2a1d
+2       0.202806        S3
+3       0.132805        P9a
+4       0.065197        H2a1d
+5       0.061724        M7c
+6       0.055605        H27c
+7       0.045943        T2c1a2
+8       0.039820        U5b2b2
+9       0.026629        M65b
+10      0.023390        U1a3
+
+
+Top 10 haplogroups by read probabilities...
+L2a1d   9196
+S3      1153
+P9a     151
+H2a1d   78
+M7c     61
+H27c    50
+U5b2b2  49
+M65b    49
+U1a3    45
+L1c1a1b 38
+
+
+Refining contribution estimates...
+Starting EM run 1...
+..........
+Converged! (103)
+hap#   Haplogroup      Contribution   Reads
+-------------------------------------------
+hap01  L2a1d                 0.2200     528
+hap02  S3                    0.2033     367
+hap03  P9a                   0.1324      98
+hap04  H2a1d                 0.0656      90
+hap05  M7c                   0.0626      87
+hap06  H27c                  0.0877      82
+hap07  T2c1a2                0.0460      99
+hap08  U5b2b2                0.0399      73
+hap09  M65b                  0.0295      57
+hap10  U1a3                  0.0235      53
+hap11  H1bh                  0.0229      36
+hap12  H3at1                 0.0207      21
+hap13  L1c1a1b               0.0162      59
+hap14  H3aq                  0.0124      16
+hap15  Q3b                   0.0072      19
+hap16  H5a6a                 0.0054      26
+hap17  U1a1c1b               0.0047      83

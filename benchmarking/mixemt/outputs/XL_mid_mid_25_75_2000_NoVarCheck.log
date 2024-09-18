@@ -1,0 +1,62 @@
+Read reference sequence "NC_012920.1" from "rCRS.fa".
+Reading haplogroups from 'mixemt' package (phylotree/mtDNA_tree_Build_17.csv)
+Using 4070 variant sites from 5408 haplogroups.
+Read 1745 alignments from "samples/bams/sedimentary/XL_mid_mid_25_75_2000.fastq.sorted.bam".
+Using 1734 aligned fragments (MQ>=30) (1632 distinct sub-haplotypes)
+
+Building EM input matrix...
+  processed 500 fragments...
+  processed 1000 fragments...
+
+
+  processed 1500 fragments...
+Done.
+
+Starting EM run 1...
+
+
+
+
+..................................................................................................
+Converged! (983)
+
+Saving results to XL_mid_mid_25_75_2000_dropout.*
+
+
+Top 10 haplogroups by proportion...
+1       0.531965        L5a
+2       0.071027        X2m2
+3       0.039224        M74b2
+4       0.038002        M11
+5       0.035300        R0a2e
+6       0.027866        X2g
+7       0.023868        H1e1a1
+8       0.023415        N11b
+9       0.022950        H27/H27e
+10      0.022077        J1c2b1
+
+
+Top 10 haplogroups by read probabilities...
+L5a     1434
+X2m2    94
+R0a2e   13
+M74b2   11
+M11     10
+H27/H27e        7
+HV1d    7
+N11b    7
+R30a1a  6
+H2a1d   6
+
+
+Refining contribution estimates...
+Starting EM run 1...
+.....
+Converged! (53)
+hap#   Haplogroup      Contribution   Reads
+-------------------------------------------
+hap1   L5a                   0.6332     175
+hap2   X2m2                  0.1774      25
+hap3   M74b2                 0.0585      12
+hap4   M11                   0.0641      11
+hap5   R0a2e                 0.0667      13
