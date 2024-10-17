@@ -1,0 +1,3851 @@
+Running downsampling for 3 sources with 16000 reads...
+ ████████ ██████   █████  ██ ██      ███    ███ ██ ██   ██ 
+    ██    ██   ██ ██   ██ ██ ██      ████  ████ ██  ██ ██   
+    ██    ██████  ███████ ██ ██      ██ ████ ██ ██   ███    
+    ██    ██   ██ ██   ██ ██ ██      ██  ██  ██ ██  ██ ██   
+    ██    ██   ██ ██   ██ ██ ███████ ██      ██ ██ ██   ██  
+
+Loading GBWT index...
+GBWT index loaded.
+[TrailMix] Deserializing graph: ../share/vgan/tmfiles/graph.og
+[TrailMix] Done deserializing
+Computing substitutions due to ancient damage:
+
+.. done
+Mapping reads...
+Reads mapped
+Reading GAM file IZ5IarNo5
+Emitting to: tempdir/vgan_hmdmvCX/nfwqWbz
+finding alignment paths
+Found alignment paths (0.080165 seconds, 6.7974 GB)
+Clustered paths
+Clustered alignment paths (1570.62 seconds, 6.7974 GB)
+Inferred path posterior probabilities (5214.57 seconds, 8.27074 GB)
+Inferred path posterior probabilities and abundances (5167.51 seconds, 9.61547 GB)
+Precomputing...
+On read: 5
+On read: 10
+On read: 15
+On read: 20
+On read: 25
+On read: 30
+On read: 35
+On read: 40
+On read: 45
+On read: 50
+On read: 55
+On read: 60
+On read: 65
+On read: 70
+On read: 75
+On read: 80
+On read: 85
+On read: 90
+On read: 95
+On read: 100
+On read: 105
+On read: 110
+On read: 115
+On read: 120
+On read: 125
+On read: 130
+On read: 135
+On read: 140
+On read: 145
+On read: 150
+On read: 155
+On read: 160
+On read: 165
+On read: 170
+On read: 175
+On read: 180
+On read: 185
+On read: 190
+On read: 195
+On read: 200
+On read: 205
+On read: 210
+On read: 215
+On read: 220
+On read: 225
+On read: 230
+On read: 235
+On read: 240
+On read: 245
+On read: 250
+On read: 255
+On read: 260
+On read: 265
+On read: 270
+On read: 275
+On read: 280
+On read: 285
+On read: 290
+On read: 295
+On read: 300
+On read: 305
+On read: 310
+On read: 315
+On read: 320
+On read: 325
+On read: 330
+On read: 335
+On read: 340
+On read: 345
+On read: 350
+On read: 355
+On read: 360
+On read: 365
+On read: 370
+On read: 375
+On read: 380
+On read: 385
+On read: 390
+On read: 395
+On read: 400
+On read: 405
+On read: 410
+On read: 415
+On read: 420
+On read: 425
+On read: 430
+On read: 435
+On read: 440
+On read: 445
+On read: 450
+On read: 455
+On read: 460
+On read: 465
+On read: 470
+On read: 475
+On read: 480
+On read: 485
+On read: 490
+On read: 495
+On read: 500
+On read: 505
+On read: 510
+On read: 515
+On read: 520
+On read: 525
+On read: 530
+On read: 535
+On read: 540
+On read: 545
+On read: 550
+On read: 555
+On read: 560
+On read: 565
+On read: 570
+On read: 575
+On read: 580
+On read: 585
+On read: 590
+On read: 595
+On read: 600
+On read: 605
+On read: 610
+On read: 615
+On read: 620
+On read: 625
+On read: 630
+On read: 635
+On read: 640
+On read: 645
+On read: 650
+On read: 655
+On read: 660
+On read: 665
+On read: 670
+On read: 675
+On read: 680
+On read: 685
+On read: 690
+On read: 695
+On read: 700
+On read: 705
+On read: 710
+On read: 715
+On read: 720
+On read: 725
+On read: 730
+On read: 735
+On read: 740
+On read: 745
+On read: 750
+On read: 755
+On read: 760
+On read: 765
+On read: 770
+On read: 775
+On read: 780
+On read: 785
+On read: 790
+On read: 795
+On read: 800
+On read: 805
+On read: 810
+On read: 815
+On read: 820
+On read: 825
+On read: 830
+On read: 835
+On read: 840
+On read: 845
+On read: 850
+On read: 855
+On read: 860
+On read: 865
+On read: 870
+On read: 875
+On read: 880
+On read: 885
+On read: 890
+On read: 895
+On read: 900
+On read: 905
+On read: 910
+On read: 915
+On read: 920
+On read: 925
+On read: 930
+On read: 935
+On read: 940
+On read: 945
+On read: 950
+On read: 955
+On read: 960
+On read: 965
+On read: 970
+On read: 975
+On read: 980
+On read: 985
+On read: 990
+On read: 995
+On read: 1000
+On read: 1005
+On read: 1010
+On read: 1015
+On read: 1020
+On read: 1025
+On read: 1030
+On read: 1035
+On read: 1040
+On read: 1045
+On read: 1050
+On read: 1055
+On read: 1060
+On read: 1065
+On read: 1070
+On read: 1075
+On read: 1080
+On read: 1085
+On read: 1090
+On read: 1095
+On read: 1100
+On read: 1105
+On read: 1110
+On read: 1115
+On read: 1120
+On read: 1125
+On read: 1130
+On read: 1135
+On read: 1140
+On read: 1145
+On read: 1150
+On read: 1155
+On read: 1160
+On read: 1165
+On read: 1170
+On read: 1175
+On read: 1180
+On read: 1185
+On read: 1190
+On read: 1195
+On read: 1200
+On read: 1205
+On read: 1210
+On read: 1215
+On read: 1220
+On read: 1225
+On read: 1230
+On read: 1235
+On read: 1240
+On read: 1245
+On read: 1250
+On read: 1255
+On read: 1260
+On read: 1265
+On read: 1270
+On read: 1275
+On read: 1280
+On read: 1285
+On read: 1290
+On read: 1295
+On read: 1300
+On read: 1305
+On read: 1310
+On read: 1315
+On read: 1320
+On read: 1325
+On read: 1330
+On read: 1335
+On read: 1340
+On read: 1345
+On read: 1350
+On read: 1355
+On read: 1360
+On read: 1365
+On read: 1370
+On read: 1375
+On read: 1380
+On read: 1385
+On read: 1390
+On read: 1395
+On read: 1400
+On read: 1405
+On read: 1410
+On read: 1415
+On read: 1420
+On read: 1425
+On read: 1430
+On read: 1435
+On read: 1440
+On read: 1445
+On read: 1450
+On read: 1455
+On read: 1460
+On read: 1465
+On read: 1470
+On read: 1475
+On read: 1480
+On read: 1485
+On read: 1490
+On read: 1495
+On read: 1500
+On read: 1505
+On read: 1510
+On read: 1515
+On read: 1520
+On read: 1525
+On read: 1530
+On read: 1535
+On read: 1540
+On read: 1545
+On read: 1550
+On read: 1555
+On read: 1560
+On read: 1565
+On read: 1570
+On read: 1575
+On read: 1580
+On read: 1585
+On read: 1590
+On read: 1595
+On read: 1600
+On read: 1605
+On read: 1610
+On read: 1615
+On read: 1620
+On read: 1625
+On read: 1630
+On read: 1635
+On read: 1640
+On read: 1645
+On read: 1650
+On read: 1655
+On read: 1660
+On read: 1665
+On read: 1670
+On read: 1675
+On read: 1680
+On read: 1685
+On read: 1690
+On read: 1695
+On read: 1700
+On read: 1705
+On read: 1710
+On read: 1715
+On read: 1720
+On read: 1725
+On read: 1730
+On read: 1735
+On read: 1740
+On read: 1745
+On read: 1750
+On read: 1755
+On read: 1760
+On read: 1765
+On read: 1770
+On read: 1775
+On read: 1780
+On read: 1785
+On read: 1790
+On read: 1795
+On read: 1800
+On read: 1805
+On read: 1810
+On read: 1815
+On read: 1820
+On read: 1825
+On read: 1830
+On read: 1835
+On read: 1840
+On read: 1845
+On read: 1850
+On read: 1855
+On read: 1860
+On read: 1865
+On read: 1870
+On read: 1875
+On read: 1880
+On read: 1885
+On read: 1890
+On read: 1895
+On read: 1900
+On read: 1905
+On read: 1910
+On read: 1915
+On read: 1920
+On read: 1925
+On read: 1930
+On read: 1935
+On read: 1940
+On read: 1945
+On read: 1950
+On read: 1955
+On read: 1960
+On read: 1965
+On read: 1970
+On read: 1975
+On read: 1980
+On read: 1985
+On read: 1990
+On read: 1995
+On read: 2000
+On read: 2005
+On read: 2010
+On read: 2015
+On read: 2020
+On read: 2025
+On read: 2030
+On read: 2035
+On read: 2040
+On read: 2045
+On read: 2050
+On read: 2055
+On read: 2060
+On read: 2065
+On read: 2070
+On read: 2075
+On read: 2080
+On read: 2085
+On read: 2090
+On read: 2095
+On read: 2100
+On read: 2105
+On read: 2110
+On read: 2115
+On read: 2120
+On read: 2125
+On read: 2130
+On read: 2135
+On read: 2140
+On read: 2145
+On read: 2150
+On read: 2155
+On read: 2160
+On read: 2165
+On read: 2170
+On read: 2175
+On read: 2180
+On read: 2185
+On read: 2190
+On read: 2195
+On read: 2200
+On read: 2205
+On read: 2210
+On read: 2215
+On read: 2220
+On read: 2225
+On read: 2230
+On read: 2235
+On read: 2240
+On read: 2245
+On read: 2250
+On read: 2255
+On read: 2260
+On read: 2265
+On read: 2270
+On read: 2275
+On read: 2280
+On read: 2285
+On read: 2290
+On read: 2295
+On read: 2300
+On read: 2305
+On read: 2310
+On read: 2315
+On read: 2320
+On read: 2325
+On read: 2330
+On read: 2335
+On read: 2340
+On read: 2345
+On read: 2350
+On read: 2355
+On read: 2360
+On read: 2365
+On read: 2370
+On read: 2375
+On read: 2380
+On read: 2385
+On read: 2390
+On read: 2395
+On read: 2400
+On read: 2405
+On read: 2410
+On read: 2415
+On read: 2420
+On read: 2425
+On read: 2430
+On read: 2435
+On read: 2440
+On read: 2445
+On read: 2450
+On read: 2455
+On read: 2460
+On read: 2465
+On read: 2470
+On read: 2475
+On read: 2480
+On read: 2485
+On read: 2490
+On read: 2495
+On read: 2500
+On read: 2505
+On read: 2510
+On read: 2515
+On read: 2520
+On read: 2525
+On read: 2530
+On read: 2535
+On read: 2540
+On read: 2545
+On read: 2550
+On read: 2555
+On read: 2560
+On read: 2565
+On read: 2570
+On read: 2575
+On read: 2580
+On read: 2585
+On read: 2590
+On read: 2595
+On read: 2600
+On read: 2605
+On read: 2610
+On read: 2615
+On read: 2620
+On read: 2625
+On read: 2630
+On read: 2635
+On read: 2640
+On read: 2645
+On read: 2650
+On read: 2655
+On read: 2660
+On read: 2665
+On read: 2670
+On read: 2675
+On read: 2680
+On read: 2685
+On read: 2690
+On read: 2695
+On read: 2700
+On read: 2705
+On read: 2710
+On read: 2715
+On read: 2720
+On read: 2725
+On read: 2730
+On read: 2735
+On read: 2740
+On read: 2745
+On read: 2750
+On read: 2755
+On read: 2760
+On read: 2765
+On read: 2770
+On read: 2775
+On read: 2780
+On read: 2785
+On read: 2790
+On read: 2795
+On read: 2800
+On read: 2805
+On read: 2810
+On read: 2815
+On read: 2820
+On read: 2825
+On read: 2830
+On read: 2835
+On read: 2840
+On read: 2845
+On read: 2850
+On read: 2855
+On read: 2860
+On read: 2865
+On read: 2870
+On read: 2875
+On read: 2880
+On read: 2885
+On read: 2890
+On read: 2895
+On read: 2900
+On read: 2905
+On read: 2910
+On read: 2915
+On read: 2920
+On read: 2925
+On read: 2930
+On read: 2935
+On read: 2940
+On read: 2945
+On read: 2950
+On read: 2955
+On read: 2960
+On read: 2965
+On read: 2970
+On read: 2975
+On read: 2980
+On read: 2985
+On read: 2990
+On read: 2995
+On read: 3000
+On read: 3005
+On read: 3010
+On read: 3015
+On read: 3020
+On read: 3025
+On read: 3030
+On read: 3035
+On read: 3040
+On read: 3045
+On read: 3050
+On read: 3055
+On read: 3060
+On read: 3065
+On read: 3070
+On read: 3075
+On read: 3080
+On read: 3085
+On read: 3090
+On read: 3095
+On read: 3100
+On read: 3105
+On read: 3110
+On read: 3115
+On read: 3120
+On read: 3125
+On read: 3130
+On read: 3135
+On read: 3140
+On read: 3145
+On read: 3150
+On read: 3155
+On read: 3160
+On read: 3165
+On read: 3170
+On read: 3175
+On read: 3180
+On read: 3185
+On read: 3190
+On read: 3195
+On read: 3200
+On read: 3205
+On read: 3210
+On read: 3215
+On read: 3220
+On read: 3225
+On read: 3230
+On read: 3235
+On read: 3240
+On read: 3245
+On read: 3250
+On read: 3255
+On read: 3260
+On read: 3265
+On read: 3270
+On read: 3275
+On read: 3280
+On read: 3285
+On read: 3290
+On read: 3295
+On read: 3300
+On read: 3305
+On read: 3310
+On read: 3315
+On read: 3320
+On read: 3325
+On read: 3330
+On read: 3335
+On read: 3340
+On read: 3345
+On read: 3350
+On read: 3355
+On read: 3360
+On read: 3365
+On read: 3370
+On read: 3375
+On read: 3380
+On read: 3385
+On read: 3390
+On read: 3395
+On read: 3400
+On read: 3405
+On read: 3410
+On read: 3415
+On read: 3420
+On read: 3425
+On read: 3430
+On read: 3435
+On read: 3440
+On read: 3445
+On read: 3450
+On read: 3455
+On read: 3460
+On read: 3465
+On read: 3470
+On read: 3475
+On read: 3480
+On read: 3485
+On read: 3490
+On read: 3495
+On read: 3500
+On read: 3505
+On read: 3510
+On read: 3515
+On read: 3520
+On read: 3525
+On read: 3530
+On read: 3535
+On read: 3540
+On read: 3545
+On read: 3550
+On read: 3555
+On read: 3560
+On read: 3565
+On read: 3570
+On read: 3575
+On read: 3580
+On read: 3585
+On read: 3590
+On read: 3595
+On read: 3600
+On read: 3605
+On read: 3610
+On read: 3615
+On read: 3620
+On read: 3625
+On read: 3630
+On read: 3635
+On read: 3640
+On read: 3645
+On read: 3650
+On read: 3655
+On read: 3660
+On read: 3665
+On read: 3670
+On read: 3675
+On read: 3680
+On read: 3685
+On read: 3690
+On read: 3695
+On read: 3700
+On read: 3705
+On read: 3710
+On read: 3715
+On read: 3720
+On read: 3725
+On read: 3730
+On read: 3735
+On read: 3740
+On read: 3745
+On read: 3750
+On read: 3755
+On read: 3760
+On read: 3765
+On read: 3770
+On read: 3775
+On read: 3780
+On read: 3785
+On read: 3790
+On read: 3795
+On read: 3800
+On read: 3805
+On read: 3810
+On read: 3815
+On read: 3820
+On read: 3825
+On read: 3830
+On read: 3835
+On read: 3840
+On read: 3845
+On read: 3850
+On read: 3855
+On read: 3860
+On read: 3865
+On read: 3870
+On read: 3875
+On read: 3880
+On read: 3885
+On read: 3890
+On read: 3895
+On read: 3900
+On read: 3905
+On read: 3910
+On read: 3915
+On read: 3920
+On read: 3925
+On read: 3930
+On read: 3935
+On read: 3940
+On read: 3945
+On read: 3950
+On read: 3955
+On read: 3960
+On read: 3965
+On read: 3970
+On read: 3975
+On read: 3980
+On read: 3985
+On read: 3990
+On read: 3995
+On read: 4000
+On read: 4005
+On read: 4010
+On read: 4015
+On read: 4020
+On read: 4025
+On read: 4030
+On read: 4035
+On read: 4040
+On read: 4045
+On read: 4050
+On read: 4055
+On read: 4060
+On read: 4065
+On read: 4070
+On read: 4075
+On read: 4080
+On read: 4085
+On read: 4090
+On read: 4095
+On read: 4100
+On read: 4105
+On read: 4110
+On read: 4115
+On read: 4120
+On read: 4125
+On read: 4130
+On read: 4135
+On read: 4140
+On read: 4145
+On read: 4150
+On read: 4155
+On read: 4160
+On read: 4165
+On read: 4170
+On read: 4175
+On read: 4180
+On read: 4185
+On read: 4190
+On read: 4195
+On read: 4200
+On read: 4205
+On read: 4210
+On read: 4215
+On read: 4220
+On read: 4225
+On read: 4230
+On read: 4235
+On read: 4240
+On read: 4245
+On read: 4250
+On read: 4255
+On read: 4260
+On read: 4265
+On read: 4270
+On read: 4275
+On read: 4280
+On read: 4285
+On read: 4290
+On read: 4295
+On read: 4300
+On read: 4305
+On read: 4310
+On read: 4315
+On read: 4320
+On read: 4325
+On read: 4330
+On read: 4335
+On read: 4340
+On read: 4345
+On read: 4350
+On read: 4355
+On read: 4360
+On read: 4365
+On read: 4370
+On read: 4375
+On read: 4380
+On read: 4385
+On read: 4390
+On read: 4395
+On read: 4400
+On read: 4405
+On read: 4410
+On read: 4415
+On read: 4420
+On read: 4425
+On read: 4430
+On read: 4435
+On read: 4440
+On read: 4445
+On read: 4450
+On read: 4455
+On read: 4460
+On read: 4465
+On read: 4470
+On read: 4475
+On read: 4480
+On read: 4485
+On read: 4490
+On read: 4495
+On read: 4500
+On read: 4505
+On read: 4510
+On read: 4515
+On read: 4520
+On read: 4525
+On read: 4530
+On read: 4535
+On read: 4540
+On read: 4545
+On read: 4550
+On read: 4555
+On read: 4560
+On read: 4565
+On read: 4570
+On read: 4575
+On read: 4580
+On read: 4585
+On read: 4590
+On read: 4595
+On read: 4600
+On read: 4605
+On read: 4610
+On read: 4615
+On read: 4620
+On read: 4625
+On read: 4630
+On read: 4635
+On read: 4640
+On read: 4645
+On read: 4650
+On read: 4655
+On read: 4660
+On read: 4665
+On read: 4670
+On read: 4675
+On read: 4680
+On read: 4685
+On read: 4690
+On read: 4695
+On read: 4700
+On read: 4705
+On read: 4710
+On read: 4715
+On read: 4720
+On read: 4725
+On read: 4730
+On read: 4735
+On read: 4740
+On read: 4745
+On read: 4750
+On read: 4755
+On read: 4760
+On read: 4765
+On read: 4770
+On read: 4775
+On read: 4780
+On read: 4785
+On read: 4790
+On read: 4795
+On read: 4800
+On read: 4805
+On read: 4810
+On read: 4815
+On read: 4820
+On read: 4825
+On read: 4830
+On read: 4835
+On read: 4840
+On read: 4845
+On read: 4850
+On read: 4855
+On read: 4860
+On read: 4865
+On read: 4870
+On read: 4875
+On read: 4880
+On read: 4885
+On read: 4890
+On read: 4895
+On read: 4900
+On read: 4905
+On read: 4910
+On read: 4915
+On read: 4920
+On read: 4925
+On read: 4930
+On read: 4935
+On read: 4940
+On read: 4945
+On read: 4950
+On read: 4955
+On read: 4960
+On read: 4965
+On read: 4970
+On read: 4975
+On read: 4980
+On read: 4985
+On read: 4990
+On read: 4995
+On read: 5000
+On read: 5005
+On read: 5010
+On read: 5015
+On read: 5020
+On read: 5025
+On read: 5030
+On read: 5035
+On read: 5040
+On read: 5045
+On read: 5050
+On read: 5055
+On read: 5060
+On read: 5065
+On read: 5070
+On read: 5075
+On read: 5080
+On read: 5085
+On read: 5090
+On read: 5095
+On read: 5100
+On read: 5105
+On read: 5110
+On read: 5115
+On read: 5120
+On read: 5125
+On read: 5130
+On read: 5135
+On read: 5140
+On read: 5145
+On read: 5150
+On read: 5155
+On read: 5160
+On read: 5165
+On read: 5170
+On read: 5175
+On read: 5180
+On read: 5185
+On read: 5190
+On read: 5195
+On read: 5200
+On read: 5205
+On read: 5210
+On read: 5215
+On read: 5220
+On read: 5225
+On read: 5230
+On read: 5235
+On read: 5240
+On read: 5245
+On read: 5250
+On read: 5255
+On read: 5260
+On read: 5265
+On read: 5270
+On read: 5275
+On read: 5280
+On read: 5285
+On read: 5290
+On read: 5295
+On read: 5300
+On read: 5305
+On read: 5310
+On read: 5315
+On read: 5320
+On read: 5325
+On read: 5330
+On read: 5335
+On read: 5340
+On read: 5345
+On read: 5350
+On read: 5355
+On read: 5360
+On read: 5365
+On read: 5370
+On read: 5375
+On read: 5380
+On read: 5385
+On read: 5390
+On read: 5395
+On read: 5400
+On read: 5405
+On read: 5410
+On read: 5415
+On read: 5420
+On read: 5425
+On read: 5430
+On read: 5435
+On read: 5440
+On read: 5445
+On read: 5450
+On read: 5455
+On read: 5460
+On read: 5465
+On read: 5470
+On read: 5475
+On read: 5480
+On read: 5485
+On read: 5490
+On read: 5495
+On read: 5500
+On read: 5505
+On read: 5510
+On read: 5515
+On read: 5520
+On read: 5525
+On read: 5530
+On read: 5535
+On read: 5540
+On read: 5545
+On read: 5550
+On read: 5555
+On read: 5560
+On read: 5565
+On read: 5570
+On read: 5575
+On read: 5580
+On read: 5585
+On read: 5590
+On read: 5595
+On read: 5600
+On read: 5605
+On read: 5610
+On read: 5615
+On read: 5620
+On read: 5625
+On read: 5630
+On read: 5635
+On read: 5640
+On read: 5645
+On read: 5650
+On read: 5655
+On read: 5660
+On read: 5665
+On read: 5670
+On read: 5675
+On read: 5680
+On read: 5685
+On read: 5690
+On read: 5695
+On read: 5700
+On read: 5705
+On read: 5710
+On read: 5715
+On read: 5720
+On read: 5725
+On read: 5730
+On read: 5735
+On read: 5740
+On read: 5745
+On read: 5750
+On read: 5755
+On read: 5760
+On read: 5765
+On read: 5770
+On read: 5775
+On read: 5780
+On read: 5785
+On read: 5790
+On read: 5795
+On read: 5800
+On read: 5805
+On read: 5810
+On read: 5815
+On read: 5820
+On read: 5825
+On read: 5830
+On read: 5835
+On read: 5840
+On read: 5845
+On read: 5850
+On read: 5855
+On read: 5860
+On read: 5865
+On read: 5870
+On read: 5875
+On read: 5880
+On read: 5885
+On read: 5890
+On read: 5895
+On read: 5900
+On read: 5905
+On read: 5910
+On read: 5915
+On read: 5920
+On read: 5925
+On read: 5930
+On read: 5935
+On read: 5940
+On read: 5945
+On read: 5950
+On read: 5955
+On read: 5960
+On read: 5965
+On read: 5970
+On read: 5975
+On read: 5980
+On read: 5985
+On read: 5990
+On read: 5995
+On read: 6000
+On read: 6005
+On read: 6010
+On read: 6015
+On read: 6020
+On read: 6025
+On read: 6030
+On read: 6035
+On read: 6040
+On read: 6045
+On read: 6050
+On read: 6055
+On read: 6060
+On read: 6065
+On read: 6070
+On read: 6075
+On read: 6080
+On read: 6085
+On read: 6090
+On read: 6095
+On read: 6100
+On read: 6105
+On read: 6110
+On read: 6115
+On read: 6120
+On read: 6125
+On read: 6130
+On read: 6135
+On read: 6140
+On read: 6145
+On read: 6150
+On read: 6155
+On read: 6160
+On read: 6165
+On read: 6170
+On read: 6175
+On read: 6180
+On read: 6185
+On read: 6190
+On read: 6195
+On read: 6200
+On read: 6205
+On read: 6210
+On read: 6215
+On read: 6220
+On read: 6225
+On read: 6230
+On read: 6235
+On read: 6240
+On read: 6245
+On read: 6250
+On read: 6255
+On read: 6260
+On read: 6265
+On read: 6270
+On read: 6275
+On read: 6280
+On read: 6285
+On read: 6290
+On read: 6295
+On read: 6300
+On read: 6305
+On read: 6310
+On read: 6315
+On read: 6320
+On read: 6325
+On read: 6330
+On read: 6335
+On read: 6340
+On read: 6345
+On read: 6350
+On read: 6355
+On read: 6360
+On read: 6365
+On read: 6370
+On read: 6375
+On read: 6380
+On read: 6385
+On read: 6390
+On read: 6395
+On read: 6400
+On read: 6405
+On read: 6410
+On read: 6415
+On read: 6420
+On read: 6425
+On read: 6430
+On read: 6435
+On read: 6440
+On read: 6445
+On read: 6450
+On read: 6455
+On read: 6460
+On read: 6465
+On read: 6470
+On read: 6475
+On read: 6480
+On read: 6485
+On read: 6490
+On read: 6495
+On read: 6500
+On read: 6505
+On read: 6510
+On read: 6515
+On read: 6520
+On read: 6525
+On read: 6530
+On read: 6535
+On read: 6540
+On read: 6545
+On read: 6550
+On read: 6555
+On read: 6560
+On read: 6565
+On read: 6570
+On read: 6575
+On read: 6580
+On read: 6585
+On read: 6590
+On read: 6595
+On read: 6600
+On read: 6605
+On read: 6610
+On read: 6615
+On read: 6620
+On read: 6625
+On read: 6630
+On read: 6635
+On read: 6640
+On read: 6645
+On read: 6650
+On read: 6655
+On read: 6660
+On read: 6665
+On read: 6670
+On read: 6675
+On read: 6680
+On read: 6685
+On read: 6690
+On read: 6695
+On read: 6700
+On read: 6705
+On read: 6710
+On read: 6715
+On read: 6720
+On read: 6725
+On read: 6730
+On read: 6735
+On read: 6740
+On read: 6745
+On read: 6750
+On read: 6755
+On read: 6760
+On read: 6765
+On read: 6770
+On read: 6775
+On read: 6780
+On read: 6785
+On read: 6790
+On read: 6795
+On read: 6800
+On read: 6805
+On read: 6810
+On read: 6815
+On read: 6820
+On read: 6825
+On read: 6830
+On read: 6835
+On read: 6840
+On read: 6845
+On read: 6850
+On read: 6855
+On read: 6860
+On read: 6865
+On read: 6870
+On read: 6875
+On read: 6880
+On read: 6885
+On read: 6890
+On read: 6895
+On read: 6900
+On read: 6905
+On read: 6910
+On read: 6915
+On read: 6920
+On read: 6925
+On read: 6930
+On read: 6935
+On read: 6940
+On read: 6945
+On read: 6950
+On read: 6955
+On read: 6960
+On read: 6965
+On read: 6970
+On read: 6975
+On read: 6980
+On read: 6985
+On read: 6990
+On read: 6995
+On read: 7000
+On read: 7005
+On read: 7010
+On read: 7015
+On read: 7020
+On read: 7025
+On read: 7030
+On read: 7035
+On read: 7040
+On read: 7045
+On read: 7050
+On read: 7055
+On read: 7060
+On read: 7065
+On read: 7070
+On read: 7075
+On read: 7080
+On read: 7085
+On read: 7090
+On read: 7095
+On read: 7100
+On read: 7105
+On read: 7110
+On read: 7115
+On read: 7120
+On read: 7125
+On read: 7130
+On read: 7135
+On read: 7140
+On read: 7145
+On read: 7150
+On read: 7155
+On read: 7160
+On read: 7165
+On read: 7170
+On read: 7175
+On read: 7180
+On read: 7185
+On read: 7190
+On read: 7195
+On read: 7200
+On read: 7205
+On read: 7210
+On read: 7215
+On read: 7220
+On read: 7225
+On read: 7230
+On read: 7235
+On read: 7240
+On read: 7245
+On read: 7250
+On read: 7255
+On read: 7260
+On read: 7265
+On read: 7270
+On read: 7275
+On read: 7280
+On read: 7285
+On read: 7290
+On read: 7295
+On read: 7300
+On read: 7305
+On read: 7310
+On read: 7315
+On read: 7320
+On read: 7325
+On read: 7330
+On read: 7335
+On read: 7340
+On read: 7345
+On read: 7350
+On read: 7355
+On read: 7360
+On read: 7365
+On read: 7370
+On read: 7375
+On read: 7380
+On read: 7385
+On read: 7390
+On read: 7395
+On read: 7400
+On read: 7405
+On read: 7410
+On read: 7415
+On read: 7420
+On read: 7425
+On read: 7430
+On read: 7435
+On read: 7440
+On read: 7445
+On read: 7450
+On read: 7455
+On read: 7460
+On read: 7465
+On read: 7470
+On read: 7475
+On read: 7480
+On read: 7485
+On read: 7490
+On read: 7495
+On read: 7500
+On read: 7505
+On read: 7510
+On read: 7515
+On read: 7520
+On read: 7525
+On read: 7530
+On read: 7535
+On read: 7540
+On read: 7545
+On read: 7550
+On read: 7555
+On read: 7560
+On read: 7565
+On read: 7570
+On read: 7575
+On read: 7580
+On read: 7585
+On read: 7590
+On read: 7595
+On read: 7600
+On read: 7605
+On read: 7610
+On read: 7615
+On read: 7620
+On read: 7625
+On read: 7630
+On read: 7635
+On read: 7640
+On read: 7645
+On read: 7650
+On read: 7655
+On read: 7660
+On read: 7665
+On read: 7670
+On read: 7675
+On read: 7680
+On read: 7685
+On read: 7690
+On read: 7695
+On read: 7700
+On read: 7705
+On read: 7710
+On read: 7715
+On read: 7720
+On read: 7725
+On read: 7730
+On read: 7735
+On read: 7740
+On read: 7745
+On read: 7750
+On read: 7755
+On read: 7760
+On read: 7765
+On read: 7770
+On read: 7775
+On read: 7780
+On read: 7785
+On read: 7790
+On read: 7795
+On read: 7800
+On read: 7805
+On read: 7810
+On read: 7815
+On read: 7820
+On read: 7825
+On read: 7830
+On read: 7835
+On read: 7840
+On read: 7845
+On read: 7850
+On read: 7855
+On read: 7860
+On read: 7865
+On read: 7870
+On read: 7875
+On read: 7880
+On read: 7885
+On read: 7890
+On read: 7895
+On read: 7900
+On read: 7905
+On read: 7910
+On read: 7915
+On read: 7920
+On read: 7925
+On read: 7930
+On read: 7935
+On read: 7940
+On read: 7945
+On read: 7950
+On read: 7955
+On read: 7960
+On read: 7965
+On read: 7970
+On read: 7975
+On read: 7980
+On read: 7985
+On read: 7990
+On read: 7995
+On read: 8000
+On read: 8005
+On read: 8010
+On read: 8015
+On read: 8020
+On read: 8025
+On read: 8030
+On read: 8035
+On read: 8040
+On read: 8045
+On read: 8050
+On read: 8055
+On read: 8060
+On read: 8065
+On read: 8070
+On read: 8075
+On read: 8080
+On read: 8085
+On read: 8090
+On read: 8095
+On read: 8100
+On read: 8105
+On read: 8110
+On read: 8115
+On read: 8120
+On read: 8125
+On read: 8130
+On read: 8135
+On read: 8140
+On read: 8145
+On read: 8150
+On read: 8155
+On read: 8160
+On read: 8165
+On read: 8170
+On read: 8175
+On read: 8180
+On read: 8185
+On read: 8190
+On read: 8195
+On read: 8200
+On read: 8205
+On read: 8210
+On read: 8215
+On read: 8220
+On read: 8225
+On read: 8230
+On read: 8235
+On read: 8240
+On read: 8245
+On read: 8250
+On read: 8255
+On read: 8260
+On read: 8265
+On read: 8270
+On read: 8275
+On read: 8280
+On read: 8285
+On read: 8290
+On read: 8295
+On read: 8300
+On read: 8305
+On read: 8310
+On read: 8315
+On read: 8320
+On read: 8325
+On read: 8330
+On read: 8335
+On read: 8340
+On read: 8345
+On read: 8350
+On read: 8355
+On read: 8360
+On read: 8365
+On read: 8370
+On read: 8375
+On read: 8380
+On read: 8385
+On read: 8390
+On read: 8395
+On read: 8400
+On read: 8405
+On read: 8410
+On read: 8415
+On read: 8420
+On read: 8425
+On read: 8430
+On read: 8435
+On read: 8440
+On read: 8445
+On read: 8450
+On read: 8455
+On read: 8460
+On read: 8465
+On read: 8470
+On read: 8475
+On read: 8480
+On read: 8485
+On read: 8490
+On read: 8495
+On read: 8500
+On read: 8505
+On read: 8510
+On read: 8515
+On read: 8520
+On read: 8525
+On read: 8530
+On read: 8535
+On read: 8540
+On read: 8545
+On read: 8550
+On read: 8555
+On read: 8560
+On read: 8565
+On read: 8570
+On read: 8575
+On read: 8580
+On read: 8585
+On read: 8590
+On read: 8595
+On read: 8600
+On read: 8605
+On read: 8610
+On read: 8615
+On read: 8620
+On read: 8625
+On read: 8630
+On read: 8635
+On read: 8640
+On read: 8645
+On read: 8650
+On read: 8655
+On read: 8660
+On read: 8665
+On read: 8670
+On read: 8675
+On read: 8680
+On read: 8685
+On read: 8690
+On read: 8695
+On read: 8700
+On read: 8705
+On read: 8710
+On read: 8715
+On read: 8720
+On read: 8725
+On read: 8730
+On read: 8735
+On read: 8740
+On read: 8745
+On read: 8750
+On read: 8755
+On read: 8760
+On read: 8765
+On read: 8770
+On read: 8775
+On read: 8780
+On read: 8785
+On read: 8790
+On read: 8795
+On read: 8800
+On read: 8805
+On read: 8810
+On read: 8815
+On read: 8820
+On read: 8825
+On read: 8830
+On read: 8835
+On read: 8840
+On read: 8845
+On read: 8850
+On read: 8855
+On read: 8860
+On read: 8865
+On read: 8870
+On read: 8875
+On read: 8880
+On read: 8885
+On read: 8890
+On read: 8895
+On read: 8900
+On read: 8905
+On read: 8910
+On read: 8915
+On read: 8920
+On read: 8925
+On read: 8930
+On read: 8935
+On read: 8940
+On read: 8945
+On read: 8950
+On read: 8955
+On read: 8960
+On read: 8965
+On read: 8970
+On read: 8975
+On read: 8980
+On read: 8985
+On read: 8990
+On read: 8995
+On read: 9000
+On read: 9005
+On read: 9010
+On read: 9015
+On read: 9020
+On read: 9025
+On read: 9030
+On read: 9035
+On read: 9040
+On read: 9045
+On read: 9050
+On read: 9055
+On read: 9060
+On read: 9065
+On read: 9070
+On read: 9075
+On read: 9080
+On read: 9085
+On read: 9090
+On read: 9095
+On read: 9100
+On read: 9105
+On read: 9110
+On read: 9115
+On read: 9120
+On read: 9125
+On read: 9130
+On read: 9135
+On read: 9140
+On read: 9145
+On read: 9150
+On read: 9155
+On read: 9160
+On read: 9165
+On read: 9170
+On read: 9175
+On read: 9180
+On read: 9185
+On read: 9190
+On read: 9195
+On read: 9200
+On read: 9205
+On read: 9210
+On read: 9215
+On read: 9220
+On read: 9225
+On read: 9230
+On read: 9235
+On read: 9240
+On read: 9245
+On read: 9250
+On read: 9255
+On read: 9260
+On read: 9265
+On read: 9270
+On read: 9275
+On read: 9280
+On read: 9285
+On read: 9290
+On read: 9295
+On read: 9300
+On read: 9305
+On read: 9310
+On read: 9315
+On read: 9320
+On read: 9325
+On read: 9330
+On read: 9335
+On read: 9340
+On read: 9345
+On read: 9350
+On read: 9355
+On read: 9360
+On read: 9365
+On read: 9370
+On read: 9375
+On read: 9380
+On read: 9385
+On read: 9390
+On read: 9395
+On read: 9400
+On read: 9405
+On read: 9410
+On read: 9415
+On read: 9420
+On read: 9425
+On read: 9430
+On read: 9435
+On read: 9440
+On read: 9445
+On read: 9450
+On read: 9455
+On read: 9460
+On read: 9465
+On read: 9470
+On read: 9475
+On read: 9480
+On read: 9485
+On read: 9490
+On read: 9495
+On read: 9500
+On read: 9505
+On read: 9510
+On read: 9515
+On read: 9520
+On read: 9525
+On read: 9530
+On read: 9535
+On read: 9540
+On read: 9545
+On read: 9550
+On read: 9555
+On read: 9560
+On read: 9565
+On read: 9570
+On read: 9575
+On read: 9580
+On read: 9585
+On read: 9590
+On read: 9595
+On read: 9600
+On read: 9605
+On read: 9610
+On read: 9615
+On read: 9620
+On read: 9625
+On read: 9630
+On read: 9635
+On read: 9640
+On read: 9645
+On read: 9650
+On read: 9655
+On read: 9660
+On read: 9665
+On read: 9670
+On read: 9675
+On read: 9680
+On read: 9685
+On read: 9690
+On read: 9695
+On read: 9700
+On read: 9705
+On read: 9710
+On read: 9715
+On read: 9720
+On read: 9725
+On read: 9730
+On read: 9735
+On read: 9740
+On read: 9745
+On read: 9750
+On read: 9755
+On read: 9760
+On read: 9765
+On read: 9770
+On read: 9775
+On read: 9780
+On read: 9785
+On read: 9790
+On read: 9795
+On read: 9800
+On read: 9805
+On read: 9810
+On read: 9815
+On read: 9820
+On read: 9825
+On read: 9830
+On read: 9835
+On read: 9840
+On read: 9845
+On read: 9850
+On read: 9855
+On read: 9860
+On read: 9865
+On read: 9870
+On read: 9875
+On read: 9880
+On read: 9885
+On read: 9890
+On read: 9895
+On read: 9900
+On read: 9905
+On read: 9910
+On read: 9915
+On read: 9920
+On read: 9925
+On read: 9930
+On read: 9935
+On read: 9940
+On read: 9945
+On read: 9950
+On read: 9955
+On read: 9960
+On read: 9965
+On read: 9970
+On read: 9975
+On read: 9980
+On read: 9985
+On read: 9990
+On read: 9995
+On read: 10000
+On read: 10005
+On read: 10010
+On read: 10015
+On read: 10020
+On read: 10025
+On read: 10030
+On read: 10035
+On read: 10040
+On read: 10045
+On read: 10050
+On read: 10055
+On read: 10060
+On read: 10065
+On read: 10070
+On read: 10075
+On read: 10080
+On read: 10085
+On read: 10090
+On read: 10095
+On read: 10100
+On read: 10105
+On read: 10110
+On read: 10115
+On read: 10120
+On read: 10125
+On read: 10130
+On read: 10135
+On read: 10140
+On read: 10145
+On read: 10150
+On read: 10155
+On read: 10160
+On read: 10165
+On read: 10170
+On read: 10175
+On read: 10180
+On read: 10185
+On read: 10190
+On read: 10195
+On read: 10200
+On read: 10205
+On read: 10210
+On read: 10215
+On read: 10220
+On read: 10225
+On read: 10230
+On read: 10235
+On read: 10240
+On read: 10245
+On read: 10250
+On read: 10255
+On read: 10260
+On read: 10265
+On read: 10270
+On read: 10275
+On read: 10280
+On read: 10285
+On read: 10290
+On read: 10295
+On read: 10300
+On read: 10305
+On read: 10310
+On read: 10315
+On read: 10320
+On read: 10325
+On read: 10330
+On read: 10335
+On read: 10340
+On read: 10345
+On read: 10350
+On read: 10355
+On read: 10360
+On read: 10365
+On read: 10370
+On read: 10375
+On read: 10380
+On read: 10385
+On read: 10390
+On read: 10395
+On read: 10400
+On read: 10405
+On read: 10410
+On read: 10415
+On read: 10420
+On read: 10425
+On read: 10430
+On read: 10435
+On read: 10440
+On read: 10445
+On read: 10450
+On read: 10455
+On read: 10460
+On read: 10465
+On read: 10470
+On read: 10475
+On read: 10480
+On read: 10485
+On read: 10490
+On read: 10495
+On read: 10500
+On read: 10505
+On read: 10510
+On read: 10515
+On read: 10520
+On read: 10525
+On read: 10530
+On read: 10535
+On read: 10540
+On read: 10545
+On read: 10550
+On read: 10555
+On read: 10560
+On read: 10565
+On read: 10570
+On read: 10575
+On read: 10580
+On read: 10585
+On read: 10590
+On read: 10595
+On read: 10600
+On read: 10605
+On read: 10610
+On read: 10615
+On read: 10620
+On read: 10625
+On read: 10630
+On read: 10635
+On read: 10640
+On read: 10645
+On read: 10650
+On read: 10655
+On read: 10660
+On read: 10665
+On read: 10670
+On read: 10675
+On read: 10680
+On read: 10685
+On read: 10690
+On read: 10695
+On read: 10700
+On read: 10705
+On read: 10710
+On read: 10715
+On read: 10720
+On read: 10725
+On read: 10730
+On read: 10735
+On read: 10740
+On read: 10745
+On read: 10750
+On read: 10755
+On read: 10760
+On read: 10765
+On read: 10770
+On read: 10775
+On read: 10780
+On read: 10785
+On read: 10790
+On read: 10795
+On read: 10800
+On read: 10805
+On read: 10810
+On read: 10815
+On read: 10820
+On read: 10825
+On read: 10830
+On read: 10835
+On read: 10840
+On read: 10845
+On read: 10850
+On read: 10855
+On read: 10860
+On read: 10865
+On read: 10870
+On read: 10875
+On read: 10880
+On read: 10885
+On read: 10890
+On read: 10895
+On read: 10900
+On read: 10905
+On read: 10910
+On read: 10915
+On read: 10920
+On read: 10925
+On read: 10930
+On read: 10935
+On read: 10940
+On read: 10945
+On read: 10950
+On read: 10955
+On read: 10960
+On read: 10965
+On read: 10970
+On read: 10975
+On read: 10980
+On read: 10985
+On read: 10990
+On read: 10995
+On read: 11000
+On read: 11005
+On read: 11010
+On read: 11015
+On read: 11020
+On read: 11025
+On read: 11030
+On read: 11035
+On read: 11040
+On read: 11045
+On read: 11050
+On read: 11055
+On read: 11060
+On read: 11065
+On read: 11070
+On read: 11075
+On read: 11080
+On read: 11085
+On read: 11090
+On read: 11095
+On read: 11100
+On read: 11105
+On read: 11110
+On read: 11115
+On read: 11120
+On read: 11125
+On read: 11130
+On read: 11135
+On read: 11140
+On read: 11145
+On read: 11150
+On read: 11155
+On read: 11160
+On read: 11165
+On read: 11170
+On read: 11175
+On read: 11180
+On read: 11185
+On read: 11190
+On read: 11195
+On read: 11200
+On read: 11205
+On read: 11210
+On read: 11215
+On read: 11220
+On read: 11225
+On read: 11230
+On read: 11235
+On read: 11240
+On read: 11245
+On read: 11250
+On read: 11255
+On read: 11260
+On read: 11265
+On read: 11270
+On read: 11275
+On read: 11280
+On read: 11285
+On read: 11290
+On read: 11295
+On read: 11300
+On read: 11305
+On read: 11310
+On read: 11315
+On read: 11320
+On read: 11325
+On read: 11330
+On read: 11335
+On read: 11340
+On read: 11345
+On read: 11350
+On read: 11355
+On read: 11360
+On read: 11365
+On read: 11370
+On read: 11375
+On read: 11380
+On read: 11385
+On read: 11390
+On read: 11395
+On read: 11400
+On read: 11405
+On read: 11410
+On read: 11415
+On read: 11420
+On read: 11425
+On read: 11430
+On read: 11435
+On read: 11440
+On read: 11445
+On read: 11450
+On read: 11455
+On read: 11460
+On read: 11465
+On read: 11470
+On read: 11475
+On read: 11480
+On read: 11485
+On read: 11490
+On read: 11495
+On read: 11500
+On read: 11505
+On read: 11510
+On read: 11515
+On read: 11520
+On read: 11525
+On read: 11530
+On read: 11535
+On read: 11540
+On read: 11545
+On read: 11550
+On read: 11555
+On read: 11560
+On read: 11565
+On read: 11570
+On read: 11575
+On read: 11580
+On read: 11585
+On read: 11590
+On read: 11595
+On read: 11600
+On read: 11605
+On read: 11610
+On read: 11615
+On read: 11620
+On read: 11625
+On read: 11630
+On read: 11635
+On read: 11640
+On read: 11645
+On read: 11650
+On read: 11655
+On read: 11660
+On read: 11665
+On read: 11670
+On read: 11675
+On read: 11680
+On read: 11685
+On read: 11690
+On read: 11695
+On read: 11700
+On read: 11705
+On read: 11710
+On read: 11715
+On read: 11720
+On read: 11725
+On read: 11730
+On read: 11735
+On read: 11740
+On read: 11745
+On read: 11750
+On read: 11755
+On read: 11760
+On read: 11765
+On read: 11770
+On read: 11775
+On read: 11780
+On read: 11785
+On read: 11790
+On read: 11795
+On read: 11800
+On read: 11805
+On read: 11810
+On read: 11815
+On read: 11820
+On read: 11825
+On read: 11830
+On read: 11835
+On read: 11840
+On read: 11845
+On read: 11850
+On read: 11855
+On read: 11860
+On read: 11865
+On read: 11870
+On read: 11875
+On read: 11880
+On read: 11885
+On read: 11890
+On read: 11895
+On read: 11900
+On read: 11905
+On read: 11910
+On read: 11915
+On read: 11920
+On read: 11925
+On read: 11930
+On read: 11935
+On read: 11940
+On read: 11945
+On read: 11950
+On read: 11955
+On read: 11960
+On read: 11965
+On read: 11970
+On read: 11975
+On read: 11980
+On read: 11985
+On read: 11990
+On read: 11995
+On read: 12000
+On read: 12005
+On read: 12010
+On read: 12015
+On read: 12020
+On read: 12025
+On read: 12030
+On read: 12035
+On read: 12040
+On read: 12045
+On read: 12050
+On read: 12055
+On read: 12060
+On read: 12065
+On read: 12070
+On read: 12075
+On read: 12080
+On read: 12085
+On read: 12090
+On read: 12095
+On read: 12100
+On read: 12105
+On read: 12110
+On read: 12115
+On read: 12120
+On read: 12125
+On read: 12130
+On read: 12135
+On read: 12140
+On read: 12145
+On read: 12150
+On read: 12155
+On read: 12160
+On read: 12165
+On read: 12170
+On read: 12175
+On read: 12180
+On read: 12185
+On read: 12190
+On read: 12195
+On read: 12200
+On read: 12205
+On read: 12210
+On read: 12215
+On read: 12220
+On read: 12225
+On read: 12230
+On read: 12235
+On read: 12240
+On read: 12245
+On read: 12250
+On read: 12255
+On read: 12260
+On read: 12265
+On read: 12270
+On read: 12275
+On read: 12280
+On read: 12285
+On read: 12290
+On read: 12295
+On read: 12300
+On read: 12305
+On read: 12310
+On read: 12315
+On read: 12320
+On read: 12325
+On read: 12330
+On read: 12335
+On read: 12340
+On read: 12345
+On read: 12350
+On read: 12355
+On read: 12360
+On read: 12365
+On read: 12370
+On read: 12375
+On read: 12380
+On read: 12385
+On read: 12390
+On read: 12395
+On read: 12400
+On read: 12405
+On read: 12410
+On read: 12415
+On read: 12420
+On read: 12425
+On read: 12430
+On read: 12435
+On read: 12440
+On read: 12445
+On read: 12450
+On read: 12455
+On read: 12460
+On read: 12465
+On read: 12470
+On read: 12475
+On read: 12480
+On read: 12485
+On read: 12490
+On read: 12495
+On read: 12500
+On read: 12505
+On read: 12510
+On read: 12515
+On read: 12520
+On read: 12525
+On read: 12530
+On read: 12535
+On read: 12540
+On read: 12545
+On read: 12550
+On read: 12555
+On read: 12560
+On read: 12565
+On read: 12570
+On read: 12575
+On read: 12580
+On read: 12585
+On read: 12590
+On read: 12595
+On read: 12600
+On read: 12605
+On read: 12610
+On read: 12615
+On read: 12620
+On read: 12625
+On read: 12630
+On read: 12635
+On read: 12640
+On read: 12645
+On read: 12650
+On read: 12655
+On read: 12660
+On read: 12665
+On read: 12670
+On read: 12675
+On read: 12680
+On read: 12685
+On read: 12690
+On read: 12695
+On read: 12700
+On read: 12705
+On read: 12710
+On read: 12715
+On read: 12720
+On read: 12725
+On read: 12730
+On read: 12735
+On read: 12740
+On read: 12745
+On read: 12750
+On read: 12755
+On read: 12760
+On read: 12765
+On read: 12770
+On read: 12775
+On read: 12780
+On read: 12785
+On read: 12790
+On read: 12795
+On read: 12800
+On read: 12805
+On read: 12810
+On read: 12815
+On read: 12820
+On read: 12825
+On read: 12830
+On read: 12835
+On read: 12840
+On read: 12845
+On read: 12850
+On read: 12855
+On read: 12860
+On read: 12865
+On read: 12870
+On read: 12875
+On read: 12880
+On read: 12885
+On read: 12890
+On read: 12895
+On read: 12900
+On read: 12905
+On read: 12910
+On read: 12915
+On read: 12920
+On read: 12925
+On read: 12930
+On read: 12935
+On read: 12940
+On read: 12945
+On read: 12950
+On read: 12955
+On read: 12960
+On read: 12965
+On read: 12970
+On read: 12975
+On read: 12980
+On read: 12985
+On read: 12990
+On read: 12995
+On read: 13000
+On read: 13005
+On read: 13010
+On read: 13015
+On read: 13020
+On read: 13025
+On read: 13030
+On read: 13035
+On read: 13040
+On read: 13045
+On read: 13050
+On read: 13055
+On read: 13060
+On read: 13065
+On read: 13070
+On read: 13075
+On read: 13080
+On read: 13085
+On read: 13090
+On read: 13095
+On read: 13100
+On read: 13105
+On read: 13110
+On read: 13115
+On read: 13120
+On read: 13125
+On read: 13130
+On read: 13135
+On read: 13140
+On read: 13145
+On read: 13150
+On read: 13155
+On read: 13160
+On read: 13165
+On read: 13170
+On read: 13175
+On read: 13180
+On read: 13185
+On read: 13190
+On read: 13195
+On read: 13200
+On read: 13205
+On read: 13210
+On read: 13215
+On read: 13220
+On read: 13225
+On read: 13230
+On read: 13235
+On read: 13240
+On read: 13245
+On read: 13250
+On read: 13255
+On read: 13260
+On read: 13265
+On read: 13270
+On read: 13275
+On read: 13280
+On read: 13285
+On read: 13290
+On read: 13295
+On read: 13300
+On read: 13305
+On read: 13310
+On read: 13315
+On read: 13320
+On read: 13325
+On read: 13330
+On read: 13335
+On read: 13340
+On read: 13345
+On read: 13350
+On read: 13355
+On read: 13360
+On read: 13365
+On read: 13370
+On read: 13375
+On read: 13380
+On read: 13385
+On read: 13390
+On read: 13395
+On read: 13400
+On read: 13405
+On read: 13410
+On read: 13415
+On read: 13420
+On read: 13425
+On read: 13430
+On read: 13435
+On read: 13440
+On read: 13445
+On read: 13450
+On read: 13455
+On read: 13460
+On read: 13465
+On read: 13470
+On read: 13475
+On read: 13480
+On read: 13485
+On read: 13490
+On read: 13495
+On read: 13500
+On read: 13505
+On read: 13510
+On read: 13515
+On read: 13520
+On read: 13525
+On read: 13530
+On read: 13535
+On read: 13540
+On read: 13545
+On read: 13550
+On read: 13555
+On read: 13560
+On read: 13565
+On read: 13570
+On read: 13575
+On read: 13580
+On read: 13585
+On read: 13590
+On read: 13595
+On read: 13600
+On read: 13605
+On read: 13610
+On read: 13615
+On read: 13620
+On read: 13625
+On read: 13630
+On read: 13635
+On read: 13640
+On read: 13645
+On read: 13650
+On read: 13655
+On read: 13660
+On read: 13665
+On read: 13670
+On read: 13675
+On read: 13680
+On read: 13685
+On read: 13690
+On read: 13695
+On read: 13700
+On read: 13705
+On read: 13710
+On read: 13715
+On read: 13720
+On read: 13725
+On read: 13730
+On read: 13735
+On read: 13740
+On read: 13745
+On read: 13750
+On read: 13755
+On read: 13760
+On read: 13765
+On read: 13770
+On read: 13775
+On read: 13780
+On read: 13785
+On read: 13790
+On read: 13795
+On read: 13800
+On read: 13805
+On read: 13810
+On read: 13815
+On read: 13820
+On read: 13825
+On read: 13830
+On read: 13835
+On read: 13840
+On read: 13845
+On read: 13850
+On read: 13855
+On read: 13860
+On read: 13865
+On read: 13870
+On read: 13875
+On read: 13880
+On read: 13885
+On read: 13890
+On read: 13895
+On read: 13900
+On read: 13905
+On read: 13910
+On read: 13915
+On read: 13920
+On read: 13925
+On read: 13930
+On read: 13935
+On read: 13940
+On read: 13945
+On read: 13950
+On read: 13955
+On read: 13960
+On read: 13965
+On read: 13970
+On read: 13975
+On read: 13980
+On read: 13985
+On read: 13990
+On read: 13995
+On read: 14000
+On read: 14005
+On read: 14010
+On read: 14015
+On read: 14020
+On read: 14025
+On read: 14030
+On read: 14035
+On read: 14040
+On read: 14045
+On read: 14050
+On read: 14055
+On read: 14060
+On read: 14065
+On read: 14070
+On read: 14075
+On read: 14080
+On read: 14085
+On read: 14090
+On read: 14095
+On read: 14100
+On read: 14105
+On read: 14110
+On read: 14115
+On read: 14120
+On read: 14125
+On read: 14130
+On read: 14135
+On read: 14140
+On read: 14145
+On read: 14150
+On read: 14155
+On read: 14160
+On read: 14165
+On read: 14170
+On read: 14175
+On read: 14180
+On read: 14185
+On read: 14190
+On read: 14195
+On read: 14200
+On read: 14205
+On read: 14210
+On read: 14215
+On read: 14220
+On read: 14225
+On read: 14230
+On read: 14235
+On read: 14240
+On read: 14245
+On read: 14250
+On read: 14255
+On read: 14260
+On read: 14265
+On read: 14270
+On read: 14275
+On read: 14280
+On read: 14285
+On read: 14290
+On read: 14295
+On read: 14300
+On read: 14305
+On read: 14310
+On read: 14315
+On read: 14320
+On read: 14325
+On read: 14330
+On read: 14335
+On read: 14340
+On read: 14345
+On read: 14350
+On read: 14355
+On read: 14360
+On read: 14365
+On read: 14370
+On read: 14375
+On read: 14380
+On read: 14385
+On read: 14390
+On read: 14395
+On read: 14400
+On read: 14405
+On read: 14410
+On read: 14415
+On read: 14420
+On read: 14425
+On read: 14430
+On read: 14435
+On read: 14440
+On read: 14445
+On read: 14450
+On read: 14455
+On read: 14460
+On read: 14465
+On read: 14470
+On read: 14475
+On read: 14480
+On read: 14485
+On read: 14490
+On read: 14495
+On read: 14500
+On read: 14505
+On read: 14510
+On read: 14515
+On read: 14520
+On read: 14525
+On read: 14530
+On read: 14535
+On read: 14540
+On read: 14545
+On read: 14550
+On read: 14555
+On read: 14560
+On read: 14565
+On read: 14570
+On read: 14575
+On read: 14580
+On read: 14585
+On read: 14590
+On read: 14595
+On read: 14600
+On read: 14605
+On read: 14610
+On read: 14615
+On read: 14620
+On read: 14625
+On read: 14630
+On read: 14635
+On read: 14640
+On read: 14645
+On read: 14650
+On read: 14655
+On read: 14660
+On read: 14665
+On read: 14670
+On read: 14675
+On read: 14680
+On read: 14685
+On read: 14690
+On read: 14695
+On read: 14700
+On read: 14705
+On read: 14710
+On read: 14715
+On read: 14720
+On read: 14725
+On read: 14730
+On read: 14735
+On read: 14740
+On read: 14745
+On read: 14750
+On read: 14755
+On read: 14760
+On read: 14765
+On read: 14770
+On read: 14775
+On read: 14780
+On read: 14785
+On read: 14790
+On read: 14795
+On read: 14800
+On read: 14805
+On read: 14810
+On read: 14815
+On read: 14820
+On read: 14825
+On read: 14830
+On read: 14835
+On read: 14840
+On read: 14845
+On read: 14850
+On read: 14855
+On read: 14860
+On read: 14865
+On read: 14870
+On read: 14875
+On read: 14880
+On read: 14885
+On read: 14890
+On read: 14895
+On read: 14900
+On read: 14905
+On read: 14910
+On read: 14915
+On read: 14920
+On read: 14925
+On read: 14930
+On read: 14935
+On read: 14940
+On read: 14945
+On read: 14950
+On read: 14955
+On read: 14960
+On read: 14965
+On read: 14970
+On read: 14975
+On read: 14980
+On read: 14985
+On read: 14990
+On read: 14995
+On read: 15000
+On read: 15005
+On read: 15010
+On read: 15015
+On read: 15020
+On read: 15025
+On read: 15030
+On read: 15035
+On read: 15040
+On read: 15045
+On read: 15050
+On read: 15055
+On read: 15060
+On read: 15065
+On read: 15070
+On read: 15075
+On read: 15080
+On read: 15085
+On read: 15090
+On read: 15095
+On read: 15100
+On read: 15105
+On read: 15110
+On read: 15115
+On read: 15120
+On read: 15125
+On read: 15130
+On read: 15135
+On read: 15140
+On read: 15145
+On read: 15150
+On read: 15155
+On read: 15160
+On read: 15165
+On read: 15170
+On read: 15175
+On read: 15180
+On read: 15185
+On read: 15190
+On read: 15195
+On read: 15200
+On read: 15205
+On read: 15210
+On read: 15215
+On read: 15220
+On read: 15225
+On read: 15230
+On read: 15235
+On read: 15240
+On read: 15245
+On read: 15250
+On read: 15255
+On read: 15260
+On read: 15265
+On read: 15270
+On read: 15275
+On read: 15280
+On read: 15285
+On read: 15290
+On read: 15295
+On read: 15300
+On read: 15305
+On read: 15310
+On read: 15315
+On read: 15320
+On read: 15325
+On read: 15330
+On read: 15335
+On read: 15340
+On read: 15345
+On read: 15350
+On read: 15355
+On read: 15360
+On read: 15365
+On read: 15370
+On read: 15375
+On read: 15380
+On read: 15385
+On read: 15390
+On read: 15395
+On read: 15400
+On read: 15405
+On read: 15410
+On read: 15415
+On read: 15420
+On read: 15425
+On read: 15430
+On read: 15435
+On read: 15440
+On read: 15445
+On read: 15450
+On read: 15455
+On read: 15460
+On read: 15465
+On read: 15470
+On read: 15475
+On read: 15480
+On read: 15485
+On read: 15490
+On read: 15495
+On read: 15500
+On read: 15505
+On read: 15510
+On read: 15515
+On read: 15520
+On read: 15525
+On read: 15530
+On read: 15535
+On read: 15540
+On read: 15545
+On read: 15550
+On read: 15555
+On read: 15560
+On read: 15565
+On read: 15570
+On read: 15575
+On read: 15580
+On read: 15585
+On read: 15590
+On read: 15595
+On read: 15600
+On read: 15605
+On read: 15610
+On read: 15615
+On read: 15620
+On read: 15625
+On read: 15630
+On read: 15635
+On read: 15640
+On read: 15645
+On read: 15650
+On read: 15655
+On read: 15660
+On read: 15665
+On read: 15670
+On read: 15675
+On read: 15680
+On read: 15685
+On read: 15690
+On read: 15695
+On read: 15700
+On read: 15705
+On read: 15710
+On read: 15715
+On read: 15720
+On read: 15725
+On read: 15730
+On read: 15735
+On read: 15740
+On read: 15745
+On read: 15750
+On read: 15755
+On read: 15760
+On read: 15765
+On read: 15770
+On read: 15775
+On read: 15780
+On read: 15785
+On read: 15790
+On read: 15795
+On read: 15800
+On read: 15805
+On read: 15810
+On read: 15815
+On read: 15820
+On read: 15825
+On read: 15830
+On read: 15835
+On read: 15840
+On read: 15845
+On read: 15850
+On read: 15855
+On read: 15860
+On read: 15865
+On read: 15870
+On read: 15875
+On read: 15880
+On read: 15885
+On read: 15890
+On read: 15895
+On read: 15900
+On read: 15905
+On read: 15910
+On read: 15915
+On read: 15920
+On read: 15925
+On read: 15930
+On read: 15935
+On read: 15940
+On read: 15945
+On read: 15950
+On read: 15955
+On read: 15960
+On read: 15965
+On read: 15970
+On read: 15975
+On read: 15980
+On read: 15985
+On read: 15990
+On read: 15995
+On read: 16000
+Done with precomputations
+SIGNATURE NODE: L2a1d
+SIGNATURE NODE: P9a
+SIGNATURE NODE: S3
+Initial source proportion estimate: 
+0.319454	0.395611	0.284935	
+
+On chain: 1  out of 5
+number of sources 3
+ITERATION: 0
+ITERATION: 1000
+ITERATION: 2000
+ITERATION: 3000
+ITERATION: 4000
+ITERATION: 5000
+ITERATION: 6000
+ITERATION: 7000
+ITERATION: 8000
+ITERATION: 9000
+ITERATION: 10000
+ITERATION: 11000
+ITERATION: 12000
+ITERATION: 13000
+ITERATION: 14000
+ITERATION: 15000
+ITERATION: 16000
+ITERATION: 17000
+ITERATION: 18000
+ITERATION: 19000
+ITERATION: 20000
+ITERATION: 21000
+ITERATION: 22000
+ITERATION: 23000
+ITERATION: 24000
+ITERATION: 25000
+ITERATION: 26000
+ITERATION: 27000
+ITERATION: 28000
+ITERATION: 29000
+ITERATION: 30000
+ITERATION: 31000
+ITERATION: 32000
+ITERATION: 33000
+ITERATION: 34000
+ITERATION: 35000
+ITERATION: 36000
+ITERATION: 37000
+ITERATION: 38000
+ITERATION: 39000
+ITERATION: 40000
+ITERATION: 41000
+ITERATION: 42000
+ITERATION: 43000
+ITERATION: 44000
+ITERATION: 45000
+ITERATION: 46000
+ITERATION: 47000
+ITERATION: 48000
+ITERATION: 49000
+ITERATION: 50000
+ITERATION: 51000
+ITERATION: 52000
+ITERATION: 53000
+ITERATION: 54000
+ITERATION: 55000
+ITERATION: 56000
+ITERATION: 57000
+ITERATION: 58000
+ITERATION: 59000
+ITERATION: 60000
+ITERATION: 61000
+ITERATION: 62000
+ITERATION: 63000
+ITERATION: 64000
+ITERATION: 65000
+ITERATION: 66000
+ITERATION: 67000
+ITERATION: 68000
+ITERATION: 69000
+ITERATION: 70000
+ITERATION: 71000
+ITERATION: 72000
+ITERATION: 73000
+ITERATION: 74000
+ITERATION: 75000
+ITERATION: 76000
+ITERATION: 77000
+ITERATION: 78000
+ITERATION: 79000
+ITERATION: 80000
+ITERATION: 81000
+ITERATION: 82000
+ITERATION: 83000
+ITERATION: 84000
+ITERATION: 85000
+ITERATION: 86000
+ITERATION: 87000
+ITERATION: 88000
+ITERATION: 89000
+ITERATION: 90000
+ITERATION: 91000
+ITERATION: 92000
+ITERATION: 93000
+ITERATION: 94000
+ITERATION: 95000
+ITERATION: 96000
+ITERATION: 97000
+ITERATION: 98000
+ITERATION: 99000
+ITERATION: 100000
+Starting processing MCMC iterations...
+Processing source: 1
+Computing summary stats...
+autocorrelations...
+...Done. ESS: 
+...Done
+...Done
+Processing source: 2
+Computing summary stats...
+autocorrelations...
+...Done. ESS: 
+...Done
+...Done
+Processing source: 3
+Computing summary stats...
+autocorrelations...
+...Done. ESS: 
+...Done
+...Done
+Finished running chain: 1
+On chain: 2  out of 5
+number of sources 3
+ITERATION: 0
+ITERATION: 1000
+MAX ITERATIONS REACHED
+ITERATION: 2000
+ITERATION: 3000
+ITERATION: 4000
+ITERATION: 5000
+ITERATION: 6000
+ITERATION: 7000
+ITERATION: 8000
+ITERATION: 9000
+ITERATION: 10000
+ITERATION: 11000
+ITERATION: 12000
+ITERATION: 13000
+ITERATION: 14000
+ITERATION: 15000
+ITERATION: 16000
+ITERATION: 17000
+ITERATION: 18000
+ITERATION: 19000
+ITERATION: 20000
+ITERATION: 21000
+ITERATION: 22000
+ITERATION: 23000
+ITERATION: 24000
+ITERATION: 25000
+ITERATION: 26000
+ITERATION: 27000
+ITERATION: 28000
+ITERATION: 29000
+ITERATION: 30000
+ITERATION: 31000
+ITERATION: 32000
+ITERATION: 33000
+ITERATION: 34000
+ITERATION: 35000
+ITERATION: 36000
+ITERATION: 37000
+ITERATION: 38000
+ITERATION: 39000
+ITERATION: 40000
+ITERATION: 41000
+ITERATION: 42000
+ITERATION: 43000
+ITERATION: 44000
+ITERATION: 45000
+ITERATION: 46000
+ITERATION: 47000
+ITERATION: 48000
+ITERATION: 49000
+ITERATION: 50000
+ITERATION: 51000
+ITERATION: 52000
+ITERATION: 53000
+ITERATION: 54000
+ITERATION: 55000
+ITERATION: 56000
+ITERATION: 57000
+ITERATION: 58000
+ITERATION: 59000
+ITERATION: 60000
+ITERATION: 61000
+ITERATION: 62000
+ITERATION: 63000
+ITERATION: 64000
+ITERATION: 65000
+ITERATION: 66000
+ITERATION: 67000
+ITERATION: 68000
+ITERATION: 69000
+ITERATION: 70000
+ITERATION: 71000
+ITERATION: 72000
+ITERATION: 73000
+ITERATION: 74000
+ITERATION: 75000
+ITERATION: 76000
+ITERATION: 77000
+ITERATION: 78000
+ITERATION: 79000
+ITERATION: 80000
+ITERATION: 81000
+ITERATION: 82000
+ITERATION: 83000
+ITERATION: 84000
+ITERATION: 85000
+ITERATION: 86000
+ITERATION: 87000
+ITERATION: 88000
+ITERATION: 89000
+ITERATION: 90000
+ITERATION: 91000
+ITERATION: 92000
+ITERATION: 93000
+ITERATION: 94000
+ITERATION: 95000
+ITERATION: 96000
+ITERATION: 97000
+ITERATION: 98000
+ITERATION: 99000
+ITERATION: 100000
+Starting processing MCMC iterations...
+Processing source: 1
+Computing summary stats...
+autocorrelations...
+...Done. ESS: 
+...Done
+...Done
+Processing source: 2
+Computing summary stats...
+autocorrelations...
+...Done. ESS: 
+...Done
+...Done
+Processing source: 3
+Computing summary stats...
+autocorrelations...
+...Done. ESS: 
+...Done
+...Done
+Finished running chain: 2
+On chain: 3  out of 5
+number of sources 3
+ITERATION: 0
+ITERATION: 1000
+ITERATION: 2000
+ITERATION: 3000
+ITERATION: 4000
+ITERATION: 5000
+ITERATION: 6000
+ITERATION: 7000
+ITERATION: 8000
+ITERATION: 9000
+ITERATION: 10000
+ITERATION: 11000
+ITERATION: 12000
+ITERATION: 13000
+ITERATION: 14000
+ITERATION: 15000
+ITERATION: 16000
+ITERATION: 17000
+ITERATION: 18000
+ITERATION: 19000
+ITERATION: 20000
+ITERATION: 21000
+ITERATION: 22000
+ITERATION: 23000
+ITERATION: 24000
+ITERATION: 25000
+ITERATION: 26000
+ITERATION: 27000
+ITERATION: 28000
+ITERATION: 29000
+ITERATION: 30000
+ITERATION: 31000
+ITERATION: 32000
+ITERATION: 33000
+ITERATION: 34000
+ITERATION: 35000
+ITERATION: 36000
+ITERATION: 37000
+ITERATION: 38000
+ITERATION: 39000
+ITERATION: 40000
+ITERATION: 41000
+ITERATION: 42000
+ITERATION: 43000
+ITERATION: 44000
+ITERATION: 45000
+ITERATION: 46000
+ITERATION: 47000
+ITERATION: 48000
+ITERATION: 49000
+ITERATION: 50000
+ITERATION: 51000
+ITERATION: 52000
+ITERATION: 53000
+ITERATION: 54000
+ITERATION: 55000
+ITERATION: 56000
+ITERATION: 57000
+ITERATION: 58000
+ITERATION: 59000
+ITERATION: 60000
+ITERATION: 61000
+ITERATION: 62000
+ITERATION: 63000
+ITERATION: 64000
+ITERATION: 65000
+ITERATION: 66000
+ITERATION: 67000
+ITERATION: 68000
+ITERATION: 69000
+ITERATION: 70000
+ITERATION: 71000
+ITERATION: 72000
+ITERATION: 73000
+ITERATION: 74000
+ITERATION: 75000
+ITERATION: 76000
+ITERATION: 77000
+ITERATION: 78000
+ITERATION: 79000
+ITERATION: 80000
+ITERATION: 81000
+ITERATION: 82000
+ITERATION: 83000
+ITERATION: 84000
+ITERATION: 85000
+ITERATION: 86000
+ITERATION: 87000
+ITERATION: 88000
+ITERATION: 89000
+ITERATION: 90000
+ITERATION: 91000
+ITERATION: 92000
+ITERATION: 93000
+ITERATION: 94000
+ITERATION: 95000
+ITERATION: 96000
+ITERATION: 97000
+ITERATION: 98000
+ITERATION: 99000
+ITERATION: 100000
+Starting processing MCMC iterations...
+Processing source: 1
+Computing summary stats...
+autocorrelations...
+...Done. ESS: 
+...Done
+...Done
+Processing source: 2
+Computing summary stats...
+autocorrelations...
+...Done. ESS: 
+...Done
+...Done
+Processing source: 3
+Computing summary stats...
+autocorrelations...
+...Done. ESS: 
+...Done
+...Done
+Finished running chain: 3
+On chain: 4  out of 5
+number of sources 3
+ITERATION: 0
+ITERATION: 1000
+ITERATION: 2000
+ITERATION: 3000
+ITERATION: 4000
+ITERATION: 5000
+ITERATION: 6000
+ITERATION: 7000
+ITERATION: 8000
+ITERATION: 9000
+ITERATION: 10000
+ITERATION: 11000
+ITERATION: 12000
+ITERATION: 13000
+ITERATION: 14000
+ITERATION: 15000
+ITERATION: 16000
+ITERATION: 17000
+ITERATION: 18000
+ITERATION: 19000
+ITERATION: 20000
+ITERATION: 21000
+ITERATION: 22000
+ITERATION: 23000
+ITERATION: 24000
+ITERATION: 25000
+ITERATION: 26000
+ITERATION: 27000
+ITERATION: 28000
+ITERATION: 29000
+ITERATION: 30000
+ITERATION: 31000
+ITERATION: 32000
+ITERATION: 33000
+ITERATION: 34000
+ITERATION: 35000
+ITERATION: 36000
+ITERATION: 37000
+ITERATION: 38000
+ITERATION: 39000
+ITERATION: 40000
+ITERATION: 41000
+ITERATION: 42000
+ITERATION: 43000
+ITERATION: 44000
+ITERATION: 45000
+ITERATION: 46000
+ITERATION: 47000
+ITERATION: 48000
+ITERATION: 49000
+ITERATION: 50000
+ITERATION: 51000
+ITERATION: 52000
+ITERATION: 53000
+ITERATION: 54000
+ITERATION: 55000
+ITERATION: 56000
+ITERATION: 57000
+ITERATION: 58000
+ITERATION: 59000
+ITERATION: 60000
+ITERATION: 61000
+ITERATION: 62000
+ITERATION: 63000
+ITERATION: 64000
+ITERATION: 65000
+ITERATION: 66000
+ITERATION: 67000
+ITERATION: 68000
+ITERATION: 69000
+ITERATION: 70000
+ITERATION: 71000
+ITERATION: 72000
+ITERATION: 73000
+ITERATION: 74000
+ITERATION: 75000
+ITERATION: 76000
+ITERATION: 77000
+ITERATION: 78000
+ITERATION: 79000
+ITERATION: 80000
+ITERATION: 81000
+ITERATION: 82000
+ITERATION: 83000
+ITERATION: 84000
+ITERATION: 85000
+ITERATION: 86000
+ITERATION: 87000
+ITERATION: 88000
+ITERATION: 89000
+ITERATION: 90000
+ITERATION: 91000
+ITERATION: 92000
+ITERATION: 93000
+ITERATION: 94000
+ITERATION: 95000
+ITERATION: 96000
+ITERATION: 97000
+ITERATION: 98000
+ITERATION: 99000
+ITERATION: 100000
+Starting processing MCMC iterations...
+Processing source: 1
+Computing summary stats...
+autocorrelations...
+...Done. ESS: 
+...Done
+...Done
+Processing source: 2
+Computing summary stats...
+autocorrelations...
+...Done. ESS: 
+...Done
+...Done
+Processing source: 3
+Computing summary stats...
+autocorrelations...
+...Done. ESS: 
+...Done
+...Done
+Finished running chain: 4
+On chain: 5  out of 5
+number of sources 3
+ITERATION: 0
+ITERATION: 1000
+ITERATION: 2000
+ITERATION: 3000
+ITERATION: 4000
+ITERATION: 5000
+ITERATION: 6000
+ITERATION: 7000
+ITERATION: 8000
+ITERATION: 9000
+ITERATION: 10000
+ITERATION: 11000
+ITERATION: 12000
+ITERATION: 13000
+ITERATION: 14000
+ITERATION: 15000
+ITERATION: 16000
+ITERATION: 17000
+ITERATION: 18000
+ITERATION: 19000
+ITERATION: 20000
+ITERATION: 21000
+ITERATION: 22000
+ITERATION: 23000
+ITERATION: 24000
+ITERATION: 25000
+ITERATION: 26000
+ITERATION: 27000
+ITERATION: 28000
+ITERATION: 29000
+ITERATION: 30000
+ITERATION: 31000
+ITERATION: 32000
+ITERATION: 33000
+ITERATION: 34000
+ITERATION: 35000
+ITERATION: 36000
+ITERATION: 37000
+ITERATION: 38000
+ITERATION: 39000
+ITERATION: 40000
+ITERATION: 41000
+ITERATION: 42000
+ITERATION: 43000
+ITERATION: 44000
+ITERATION: 45000
+ITERATION: 46000
+ITERATION: 47000
+ITERATION: 48000
+ITERATION: 49000
+ITERATION: 50000
+ITERATION: 51000
+ITERATION: 52000
+ITERATION: 53000
+ITERATION: 54000
+ITERATION: 55000
+ITERATION: 56000
+ITERATION: 57000
+ITERATION: 58000
+ITERATION: 59000
+ITERATION: 60000
+ITERATION: 61000
+ITERATION: 62000
+ITERATION: 63000
+ITERATION: 64000
+ITERATION: 65000
+ITERATION: 66000
+ITERATION: 67000
+ITERATION: 68000
+ITERATION: 69000
+ITERATION: 70000
+ITERATION: 71000
+ITERATION: 72000
+ITERATION: 73000
+ITERATION: 74000
+ITERATION: 75000
+ITERATION: 76000
+ITERATION: 77000
+ITERATION: 78000
+ITERATION: 79000
+ITERATION: 80000
+ITERATION: 81000
+ITERATION: 82000
+ITERATION: 83000
+ITERATION: 84000
+ITERATION: 85000
+ITERATION: 86000
+ITERATION: 87000
+ITERATION: 88000
+ITERATION: 89000
+ITERATION: 90000
+ITERATION: 91000
+ITERATION: 92000
+ITERATION: 93000
+ITERATION: 94000
+ITERATION: 95000
+ITERATION: 96000
+ITERATION: 97000
+ITERATION: 98000
+ITERATION: 99000
+ITERATION: 100000
+Starting processing MCMC iterations...
+Processing source: 1
+Computing summary stats...
+autocorrelations...
+...Done. ESS: 
+...Done
+...Done
+Processing source: 2
+Computing summary stats...
+autocorrelations...
+...Done. ESS: 
+...Done
+...Done
+Processing source: 3
+Computing summary stats...
+autocorrelations...
+...Done. ESS: 
+...Done
+...Done
+Finished running chain: 5
+Warning: R-hat for proportion of branch P9a is above 1.05, indicating that the chains have not converged for the parameter.
+Warning: R-hat for position of branch P9a is above 1.05, indicating that the chains have not converged for the parameter.
+Warning: R-hat for proportion of branch S3 is above 1.05, indicating that the chains have not converged for the parameter.

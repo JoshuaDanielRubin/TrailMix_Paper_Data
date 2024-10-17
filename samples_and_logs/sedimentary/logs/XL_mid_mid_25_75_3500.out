@@ -1,0 +1,1385 @@
+Running downsampling for 2 sources with 3500 reads...
+ ████████ ██████   █████  ██ ██      ███    ███ ██ ██   ██ 
+    ██    ██   ██ ██   ██ ██ ██      ████  ████ ██  ██ ██   
+    ██    ██████  ███████ ██ ██      ██ ████ ██ ██   ███    
+    ██    ██   ██ ██   ██ ██ ██      ██  ██  ██ ██  ██ ██   
+    ██    ██   ██ ██   ██ ██ ███████ ██      ██ ██ ██   ██  
+
+Loading GBWT index...
+GBWT index loaded.
+[TrailMix] Deserializing graph: ../share/tmfiles/graph.og
+[TrailMix] Done deserializing
+Computing substitutions due to ancient damage:
+
+.. done
+Mapping reads...
+Reads mapped
+Reading GAM file i5EBDhGTA
+Emitting to: /tmp/vgan_JmutTzw/QNnPYhj
+ON READ: 50
+ON READ: 100
+ON READ: 150
+ON READ: 200
+ON READ: 250
+ON READ: 300
+ON READ: 350
+ON READ: 400
+ON READ: 450
+ON READ: 500
+ON READ: 550
+ON READ: 600
+ON READ: 650
+ON READ: 700
+ON READ: 750
+ON READ: 800
+ON READ: 850
+ON READ: 900
+ON READ: 950
+ON READ: 1000
+ON READ: 1050
+ON READ: 1100
+ON READ: 1150
+ON READ: 1200
+ON READ: 1250
+ON READ: 1300
+ON READ: 1350
+ON READ: 1400
+ON READ: 1450
+ON READ: 1500
+ON READ: 1550
+ON READ: 1600
+ON READ: 1650
+ON READ: 1700
+ON READ: 1750
+ON READ: 1800
+ON READ: 1850
+ON READ: 1900
+ON READ: 1950
+ON READ: 2000
+ON READ: 2050
+ON READ: 2100
+ON READ: 2150
+ON READ: 2200
+ON READ: 2250
+ON READ: 2300
+ON READ: 2350
+ON READ: 2400
+ON READ: 2450
+ON READ: 2500
+ON READ: 2550
+ON READ: 2600
+ON READ: 2650
+ON READ: 2700
+ON READ: 2750
+ON READ: 2800
+ON READ: 2850
+ON READ: 2900
+ON READ: 2950
+ON READ: 3000
+ON READ: 3050
+ON READ: 3100
+ON READ: 3150
+ON READ: 3200
+ON READ: 3250
+ON READ: 3300
+ON READ: 3350
+ON READ: 3400
+ON READ: 3450
+ON READ: 3500
+ON READ: 3550
+ON READ: 3600
+ON READ: 3650
+ON READ: 3700
+ON READ: 3750
+ON READ: 3800
+ON READ: 3850
+ON READ: 3900
+ON READ: 3950
+ON READ: 4000
+ON READ: 4050
+ON READ: 4100
+ON READ: 4150
+ON READ: 4200
+ON READ: 4250
+ON READ: 4300
+ON READ: 4350
+ON READ: 4400
+ON READ: 4450
+ON READ: 4500
+ON READ: 4550
+ON READ: 4600
+ON READ: 4650
+ON READ: 4700
+ON READ: 4750
+ON READ: 4800
+ON READ: 4850
+ON READ: 4900
+ON READ: 4950
+ON READ: 5000
+ON READ: 5050
+ON READ: 5100
+ON READ: 5150
+ON READ: 5200
+ON READ: 5250
+ON READ: 5300
+ON READ: 5350
+ON READ: 5400
+ON READ: 5450
+ON READ: 5500
+ON READ: 5550
+ON READ: 5600
+ON READ: 5650
+ON READ: 5700
+ON READ: 5750
+ON READ: 5800
+ON READ: 5850
+ON READ: 5900
+ON READ: 5950
+ON READ: 6000
+ON READ: 6050
+ON READ: 6100
+ON READ: 6150
+ON READ: 6200
+ON READ: 6250
+ON READ: 6300
+ON READ: 6350
+ON READ: 6400
+ON READ: 6450
+ON READ: 6500
+ON READ: 6550
+ON READ: 6600
+ON READ: 6650
+ON READ: 6700
+ON READ: 6750
+ON READ: 6800
+ON READ: 6850
+ON READ: 6900
+ON READ: 6950
+ON READ: 7000
+finding alignment paths
+Found alignment paths (0.0537458 seconds, 6.05993 GB)
+Clustered paths
+Clustered alignment paths (271.09 seconds, 6.05993 GB)
+Inferred path posterior probabilities (851.154 seconds, 6.05993 GB)
+Inferred path posterior probabilities and abundances (836.545 seconds, 6.07128 GB)
+On read: 5
+On read: 10
+On read: 15
+On read: 20
+On read: 25
+On read: 30
+On read: 35
+On read: 40
+On read: 45
+On read: 50
+On read: 55
+On read: 60
+On read: 65
+On read: 70
+On read: 75
+On read: 80
+On read: 85
+On read: 90
+On read: 95
+On read: 100
+On read: 105
+On read: 110
+On read: 115
+On read: 120
+On read: 125
+On read: 130
+On read: 135
+On read: 140
+On read: 145
+On read: 150
+On read: 155
+On read: 160
+On read: 165
+On read: 170
+On read: 175
+On read: 180
+On read: 185
+On read: 190
+On read: 195
+On read: 200
+On read: 205
+On read: 210
+On read: 215
+On read: 220
+On read: 225
+On read: 230
+On read: 235
+On read: 240
+On read: 245
+On read: 250
+On read: 255
+On read: 260
+On read: 265
+On read: 270
+On read: 275
+On read: 280
+On read: 285
+On read: 290
+On read: 295
+On read: 300
+On read: 305
+On read: 310
+On read: 315
+On read: 320
+On read: 325
+On read: 330
+On read: 335
+On read: 340
+On read: 345
+On read: 350
+On read: 355
+On read: 360
+On read: 365
+On read: 370
+On read: 375
+On read: 380
+On read: 385
+On read: 390
+On read: 395
+On read: 400
+On read: 405
+On read: 410
+On read: 415
+On read: 420
+On read: 425
+On read: 430
+On read: 435
+On read: 440
+On read: 445
+On read: 450
+On read: 455
+On read: 460
+On read: 465
+On read: 470
+On read: 475
+On read: 480
+On read: 485
+On read: 490
+On read: 495
+On read: 500
+On read: 505
+On read: 510
+On read: 515
+On read: 520
+On read: 525
+On read: 530
+On read: 535
+On read: 540
+On read: 545
+On read: 550
+On read: 555
+On read: 560
+On read: 565
+On read: 570
+On read: 575
+On read: 580
+On read: 585
+On read: 590
+On read: 595
+On read: 600
+On read: 605
+On read: 610
+On read: 615
+On read: 620
+On read: 625
+On read: 630
+On read: 635
+On read: 640
+On read: 645
+On read: 650
+On read: 655
+On read: 660
+On read: 665
+On read: 670
+On read: 675
+On read: 680
+On read: 685
+On read: 690
+On read: 695
+On read: 700
+On read: 705
+On read: 710
+On read: 715
+On read: 720
+On read: 725
+On read: 730
+On read: 735
+On read: 740
+On read: 745
+On read: 750
+On read: 755
+On read: 760
+On read: 765
+On read: 770
+On read: 775
+On read: 780
+On read: 785
+On read: 790
+On read: 795
+On read: 800
+On read: 805
+On read: 810
+On read: 815
+On read: 820
+On read: 825
+On read: 830
+On read: 835
+On read: 840
+On read: 845
+On read: 850
+On read: 855
+On read: 860
+On read: 865
+On read: 870
+On read: 875
+On read: 880
+On read: 885
+On read: 890
+On read: 895
+On read: 900
+On read: 905
+On read: 910
+On read: 915
+On read: 920
+On read: 925
+On read: 930
+On read: 935
+On read: 940
+On read: 945
+On read: 950
+On read: 955
+On read: 960
+On read: 965
+On read: 970
+On read: 975
+On read: 980
+On read: 985
+On read: 990
+On read: 995
+On read: 1000
+On read: 1005
+On read: 1010
+On read: 1015
+On read: 1020
+On read: 1025
+On read: 1030
+On read: 1035
+On read: 1040
+On read: 1045
+On read: 1050
+On read: 1055
+On read: 1060
+On read: 1065
+On read: 1070
+On read: 1075
+On read: 1080
+On read: 1085
+On read: 1090
+On read: 1095
+On read: 1100
+On read: 1105
+On read: 1110
+On read: 1115
+On read: 1120
+On read: 1125
+On read: 1130
+On read: 1135
+On read: 1140
+On read: 1145
+On read: 1150
+On read: 1155
+On read: 1160
+On read: 1165
+On read: 1170
+On read: 1175
+On read: 1180
+On read: 1185
+On read: 1190
+On read: 1195
+On read: 1200
+On read: 1205
+On read: 1210
+On read: 1215
+On read: 1220
+On read: 1225
+On read: 1230
+On read: 1235
+On read: 1240
+On read: 1245
+On read: 1250
+On read: 1255
+On read: 1260
+On read: 1265
+On read: 1270
+On read: 1275
+On read: 1280
+On read: 1285
+On read: 1290
+On read: 1295
+On read: 1300
+On read: 1305
+On read: 1310
+On read: 1315
+On read: 1320
+On read: 1325
+On read: 1330
+On read: 1335
+On read: 1340
+On read: 1345
+On read: 1350
+On read: 1355
+On read: 1360
+On read: 1365
+On read: 1370
+On read: 1375
+On read: 1380
+On read: 1385
+On read: 1390
+On read: 1395
+On read: 1400
+On read: 1405
+On read: 1410
+On read: 1415
+On read: 1420
+On read: 1425
+On read: 1430
+On read: 1435
+On read: 1440
+On read: 1445
+On read: 1450
+On read: 1455
+On read: 1460
+On read: 1465
+On read: 1470
+On read: 1475
+On read: 1480
+On read: 1485
+On read: 1490
+On read: 1495
+On read: 1500
+On read: 1505
+On read: 1510
+On read: 1515
+On read: 1520
+On read: 1525
+On read: 1530
+On read: 1535
+On read: 1540
+On read: 1545
+On read: 1550
+On read: 1555
+On read: 1560
+On read: 1565
+On read: 1570
+On read: 1575
+On read: 1580
+On read: 1585
+On read: 1590
+On read: 1595
+On read: 1600
+On read: 1605
+On read: 1610
+On read: 1615
+On read: 1620
+On read: 1625
+On read: 1630
+On read: 1635
+On read: 1640
+On read: 1645
+On read: 1650
+On read: 1655
+On read: 1660
+On read: 1665
+On read: 1670
+On read: 1675
+On read: 1680
+On read: 1685
+On read: 1690
+On read: 1695
+On read: 1700
+On read: 1705
+On read: 1710
+On read: 1715
+On read: 1720
+On read: 1725
+On read: 1730
+On read: 1735
+On read: 1740
+On read: 1745
+On read: 1750
+On read: 1755
+On read: 1760
+On read: 1765
+On read: 1770
+On read: 1775
+On read: 1780
+On read: 1785
+On read: 1790
+On read: 1795
+On read: 1800
+On read: 1805
+On read: 1810
+On read: 1815
+On read: 1820
+On read: 1825
+On read: 1830
+On read: 1835
+On read: 1840
+On read: 1845
+On read: 1850
+On read: 1855
+On read: 1860
+On read: 1865
+On read: 1870
+On read: 1875
+On read: 1880
+On read: 1885
+On read: 1890
+On read: 1895
+On read: 1900
+On read: 1905
+On read: 1910
+On read: 1915
+On read: 1920
+On read: 1925
+On read: 1930
+On read: 1935
+On read: 1940
+On read: 1945
+On read: 1950
+On read: 1955
+On read: 1960
+On read: 1965
+On read: 1970
+On read: 1975
+On read: 1980
+On read: 1985
+On read: 1990
+On read: 1995
+On read: 2000
+On read: 2005
+On read: 2010
+On read: 2015
+On read: 2020
+On read: 2025
+On read: 2030
+On read: 2035
+On read: 2040
+On read: 2045
+On read: 2050
+On read: 2055
+On read: 2060
+On read: 2065
+On read: 2070
+On read: 2075
+On read: 2080
+On read: 2085
+On read: 2090
+On read: 2095
+On read: 2100
+On read: 2105
+On read: 2110
+On read: 2115
+On read: 2120
+On read: 2125
+On read: 2130
+On read: 2135
+On read: 2140
+On read: 2145
+On read: 2150
+On read: 2155
+On read: 2160
+On read: 2165
+On read: 2170
+On read: 2175
+On read: 2180
+On read: 2185
+On read: 2190
+On read: 2195
+On read: 2200
+On read: 2205
+On read: 2210
+On read: 2215
+On read: 2220
+On read: 2225
+On read: 2230
+On read: 2235
+On read: 2240
+On read: 2245
+On read: 2250
+On read: 2255
+On read: 2260
+On read: 2265
+On read: 2270
+On read: 2275
+On read: 2280
+On read: 2285
+On read: 2290
+On read: 2295
+On read: 2300
+On read: 2305
+On read: 2310
+On read: 2315
+On read: 2320
+On read: 2325
+On read: 2330
+On read: 2335
+On read: 2340
+On read: 2345
+On read: 2350
+On read: 2355
+On read: 2360
+On read: 2365
+On read: 2370
+On read: 2375
+On read: 2380
+On read: 2385
+On read: 2390
+On read: 2395
+On read: 2400
+On read: 2405
+On read: 2410
+On read: 2415
+On read: 2420
+On read: 2425
+On read: 2430
+On read: 2435
+On read: 2440
+On read: 2445
+On read: 2450
+On read: 2455
+On read: 2460
+On read: 2465
+On read: 2470
+On read: 2475
+On read: 2480
+On read: 2485
+On read: 2490
+On read: 2495
+On read: 2500
+On read: 2505
+On read: 2510
+On read: 2515
+On read: 2520
+On read: 2525
+On read: 2530
+On read: 2535
+On read: 2540
+On read: 2545
+On read: 2550
+On read: 2555
+On read: 2560
+On read: 2565
+On read: 2570
+On read: 2575
+On read: 2580
+On read: 2585
+On read: 2590
+On read: 2595
+On read: 2600
+On read: 2605
+On read: 2610
+On read: 2615
+On read: 2620
+On read: 2625
+On read: 2630
+On read: 2635
+On read: 2640
+On read: 2645
+On read: 2650
+On read: 2655
+On read: 2660
+On read: 2665
+On read: 2670
+On read: 2675
+On read: 2680
+On read: 2685
+On read: 2690
+On read: 2695
+On read: 2700
+On read: 2705
+On read: 2710
+On read: 2715
+On read: 2720
+On read: 2725
+On read: 2730
+On read: 2735
+On read: 2740
+On read: 2745
+On read: 2750
+On read: 2755
+On read: 2760
+On read: 2765
+On read: 2770
+On read: 2775
+On read: 2780
+On read: 2785
+On read: 2790
+On read: 2795
+On read: 2800
+On read: 2805
+On read: 2810
+On read: 2815
+On read: 2820
+On read: 2825
+On read: 2830
+On read: 2835
+On read: 2840
+On read: 2845
+On read: 2850
+On read: 2855
+On read: 2860
+On read: 2865
+On read: 2870
+On read: 2875
+On read: 2880
+On read: 2885
+On read: 2890
+On read: 2895
+On read: 2900
+On read: 2905
+On read: 2910
+On read: 2915
+On read: 2920
+On read: 2925
+On read: 2930
+On read: 2935
+On read: 2940
+On read: 2945
+On read: 2950
+On read: 2955
+On read: 2960
+On read: 2965
+On read: 2970
+On read: 2975
+On read: 2980
+On read: 2985
+On read: 2990
+On read: 2995
+On read: 3000
+On read: 3005
+On read: 3010
+On read: 3015
+On read: 3020
+On read: 3025
+On read: 3030
+On read: 3035
+On read: 3040
+On read: 3045
+On read: 3050
+On read: 3055
+On read: 3060
+On read: 3065
+On read: 3070
+On read: 3075
+On read: 3080
+On read: 3085
+On read: 3090
+On read: 3095
+On read: 3100
+On read: 3105
+On read: 3110
+On read: 3115
+On read: 3120
+On read: 3125
+On read: 3130
+On read: 3135
+On read: 3140
+On read: 3145
+On read: 3150
+On read: 3155
+On read: 3160
+On read: 3165
+On read: 3170
+On read: 3175
+On read: 3180
+On read: 3185
+On read: 3190
+On read: 3195
+On read: 3200
+On read: 3205
+On read: 3210
+On read: 3215
+On read: 3220
+On read: 3225
+On read: 3230
+On read: 3235
+On read: 3240
+On read: 3245
+On read: 3250
+On read: 3255
+On read: 3260
+On read: 3265
+On read: 3270
+On read: 3275
+On read: 3280
+On read: 3285
+On read: 3290
+On read: 3295
+On read: 3300
+On read: 3305
+On read: 3310
+On read: 3315
+On read: 3320
+On read: 3325
+On read: 3330
+On read: 3335
+On read: 3340
+On read: 3345
+On read: 3350
+On read: 3355
+On read: 3360
+On read: 3365
+On read: 3370
+On read: 3375
+On read: 3380
+On read: 3385
+On read: 3390
+On read: 3395
+On read: 3400
+On read: 3405
+On read: 3410
+On read: 3415
+On read: 3420
+On read: 3425
+On read: 3430
+On read: 3435
+On read: 3440
+On read: 3445
+On read: 3450
+On read: 3455
+On read: 3460
+On read: 3465
+On read: 3470
+On read: 3475
+On read: 3480
+On read: 3485
+On read: 3490
+On read: 3495
+On read: 3500
+SIGNATURE NODE: L5a
+SIGNATURE NODE: X2m2
+Initial source proportion estimate: 
+0.689711	0.310289	
+
+On chain: 1  out of 5
+number of sources 2
+ITERATION: 0
+ITERATION: 10000
+ITERATION: 20000
+ITERATION: 30000
+ITERATION: 40000
+ITERATION: 50000
+ITERATION: 60000
+ITERATION: 70000
+ITERATION: 80000
+ITERATION: 90000
+ITERATION: 100000
+ITERATION: 110000
+ITERATION: 120000
+ITERATION: 130000
+ITERATION: 140000
+ITERATION: 150000
+ITERATION: 160000
+ITERATION: 170000
+ITERATION: 180000
+ITERATION: 190000
+ITERATION: 200000
+ITERATION: 210000
+ITERATION: 220000
+ITERATION: 230000
+ITERATION: 240000
+ITERATION: 250000
+ITERATION: 260000
+ITERATION: 270000
+ITERATION: 280000
+ITERATION: 290000
+ITERATION: 300000
+ITERATION: 310000
+ITERATION: 320000
+ITERATION: 330000
+ITERATION: 340000
+ITERATION: 350000
+ITERATION: 360000
+ITERATION: 370000
+ITERATION: 380000
+ITERATION: 390000
+ITERATION: 400000
+ITERATION: 410000
+ITERATION: 420000
+ITERATION: 430000
+ITERATION: 440000
+ITERATION: 450000
+ITERATION: 460000
+ITERATION: 470000
+ITERATION: 480000
+ITERATION: 490000
+ITERATION: 500000
+Starting processing MCMC iterations...
+Processing source: 1
+[TrailMix] Processing MCMC iter: 500
+[TrailMix] Processing MCMC iter: 1000
+[TrailMix] Processing MCMC iter: 1500
+[TrailMix] Processing MCMC iter: 2000
+[TrailMix] Processing MCMC iter: 2500
+[TrailMix] Processing MCMC iter: 3000
+[TrailMix] Processing MCMC iter: 3500
+[TrailMix] Processing MCMC iter: 4000
+[TrailMix] Processing MCMC iter: 4500
+[TrailMix] Processing MCMC iter: 5000
+[TrailMix] Processing MCMC iter: 5500
+[TrailMix] Processing MCMC iter: 6000
+[TrailMix] Processing MCMC iter: 6500
+[TrailMix] Processing MCMC iter: 7000
+[TrailMix] Processing MCMC iter: 7500
+[TrailMix] Processing MCMC iter: 8000
+[TrailMix] Processing MCMC iter: 8500
+[TrailMix] Processing MCMC iter: 9000
+[TrailMix] Processing MCMC iter: 9500
+[TrailMix] Processing MCMC iter: 10000
+[TrailMix] Processing MCMC iter: 10500
+Computing summary stats...
+...Done
+Processing source: 2
+[TrailMix] Processing MCMC iter: 500
+[TrailMix] Processing MCMC iter: 1000
+[TrailMix] Processing MCMC iter: 1500
+[TrailMix] Processing MCMC iter: 2000
+[TrailMix] Processing MCMC iter: 2500
+[TrailMix] Processing MCMC iter: 3000
+[TrailMix] Processing MCMC iter: 3500
+[TrailMix] Processing MCMC iter: 4000
+[TrailMix] Processing MCMC iter: 4500
+[TrailMix] Processing MCMC iter: 5000
+[TrailMix] Processing MCMC iter: 5500
+[TrailMix] Processing MCMC iter: 6000
+[TrailMix] Processing MCMC iter: 6500
+[TrailMix] Processing MCMC iter: 7000
+[TrailMix] Processing MCMC iter: 7500
+[TrailMix] Processing MCMC iter: 8000
+[TrailMix] Processing MCMC iter: 8500
+[TrailMix] Processing MCMC iter: 9000
+[TrailMix] Processing MCMC iter: 9500
+[TrailMix] Processing MCMC iter: 10000
+[TrailMix] Processing MCMC iter: 10500
+Computing summary stats...
+...Done
+Finished running chain: 1
+On chain: 2  out of 5
+number of sources 2
+ITERATION: 0
+ITERATION: 10000
+ITERATION: 20000
+ITERATION: 30000
+ITERATION: 40000
+ITERATION: 50000
+ITERATION: 60000
+ITERATION: 70000
+ITERATION: 80000
+ITERATION: 90000
+ITERATION: 100000
+ITERATION: 110000
+ITERATION: 120000
+ITERATION: 130000
+ITERATION: 140000
+ITERATION: 150000
+ITERATION: 160000
+ITERATION: 170000
+ITERATION: 180000
+ITERATION: 190000
+ITERATION: 200000
+ITERATION: 210000
+ITERATION: 220000
+ITERATION: 230000
+ITERATION: 240000
+ITERATION: 250000
+ITERATION: 260000
+ITERATION: 270000
+ITERATION: 280000
+ITERATION: 290000
+ITERATION: 300000
+ITERATION: 310000
+ITERATION: 320000
+ITERATION: 330000
+ITERATION: 340000
+ITERATION: 350000
+ITERATION: 360000
+ITERATION: 370000
+ITERATION: 380000
+ITERATION: 390000
+ITERATION: 400000
+ITERATION: 410000
+ITERATION: 420000
+ITERATION: 430000
+ITERATION: 440000
+ITERATION: 450000
+ITERATION: 460000
+ITERATION: 470000
+ITERATION: 480000
+ITERATION: 490000
+ITERATION: 500000
+Starting processing MCMC iterations...
+Processing source: 1
+[TrailMix] Processing MCMC iter: 500
+[TrailMix] Processing MCMC iter: 1000
+[TrailMix] Processing MCMC iter: 1500
+[TrailMix] Processing MCMC iter: 2000
+[TrailMix] Processing MCMC iter: 2500
+[TrailMix] Processing MCMC iter: 3000
+[TrailMix] Processing MCMC iter: 3500
+[TrailMix] Processing MCMC iter: 4000
+[TrailMix] Processing MCMC iter: 4500
+[TrailMix] Processing MCMC iter: 5000
+[TrailMix] Processing MCMC iter: 5500
+[TrailMix] Processing MCMC iter: 6000
+[TrailMix] Processing MCMC iter: 6500
+[TrailMix] Processing MCMC iter: 7000
+[TrailMix] Processing MCMC iter: 7500
+[TrailMix] Processing MCMC iter: 8000
+[TrailMix] Processing MCMC iter: 8500
+[TrailMix] Processing MCMC iter: 9000
+[TrailMix] Processing MCMC iter: 9500
+[TrailMix] Processing MCMC iter: 10000
+[TrailMix] Processing MCMC iter: 10500
+Computing summary stats...
+...Done
+Processing source: 2
+[TrailMix] Processing MCMC iter: 500
+[TrailMix] Processing MCMC iter: 1000
+[TrailMix] Processing MCMC iter: 1500
+[TrailMix] Processing MCMC iter: 2000
+[TrailMix] Processing MCMC iter: 2500
+[TrailMix] Processing MCMC iter: 3000
+[TrailMix] Processing MCMC iter: 3500
+[TrailMix] Processing MCMC iter: 4000
+[TrailMix] Processing MCMC iter: 4500
+[TrailMix] Processing MCMC iter: 5000
+[TrailMix] Processing MCMC iter: 5500
+[TrailMix] Processing MCMC iter: 6000
+[TrailMix] Processing MCMC iter: 6500
+[TrailMix] Processing MCMC iter: 7000
+[TrailMix] Processing MCMC iter: 7500
+[TrailMix] Processing MCMC iter: 8000
+[TrailMix] Processing MCMC iter: 8500
+[TrailMix] Processing MCMC iter: 9000
+[TrailMix] Processing MCMC iter: 9500
+[TrailMix] Processing MCMC iter: 10000
+[TrailMix] Processing MCMC iter: 10500
+Computing summary stats...
+...Done
+Finished running chain: 2
+On chain: 3  out of 5
+number of sources 2
+ITERATION: 0
+ITERATION: 10000
+ITERATION: 20000
+ITERATION: 30000
+ITERATION: 40000
+ITERATION: 50000
+ITERATION: 60000
+ITERATION: 70000
+ITERATION: 80000
+ITERATION: 90000
+ITERATION: 100000
+ITERATION: 110000
+ITERATION: 120000
+ITERATION: 130000
+ITERATION: 140000
+ITERATION: 150000
+ITERATION: 160000
+ITERATION: 170000
+ITERATION: 180000
+ITERATION: 190000
+ITERATION: 200000
+ITERATION: 210000
+ITERATION: 220000
+ITERATION: 230000
+ITERATION: 240000
+ITERATION: 250000
+ITERATION: 260000
+ITERATION: 270000
+ITERATION: 280000
+ITERATION: 290000
+ITERATION: 300000
+ITERATION: 310000
+ITERATION: 320000
+ITERATION: 330000
+ITERATION: 340000
+ITERATION: 350000
+ITERATION: 360000
+ITERATION: 370000
+ITERATION: 380000
+ITERATION: 390000
+ITERATION: 400000
+ITERATION: 410000
+ITERATION: 420000
+ITERATION: 430000
+ITERATION: 440000
+ITERATION: 450000
+ITERATION: 460000
+ITERATION: 470000
+ITERATION: 480000
+ITERATION: 490000
+ITERATION: 500000
+Starting processing MCMC iterations...
+Processing source: 1
+[TrailMix] Processing MCMC iter: 500
+[TrailMix] Processing MCMC iter: 1000
+[TrailMix] Processing MCMC iter: 1500
+[TrailMix] Processing MCMC iter: 2000
+[TrailMix] Processing MCMC iter: 2500
+[TrailMix] Processing MCMC iter: 3000
+[TrailMix] Processing MCMC iter: 3500
+[TrailMix] Processing MCMC iter: 4000
+[TrailMix] Processing MCMC iter: 4500
+[TrailMix] Processing MCMC iter: 5000
+[TrailMix] Processing MCMC iter: 5500
+[TrailMix] Processing MCMC iter: 6000
+[TrailMix] Processing MCMC iter: 6500
+[TrailMix] Processing MCMC iter: 7000
+[TrailMix] Processing MCMC iter: 7500
+[TrailMix] Processing MCMC iter: 8000
+[TrailMix] Processing MCMC iter: 8500
+[TrailMix] Processing MCMC iter: 9000
+[TrailMix] Processing MCMC iter: 9500
+[TrailMix] Processing MCMC iter: 10000
+[TrailMix] Processing MCMC iter: 10500
+Computing summary stats...
+...Done
+Processing source: 2
+[TrailMix] Processing MCMC iter: 500
+[TrailMix] Processing MCMC iter: 1000
+[TrailMix] Processing MCMC iter: 1500
+[TrailMix] Processing MCMC iter: 2000
+[TrailMix] Processing MCMC iter: 2500
+[TrailMix] Processing MCMC iter: 3000
+[TrailMix] Processing MCMC iter: 3500
+[TrailMix] Processing MCMC iter: 4000
+[TrailMix] Processing MCMC iter: 4500
+[TrailMix] Processing MCMC iter: 5000
+[TrailMix] Processing MCMC iter: 5500
+[TrailMix] Processing MCMC iter: 6000
+[TrailMix] Processing MCMC iter: 6500
+[TrailMix] Processing MCMC iter: 7000
+[TrailMix] Processing MCMC iter: 7500
+[TrailMix] Processing MCMC iter: 8000
+[TrailMix] Processing MCMC iter: 8500
+[TrailMix] Processing MCMC iter: 9000
+[TrailMix] Processing MCMC iter: 9500
+[TrailMix] Processing MCMC iter: 10000
+[TrailMix] Processing MCMC iter: 10500
+Computing summary stats...
+...Done
+Finished running chain: 3
+On chain: 4  out of 5
+number of sources 2
+ITERATION: 0
+ITERATION: 10000
+ITERATION: 20000
+ITERATION: 30000
+ITERATION: 40000
+ITERATION: 50000
+ITERATION: 60000
+ITERATION: 70000
+ITERATION: 80000
+ITERATION: 90000
+ITERATION: 100000
+ITERATION: 110000
+ITERATION: 120000
+ITERATION: 130000
+ITERATION: 140000
+ITERATION: 150000
+ITERATION: 160000
+ITERATION: 170000
+ITERATION: 180000
+ITERATION: 190000
+ITERATION: 200000
+ITERATION: 210000
+ITERATION: 220000
+ITERATION: 230000
+ITERATION: 240000
+ITERATION: 250000
+ITERATION: 260000
+ITERATION: 270000
+ITERATION: 280000
+ITERATION: 290000
+ITERATION: 300000
+ITERATION: 310000
+ITERATION: 320000
+ITERATION: 330000
+ITERATION: 340000
+ITERATION: 350000
+ITERATION: 360000
+ITERATION: 370000
+ITERATION: 380000
+ITERATION: 390000
+ITERATION: 400000
+ITERATION: 410000
+ITERATION: 420000
+ITERATION: 430000
+ITERATION: 440000
+ITERATION: 450000
+ITERATION: 460000
+ITERATION: 470000
+ITERATION: 480000
+ITERATION: 490000
+ITERATION: 500000
+Starting processing MCMC iterations...
+Processing source: 1
+[TrailMix] Processing MCMC iter: 500
+[TrailMix] Processing MCMC iter: 1000
+[TrailMix] Processing MCMC iter: 1500
+[TrailMix] Processing MCMC iter: 2000
+[TrailMix] Processing MCMC iter: 2500
+[TrailMix] Processing MCMC iter: 3000
+[TrailMix] Processing MCMC iter: 3500
+[TrailMix] Processing MCMC iter: 4000
+[TrailMix] Processing MCMC iter: 4500
+[TrailMix] Processing MCMC iter: 5000
+[TrailMix] Processing MCMC iter: 5500
+[TrailMix] Processing MCMC iter: 6000
+[TrailMix] Processing MCMC iter: 6500
+[TrailMix] Processing MCMC iter: 7000
+[TrailMix] Processing MCMC iter: 7500
+[TrailMix] Processing MCMC iter: 8000
+[TrailMix] Processing MCMC iter: 8500
+[TrailMix] Processing MCMC iter: 9000
+[TrailMix] Processing MCMC iter: 9500
+[TrailMix] Processing MCMC iter: 10000
+[TrailMix] Processing MCMC iter: 10500
+Computing summary stats...
+...Done
+Processing source: 2
+[TrailMix] Processing MCMC iter: 500
+[TrailMix] Processing MCMC iter: 1000
+[TrailMix] Processing MCMC iter: 1500
+[TrailMix] Processing MCMC iter: 2000
+[TrailMix] Processing MCMC iter: 2500
+[TrailMix] Processing MCMC iter: 3000
+[TrailMix] Processing MCMC iter: 3500
+[TrailMix] Processing MCMC iter: 4000
+[TrailMix] Processing MCMC iter: 4500
+[TrailMix] Processing MCMC iter: 5000
+[TrailMix] Processing MCMC iter: 5500
+[TrailMix] Processing MCMC iter: 6000
+[TrailMix] Processing MCMC iter: 6500
+[TrailMix] Processing MCMC iter: 7000
+[TrailMix] Processing MCMC iter: 7500
+[TrailMix] Processing MCMC iter: 8000
+[TrailMix] Processing MCMC iter: 8500
+[TrailMix] Processing MCMC iter: 9000
+[TrailMix] Processing MCMC iter: 9500
+[TrailMix] Processing MCMC iter: 10000
+[TrailMix] Processing MCMC iter: 10500
+Computing summary stats...
+...Done
+Finished running chain: 4
+On chain: 5  out of 5
+number of sources 2
+ITERATION: 0
+ITERATION: 10000
+ITERATION: 20000
+ITERATION: 30000
+ITERATION: 40000
+ITERATION: 50000
+ITERATION: 60000
+ITERATION: 70000
+ITERATION: 80000
+ITERATION: 90000
+ITERATION: 100000
+ITERATION: 110000
+ITERATION: 120000
+ITERATION: 130000
+ITERATION: 140000
+ITERATION: 150000
+ITERATION: 160000
+ITERATION: 170000
+ITERATION: 180000
+ITERATION: 190000
+ITERATION: 200000
+ITERATION: 210000
+ITERATION: 220000
+ITERATION: 230000
+ITERATION: 240000
+ITERATION: 250000
+ITERATION: 260000
+ITERATION: 270000
+ITERATION: 280000
+ITERATION: 290000
+ITERATION: 300000
+ITERATION: 310000
+ITERATION: 320000
+ITERATION: 330000
+ITERATION: 340000
+ITERATION: 350000
+ITERATION: 360000
+ITERATION: 370000
+ITERATION: 380000
+ITERATION: 390000
+ITERATION: 400000
+ITERATION: 410000
+ITERATION: 420000
+ITERATION: 430000
+ITERATION: 440000
+ITERATION: 450000
+ITERATION: 460000
+ITERATION: 470000
+ITERATION: 480000
+ITERATION: 490000
+ITERATION: 500000
+Starting processing MCMC iterations...
+Processing source: 1
+[TrailMix] Processing MCMC iter: 500
+[TrailMix] Processing MCMC iter: 1000
+[TrailMix] Processing MCMC iter: 1500
+[TrailMix] Processing MCMC iter: 2000
+[TrailMix] Processing MCMC iter: 2500
+[TrailMix] Processing MCMC iter: 3000
+[TrailMix] Processing MCMC iter: 3500
+[TrailMix] Processing MCMC iter: 4000
+[TrailMix] Processing MCMC iter: 4500
+[TrailMix] Processing MCMC iter: 5000
+[TrailMix] Processing MCMC iter: 5500
+[TrailMix] Processing MCMC iter: 6000
+[TrailMix] Processing MCMC iter: 6500
+[TrailMix] Processing MCMC iter: 7000
+[TrailMix] Processing MCMC iter: 7500
+[TrailMix] Processing MCMC iter: 8000
+[TrailMix] Processing MCMC iter: 8500
+[TrailMix] Processing MCMC iter: 9000
+[TrailMix] Processing MCMC iter: 9500
+[TrailMix] Processing MCMC iter: 10000
+[TrailMix] Processing MCMC iter: 10500
+Computing summary stats...
+...Done
+Processing source: 2
+[TrailMix] Processing MCMC iter: 500
+[TrailMix] Processing MCMC iter: 1000
+[TrailMix] Processing MCMC iter: 1500
+[TrailMix] Processing MCMC iter: 2000
+[TrailMix] Processing MCMC iter: 2500
+[TrailMix] Processing MCMC iter: 3000
+[TrailMix] Processing MCMC iter: 3500
+[TrailMix] Processing MCMC iter: 4000
+[TrailMix] Processing MCMC iter: 4500
+[TrailMix] Processing MCMC iter: 5000
+[TrailMix] Processing MCMC iter: 5500
+[TrailMix] Processing MCMC iter: 6000
+[TrailMix] Processing MCMC iter: 6500
+[TrailMix] Processing MCMC iter: 7000
+[TrailMix] Processing MCMC iter: 7500
+[TrailMix] Processing MCMC iter: 8000
+[TrailMix] Processing MCMC iter: 8500
+[TrailMix] Processing MCMC iter: 9000
+[TrailMix] Processing MCMC iter: 9500
+[TrailMix] Processing MCMC iter: 10000
+[TrailMix] Processing MCMC iter: 10500
+Computing summary stats...
+...Done
+Finished running chain: 5
+Warning: R-hat for position of branch X2m2 is above 1.05, indicating that the chains have not converged for the parameter.

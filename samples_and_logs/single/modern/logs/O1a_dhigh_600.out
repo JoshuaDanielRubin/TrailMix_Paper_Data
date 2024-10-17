@@ -1,0 +1,549 @@
+Running downsampling for 1 sources with 600 reads...
+ ████████ ██████   █████  ██ ██      ███    ███ ██ ██   ██ 
+    ██    ██   ██ ██   ██ ██ ██      ████  ████ ██  ██ ██   
+    ██    ██████  ███████ ██ ██      ██ ████ ██ ██   ███    
+    ██    ██   ██ ██   ██ ██ ██      ██  ██  ██ ██  ██ ██   
+    ██    ██   ██ ██   ██ ██ ███████ ██      ██ ██ ██   ██  
+
+Loading GBWT index...
+GBWT index loaded.
+[TrailMix] Deserializing graph: graph.og
+[TrailMix] Done deserializing
+Computing substitutions due to ancient damage:
+
+.. done
+Mapping reads...
+Reads mapped
+Reading GAM file TnONaSXhX
+Emitting to: /tmp/vgan_Mx1Z02k/FBar1aW
+finding alignment paths
+Found alignment paths (0.0167747 seconds, 5.86946 GB)
+Clustered paths
+Clustered alignment paths (37.8587 seconds, 5.86946 GB)
+Inferred path posterior probabilities (119.45 seconds, 5.86946 GB)
+Inferred path posterior probabilities and abundances (121.092 seconds, 5.86641 GB)
+Precomputing...
+On read: 5
+On read: 10
+On read: 15
+On read: 20
+On read: 25
+On read: 30
+On read: 35
+On read: 40
+On read: 45
+On read: 50
+On read: 55
+On read: 60
+On read: 65
+On read: 70
+On read: 75
+On read: 80
+On read: 85
+On read: 90
+On read: 95
+On read: 100
+On read: 105
+On read: 110
+On read: 115
+On read: 120
+On read: 125
+On read: 130
+On read: 135
+On read: 140
+On read: 145
+On read: 150
+On read: 155
+On read: 160
+On read: 165
+On read: 170
+On read: 175
+On read: 180
+On read: 185
+On read: 190
+On read: 195
+On read: 200
+On read: 205
+On read: 210
+On read: 215
+On read: 220
+On read: 225
+On read: 230
+On read: 235
+On read: 240
+On read: 245
+On read: 250
+On read: 255
+On read: 260
+On read: 265
+On read: 270
+On read: 275
+On read: 280
+On read: 285
+On read: 290
+On read: 295
+On read: 300
+On read: 305
+On read: 310
+On read: 315
+On read: 320
+On read: 325
+On read: 330
+On read: 335
+On read: 340
+On read: 345
+On read: 350
+On read: 355
+On read: 360
+On read: 365
+On read: 370
+On read: 375
+On read: 380
+On read: 385
+On read: 390
+On read: 395
+On read: 400
+On read: 405
+On read: 410
+On read: 415
+On read: 420
+On read: 425
+On read: 430
+On read: 435
+On read: 440
+On read: 445
+On read: 450
+On read: 455
+On read: 460
+On read: 465
+On read: 470
+On read: 475
+On read: 480
+On read: 485
+On read: 490
+On read: 495
+On read: 500
+On read: 505
+On read: 510
+On read: 515
+On read: 520
+On read: 525
+On read: 530
+On read: 535
+On read: 540
+On read: 545
+On read: 550
+On read: 555
+On read: 560
+On read: 565
+On read: 570
+On read: 575
+On read: 580
+On read: 585
+On read: 590
+On read: 595
+On read: 600
+Done with precomputations
+SIGNATURE NODE: O1a
+On chain: 1  out of 5
+number of sources 1
+ITERATION: 0
+ITERATION: 10000
+ITERATION: 20000
+ITERATION: 30000
+ITERATION: 40000
+ITERATION: 50000
+ITERATION: 60000
+ITERATION: 70000
+ITERATION: 80000
+ITERATION: 90000
+ITERATION: 100000
+ITERATION: 110000
+ITERATION: 120000
+ITERATION: 130000
+ITERATION: 140000
+ITERATION: 150000
+ITERATION: 160000
+ITERATION: 170000
+ITERATION: 180000
+ITERATION: 190000
+ITERATION: 200000
+Starting processing MCMC iterations...
+Processing source: 1
+[TrailMix] Processing MCMC iter: 500
+[TrailMix] Processing MCMC iter: 1000
+[TrailMix] Processing MCMC iter: 1500
+[TrailMix] Processing MCMC iter: 2000
+[TrailMix] Processing MCMC iter: 2500
+[TrailMix] Processing MCMC iter: 3000
+[TrailMix] Processing MCMC iter: 3500
+[TrailMix] Processing MCMC iter: 4000
+[TrailMix] Processing MCMC iter: 4500
+[TrailMix] Processing MCMC iter: 5000
+[TrailMix] Processing MCMC iter: 5500
+[TrailMix] Processing MCMC iter: 6000
+[TrailMix] Processing MCMC iter: 6500
+[TrailMix] Processing MCMC iter: 7000
+[TrailMix] Processing MCMC iter: 7500
+[TrailMix] Processing MCMC iter: 8000
+[TrailMix] Processing MCMC iter: 8500
+[TrailMix] Processing MCMC iter: 9000
+[TrailMix] Processing MCMC iter: 9500
+[TrailMix] Processing MCMC iter: 10000
+[TrailMix] Processing MCMC iter: 10500
+[TrailMix] Processing MCMC iter: 11000
+[TrailMix] Processing MCMC iter: 11500
+[TrailMix] Processing MCMC iter: 12000
+[TrailMix] Processing MCMC iter: 12500
+[TrailMix] Processing MCMC iter: 13000
+[TrailMix] Processing MCMC iter: 13500
+[TrailMix] Processing MCMC iter: 14000
+[TrailMix] Processing MCMC iter: 14500
+[TrailMix] Processing MCMC iter: 15000
+[TrailMix] Processing MCMC iter: 15500
+[TrailMix] Processing MCMC iter: 16000
+[TrailMix] Processing MCMC iter: 16500
+[TrailMix] Processing MCMC iter: 17000
+[TrailMix] Processing MCMC iter: 17500
+[TrailMix] Processing MCMC iter: 18000
+[TrailMix] Processing MCMC iter: 18500
+[TrailMix] Processing MCMC iter: 19000
+[TrailMix] Processing MCMC iter: 19500
+[TrailMix] Processing MCMC iter: 20000
+[TrailMix] Processing MCMC iter: 20500
+[TrailMix] Processing MCMC iter: 21000
+[TrailMix] Processing MCMC iter: 21500
+[TrailMix] Processing MCMC iter: 22000
+[TrailMix] Processing MCMC iter: 22500
+[TrailMix] Processing MCMC iter: 23000
+[TrailMix] Processing MCMC iter: 23500
+[TrailMix] Processing MCMC iter: 24000
+[TrailMix] Processing MCMC iter: 24500
+Computing summary stats...
+autocorrelations...
+...Done. ESS: 
+...Done
+...Done
+Finished running chain: 1
+On chain: 2  out of 5
+number of sources 1
+ITERATION: 0
+ITERATION: 10000
+ITERATION: 20000
+ITERATION: 30000
+ITERATION: 40000
+ITERATION: 50000
+ITERATION: 60000
+ITERATION: 70000
+ITERATION: 80000
+ITERATION: 90000
+ITERATION: 100000
+ITERATION: 110000
+ITERATION: 120000
+ITERATION: 130000
+ITERATION: 140000
+ITERATION: 150000
+ITERATION: 160000
+ITERATION: 170000
+ITERATION: 180000
+ITERATION: 190000
+ITERATION: 200000
+Starting processing MCMC iterations...
+Processing source: 1
+[TrailMix] Processing MCMC iter: 500
+[TrailMix] Processing MCMC iter: 1000
+[TrailMix] Processing MCMC iter: 1500
+[TrailMix] Processing MCMC iter: 2000
+[TrailMix] Processing MCMC iter: 2500
+[TrailMix] Processing MCMC iter: 3000
+[TrailMix] Processing MCMC iter: 3500
+[TrailMix] Processing MCMC iter: 4000
+[TrailMix] Processing MCMC iter: 4500
+[TrailMix] Processing MCMC iter: 5000
+[TrailMix] Processing MCMC iter: 5500
+[TrailMix] Processing MCMC iter: 6000
+[TrailMix] Processing MCMC iter: 6500
+[TrailMix] Processing MCMC iter: 7000
+[TrailMix] Processing MCMC iter: 7500
+[TrailMix] Processing MCMC iter: 8000
+[TrailMix] Processing MCMC iter: 8500
+[TrailMix] Processing MCMC iter: 9000
+[TrailMix] Processing MCMC iter: 9500
+[TrailMix] Processing MCMC iter: 10000
+[TrailMix] Processing MCMC iter: 10500
+[TrailMix] Processing MCMC iter: 11000
+[TrailMix] Processing MCMC iter: 11500
+[TrailMix] Processing MCMC iter: 12000
+[TrailMix] Processing MCMC iter: 12500
+[TrailMix] Processing MCMC iter: 13000
+[TrailMix] Processing MCMC iter: 13500
+[TrailMix] Processing MCMC iter: 14000
+[TrailMix] Processing MCMC iter: 14500
+[TrailMix] Processing MCMC iter: 15000
+[TrailMix] Processing MCMC iter: 15500
+[TrailMix] Processing MCMC iter: 16000
+[TrailMix] Processing MCMC iter: 16500
+[TrailMix] Processing MCMC iter: 17000
+[TrailMix] Processing MCMC iter: 17500
+[TrailMix] Processing MCMC iter: 18000
+[TrailMix] Processing MCMC iter: 18500
+[TrailMix] Processing MCMC iter: 19000
+[TrailMix] Processing MCMC iter: 19500
+[TrailMix] Processing MCMC iter: 20000
+[TrailMix] Processing MCMC iter: 20500
+[TrailMix] Processing MCMC iter: 21000
+[TrailMix] Processing MCMC iter: 21500
+[TrailMix] Processing MCMC iter: 22000
+[TrailMix] Processing MCMC iter: 22500
+[TrailMix] Processing MCMC iter: 23000
+[TrailMix] Processing MCMC iter: 23500
+[TrailMix] Processing MCMC iter: 24000
+Computing summary stats...
+autocorrelations...
+...Done. ESS: 
+...Done
+...Done
+Finished running chain: 2
+On chain: 3  out of 5
+number of sources 1
+ITERATION: 0
+ITERATION: 10000
+ITERATION: 20000
+ITERATION: 30000
+ITERATION: 40000
+ITERATION: 50000
+ITERATION: 60000
+ITERATION: 70000
+ITERATION: 80000
+ITERATION: 90000
+ITERATION: 100000
+ITERATION: 110000
+ITERATION: 120000
+ITERATION: 130000
+ITERATION: 140000
+ITERATION: 150000
+ITERATION: 160000
+ITERATION: 170000
+ITERATION: 180000
+ITERATION: 190000
+ITERATION: 200000
+Starting processing MCMC iterations...
+Processing source: 1
+[TrailMix] Processing MCMC iter: 500
+[TrailMix] Processing MCMC iter: 1000
+[TrailMix] Processing MCMC iter: 1500
+[TrailMix] Processing MCMC iter: 2000
+[TrailMix] Processing MCMC iter: 2500
+[TrailMix] Processing MCMC iter: 3000
+[TrailMix] Processing MCMC iter: 3500
+[TrailMix] Processing MCMC iter: 4000
+[TrailMix] Processing MCMC iter: 4500
+[TrailMix] Processing MCMC iter: 5000
+[TrailMix] Processing MCMC iter: 5500
+[TrailMix] Processing MCMC iter: 6000
+[TrailMix] Processing MCMC iter: 6500
+[TrailMix] Processing MCMC iter: 7000
+[TrailMix] Processing MCMC iter: 7500
+[TrailMix] Processing MCMC iter: 8000
+[TrailMix] Processing MCMC iter: 8500
+[TrailMix] Processing MCMC iter: 9000
+[TrailMix] Processing MCMC iter: 9500
+[TrailMix] Processing MCMC iter: 10000
+[TrailMix] Processing MCMC iter: 10500
+[TrailMix] Processing MCMC iter: 11000
+[TrailMix] Processing MCMC iter: 11500
+[TrailMix] Processing MCMC iter: 12000
+[TrailMix] Processing MCMC iter: 12500
+[TrailMix] Processing MCMC iter: 13000
+[TrailMix] Processing MCMC iter: 13500
+[TrailMix] Processing MCMC iter: 14000
+[TrailMix] Processing MCMC iter: 14500
+[TrailMix] Processing MCMC iter: 15000
+[TrailMix] Processing MCMC iter: 15500
+[TrailMix] Processing MCMC iter: 16000
+[TrailMix] Processing MCMC iter: 16500
+[TrailMix] Processing MCMC iter: 17000
+[TrailMix] Processing MCMC iter: 17500
+[TrailMix] Processing MCMC iter: 18000
+[TrailMix] Processing MCMC iter: 18500
+[TrailMix] Processing MCMC iter: 19000
+[TrailMix] Processing MCMC iter: 19500
+[TrailMix] Processing MCMC iter: 20000
+[TrailMix] Processing MCMC iter: 20500
+[TrailMix] Processing MCMC iter: 21000
+[TrailMix] Processing MCMC iter: 21500
+[TrailMix] Processing MCMC iter: 22000
+[TrailMix] Processing MCMC iter: 22500
+[TrailMix] Processing MCMC iter: 23000
+[TrailMix] Processing MCMC iter: 23500
+[TrailMix] Processing MCMC iter: 24000
+[TrailMix] Processing MCMC iter: 24500
+Computing summary stats...
+autocorrelations...
+...Done. ESS: 
+...Done
+...Done
+Finished running chain: 3
+On chain: 4  out of 5
+number of sources 1
+ITERATION: 0
+ITERATION: 10000
+ITERATION: 20000
+ITERATION: 30000
+ITERATION: 40000
+ITERATION: 50000
+ITERATION: 60000
+ITERATION: 70000
+ITERATION: 80000
+ITERATION: 90000
+ITERATION: 100000
+ITERATION: 110000
+ITERATION: 120000
+ITERATION: 130000
+ITERATION: 140000
+ITERATION: 150000
+ITERATION: 160000
+ITERATION: 170000
+ITERATION: 180000
+ITERATION: 190000
+ITERATION: 200000
+Starting processing MCMC iterations...
+Processing source: 1
+[TrailMix] Processing MCMC iter: 500
+[TrailMix] Processing MCMC iter: 1000
+[TrailMix] Processing MCMC iter: 1500
+[TrailMix] Processing MCMC iter: 2000
+[TrailMix] Processing MCMC iter: 2500
+[TrailMix] Processing MCMC iter: 3000
+[TrailMix] Processing MCMC iter: 3500
+[TrailMix] Processing MCMC iter: 4000
+[TrailMix] Processing MCMC iter: 4500
+[TrailMix] Processing MCMC iter: 5000
+[TrailMix] Processing MCMC iter: 5500
+[TrailMix] Processing MCMC iter: 6000
+[TrailMix] Processing MCMC iter: 6500
+[TrailMix] Processing MCMC iter: 7000
+[TrailMix] Processing MCMC iter: 7500
+[TrailMix] Processing MCMC iter: 8000
+[TrailMix] Processing MCMC iter: 8500
+[TrailMix] Processing MCMC iter: 9000
+[TrailMix] Processing MCMC iter: 9500
+[TrailMix] Processing MCMC iter: 10000
+[TrailMix] Processing MCMC iter: 10500
+[TrailMix] Processing MCMC iter: 11000
+[TrailMix] Processing MCMC iter: 11500
+[TrailMix] Processing MCMC iter: 12000
+[TrailMix] Processing MCMC iter: 12500
+[TrailMix] Processing MCMC iter: 13000
+[TrailMix] Processing MCMC iter: 13500
+[TrailMix] Processing MCMC iter: 14000
+[TrailMix] Processing MCMC iter: 14500
+[TrailMix] Processing MCMC iter: 15000
+[TrailMix] Processing MCMC iter: 15500
+[TrailMix] Processing MCMC iter: 16000
+[TrailMix] Processing MCMC iter: 16500
+[TrailMix] Processing MCMC iter: 17000
+[TrailMix] Processing MCMC iter: 17500
+[TrailMix] Processing MCMC iter: 18000
+[TrailMix] Processing MCMC iter: 18500
+[TrailMix] Processing MCMC iter: 19000
+[TrailMix] Processing MCMC iter: 19500
+[TrailMix] Processing MCMC iter: 20000
+[TrailMix] Processing MCMC iter: 20500
+[TrailMix] Processing MCMC iter: 21000
+[TrailMix] Processing MCMC iter: 21500
+[TrailMix] Processing MCMC iter: 22000
+[TrailMix] Processing MCMC iter: 22500
+[TrailMix] Processing MCMC iter: 23000
+[TrailMix] Processing MCMC iter: 23500
+[TrailMix] Processing MCMC iter: 24000
+[TrailMix] Processing MCMC iter: 24500
+Computing summary stats...
+autocorrelations...
+...Done. ESS: 
+...Done
+...Done
+Finished running chain: 4
+On chain: 5  out of 5
+number of sources 1
+ITERATION: 0
+ITERATION: 10000
+ITERATION: 20000
+ITERATION: 30000
+ITERATION: 40000
+ITERATION: 50000
+ITERATION: 60000
+ITERATION: 70000
+ITERATION: 80000
+ITERATION: 90000
+ITERATION: 100000
+ITERATION: 110000
+ITERATION: 120000
+ITERATION: 130000
+ITERATION: 140000
+ITERATION: 150000
+ITERATION: 160000
+ITERATION: 170000
+ITERATION: 180000
+ITERATION: 190000
+ITERATION: 200000
+Starting processing MCMC iterations...
+Processing source: 1
+[TrailMix] Processing MCMC iter: 500
+[TrailMix] Processing MCMC iter: 1000
+[TrailMix] Processing MCMC iter: 1500
+[TrailMix] Processing MCMC iter: 2000
+[TrailMix] Processing MCMC iter: 2500
+[TrailMix] Processing MCMC iter: 3000
+[TrailMix] Processing MCMC iter: 3500
+[TrailMix] Processing MCMC iter: 4000
+[TrailMix] Processing MCMC iter: 4500
+[TrailMix] Processing MCMC iter: 5000
+[TrailMix] Processing MCMC iter: 5500
+[TrailMix] Processing MCMC iter: 6000
+[TrailMix] Processing MCMC iter: 6500
+[TrailMix] Processing MCMC iter: 7000
+[TrailMix] Processing MCMC iter: 7500
+[TrailMix] Processing MCMC iter: 8000
+[TrailMix] Processing MCMC iter: 8500
+[TrailMix] Processing MCMC iter: 9000
+[TrailMix] Processing MCMC iter: 9500
+[TrailMix] Processing MCMC iter: 10000
+[TrailMix] Processing MCMC iter: 10500
+[TrailMix] Processing MCMC iter: 11000
+[TrailMix] Processing MCMC iter: 11500
+[TrailMix] Processing MCMC iter: 12000
+[TrailMix] Processing MCMC iter: 12500
+[TrailMix] Processing MCMC iter: 13000
+[TrailMix] Processing MCMC iter: 13500
+[TrailMix] Processing MCMC iter: 14000
+[TrailMix] Processing MCMC iter: 14500
+[TrailMix] Processing MCMC iter: 15000
+[TrailMix] Processing MCMC iter: 15500
+[TrailMix] Processing MCMC iter: 16000
+[TrailMix] Processing MCMC iter: 16500
+[TrailMix] Processing MCMC iter: 17000
+[TrailMix] Processing MCMC iter: 17500
+[TrailMix] Processing MCMC iter: 18000
+[TrailMix] Processing MCMC iter: 18500
+[TrailMix] Processing MCMC iter: 19000
+[TrailMix] Processing MCMC iter: 19500
+[TrailMix] Processing MCMC iter: 20000
+[TrailMix] Processing MCMC iter: 20500
+[TrailMix] Processing MCMC iter: 21000
+[TrailMix] Processing MCMC iter: 21500
+[TrailMix] Processing MCMC iter: 22000
+[TrailMix] Processing MCMC iter: 22500
+[TrailMix] Processing MCMC iter: 23000
+[TrailMix] Processing MCMC iter: 23500
+[TrailMix] Processing MCMC iter: 24000
+[TrailMix] Processing MCMC iter: 24500
+Computing summary stats...
+autocorrelations...
+...Done. ESS: 
+...Done
+...Done
+Finished running chain: 5
+POS MEANS: 
+0.003430382834	0.003638878528	0.003670090029	0.003787871809	0	
+

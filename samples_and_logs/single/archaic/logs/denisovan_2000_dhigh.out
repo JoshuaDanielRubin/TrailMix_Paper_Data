@@ -1,0 +1,460 @@
+Running downsampling for 1 sources with 2000 reads...
+ ████████ ██████   █████  ██ ██      ███    ███ ██ ██   ██ 
+    ██    ██   ██ ██   ██ ██ ██      ████  ████ ██  ██ ██   
+    ██    ██████  ███████ ██ ██      ██ ████ ██ ██   ███    
+    ██    ██   ██ ██   ██ ██ ██      ██  ██  ██ ██  ██ ██   
+    ██    ██   ██ ██   ██ ██ ███████ ██      ██ ██ ██   ██  
+
+Loading GBWT index...
+GBWT index loaded.
+[TrailMix] Deserializing graph: graph.og
+[TrailMix] Done deserializing
+Computing substitutions due to ancient damage:
+
+.. done
+Mapping reads...
+Reads mapped
+Reading GAM file IvpYlRmMx
+Emitting to: /tmp/vgan_fAofQCE/t7fmQDH
+finding alignment paths
+Found alignment paths (0.0193505 seconds, 5.92313 GB)
+Clustered paths
+Clustered alignment paths (47.6005 seconds, 5.92313 GB)
+Inferred path posterior probabilities (142.131 seconds, 5.92313 GB)
+Inferred path posterior probabilities and abundances (144.36 seconds, 5.9062 GB)
+Precomputing...
+On read: 5
+On read: 10
+On read: 15
+On read: 20
+On read: 25
+On read: 30
+On read: 35
+On read: 40
+On read: 45
+On read: 50
+On read: 55
+On read: 60
+On read: 65
+On read: 70
+On read: 75
+On read: 80
+On read: 85
+On read: 90
+On read: 95
+On read: 100
+On read: 105
+On read: 110
+On read: 115
+On read: 120
+On read: 125
+On read: 130
+On read: 135
+On read: 140
+On read: 145
+On read: 150
+On read: 155
+On read: 160
+On read: 165
+On read: 170
+On read: 175
+On read: 180
+On read: 185
+On read: 190
+On read: 195
+On read: 200
+On read: 205
+On read: 210
+On read: 215
+On read: 220
+On read: 225
+On read: 230
+On read: 235
+On read: 240
+On read: 245
+On read: 250
+On read: 255
+On read: 260
+On read: 265
+On read: 270
+On read: 275
+On read: 280
+On read: 285
+On read: 290
+On read: 295
+On read: 300
+On read: 305
+On read: 310
+On read: 315
+On read: 320
+On read: 325
+On read: 330
+On read: 335
+On read: 340
+On read: 345
+On read: 350
+On read: 355
+On read: 360
+On read: 365
+On read: 370
+On read: 375
+On read: 380
+On read: 385
+On read: 390
+On read: 395
+On read: 400
+On read: 405
+On read: 410
+On read: 415
+On read: 420
+On read: 425
+On read: 430
+On read: 435
+On read: 440
+On read: 445
+On read: 450
+On read: 455
+On read: 460
+On read: 465
+On read: 470
+On read: 475
+On read: 480
+On read: 485
+On read: 490
+On read: 495
+On read: 500
+On read: 505
+On read: 510
+On read: 515
+On read: 520
+On read: 525
+On read: 530
+On read: 535
+On read: 540
+On read: 545
+On read: 550
+On read: 555
+On read: 560
+On read: 565
+On read: 570
+On read: 575
+On read: 580
+On read: 585
+On read: 590
+On read: 595
+On read: 600
+On read: 605
+On read: 610
+On read: 615
+On read: 620
+On read: 625
+On read: 630
+On read: 635
+On read: 640
+On read: 645
+On read: 650
+On read: 655
+On read: 660
+On read: 665
+On read: 670
+On read: 675
+On read: 680
+On read: 685
+On read: 690
+On read: 695
+On read: 700
+On read: 705
+On read: 710
+On read: 715
+On read: 720
+On read: 725
+On read: 730
+On read: 735
+On read: 740
+On read: 745
+On read: 750
+On read: 755
+On read: 760
+On read: 765
+On read: 770
+On read: 775
+On read: 780
+On read: 785
+On read: 790
+On read: 795
+On read: 800
+On read: 805
+On read: 810
+On read: 815
+On read: 820
+On read: 825
+On read: 830
+On read: 835
+On read: 840
+On read: 845
+On read: 850
+On read: 855
+On read: 860
+On read: 865
+On read: 870
+On read: 875
+On read: 880
+On read: 885
+On read: 890
+On read: 895
+On read: 900
+On read: 905
+On read: 910
+On read: 915
+On read: 920
+On read: 925
+On read: 930
+On read: 935
+On read: 940
+On read: 945
+On read: 950
+On read: 955
+On read: 960
+On read: 965
+On read: 970
+On read: 975
+On read: 980
+On read: 985
+On read: 990
+On read: 995
+On read: 1000
+On read: 1005
+On read: 1010
+On read: 1015
+On read: 1020
+On read: 1025
+On read: 1030
+On read: 1035
+On read: 1040
+On read: 1045
+On read: 1050
+On read: 1055
+On read: 1060
+On read: 1065
+On read: 1070
+On read: 1075
+On read: 1080
+On read: 1085
+On read: 1090
+On read: 1095
+On read: 1100
+On read: 1105
+On read: 1110
+On read: 1115
+On read: 1120
+On read: 1125
+On read: 1130
+On read: 1135
+On read: 1140
+On read: 1145
+On read: 1150
+On read: 1155
+On read: 1160
+On read: 1165
+On read: 1170
+On read: 1175
+On read: 1180
+On read: 1185
+On read: 1190
+On read: 1195
+On read: 1200
+On read: 1205
+On read: 1210
+On read: 1215
+On read: 1220
+On read: 1225
+On read: 1230
+On read: 1235
+On read: 1240
+On read: 1245
+On read: 1250
+On read: 1255
+On read: 1260
+On read: 1265
+On read: 1270
+On read: 1275
+On read: 1280
+On read: 1285
+On read: 1290
+On read: 1295
+On read: 1300
+On read: 1305
+On read: 1310
+On read: 1315
+On read: 1320
+On read: 1325
+On read: 1330
+On read: 1335
+On read: 1340
+On read: 1345
+On read: 1350
+On read: 1355
+On read: 1360
+On read: 1365
+On read: 1370
+On read: 1375
+On read: 1380
+On read: 1385
+On read: 1390
+On read: 1395
+On read: 1400
+On read: 1405
+On read: 1410
+On read: 1415
+On read: 1420
+On read: 1425
+On read: 1430
+On read: 1435
+On read: 1440
+On read: 1445
+On read: 1450
+On read: 1455
+On read: 1460
+On read: 1465
+On read: 1470
+On read: 1475
+On read: 1480
+On read: 1485
+On read: 1490
+On read: 1495
+On read: 1500
+On read: 1505
+On read: 1510
+On read: 1515
+On read: 1520
+On read: 1525
+On read: 1530
+On read: 1535
+On read: 1540
+On read: 1545
+On read: 1550
+On read: 1555
+On read: 1560
+On read: 1565
+On read: 1570
+On read: 1575
+On read: 1580
+On read: 1585
+On read: 1590
+On read: 1595
+On read: 1600
+On read: 1605
+On read: 1610
+On read: 1615
+On read: 1620
+On read: 1625
+On read: 1630
+On read: 1635
+On read: 1640
+On read: 1645
+On read: 1650
+On read: 1655
+On read: 1660
+On read: 1665
+On read: 1670
+On read: 1675
+On read: 1680
+On read: 1685
+On read: 1690
+On read: 1695
+On read: 1700
+On read: 1705
+On read: 1710
+On read: 1715
+On read: 1720
+On read: 1725
+On read: 1730
+On read: 1735
+On read: 1740
+On read: 1745
+On read: 1750
+On read: 1755
+On read: 1760
+On read: 1765
+On read: 1770
+On read: 1775
+On read: 1780
+On read: 1785
+On read: 1790
+On read: 1795
+On read: 1800
+On read: 1805
+On read: 1810
+On read: 1815
+On read: 1820
+On read: 1825
+On read: 1830
+On read: 1835
+On read: 1840
+On read: 1845
+On read: 1850
+On read: 1855
+On read: 1860
+On read: 1865
+On read: 1870
+On read: 1875
+On read: 1880
+On read: 1885
+On read: 1890
+On read: 1895
+On read: 1900
+On read: 1905
+On read: 1910
+On read: 1915
+On read: 1920
+On read: 1925
+On read: 1930
+On read: 1935
+On read: 1940
+On read: 1945
+On read: 1950
+On read: 1955
+On read: 1960
+On read: 1965
+On read: 1970
+On read: 1975
+On read: 1980
+On read: 1985
+On read: 1990
+On read: 1995
+On read: 2000
+Done with precomputations
+SIGNATURE NODE: MT576653.1
+On chain: 1  out of 1
+number of sources 1
+ITERATION: 0
+ITERATION: 10000
+ITERATION: 20000
+ITERATION: 30000
+ITERATION: 40000
+ITERATION: 50000
+ITERATION: 60000
+ITERATION: 70000
+ITERATION: 80000
+ITERATION: 90000
+ITERATION: 100000
+Starting processing MCMC iterations...
+Processing source: 1
+[TrailMix] Processing MCMC iter: 500
+[TrailMix] Processing MCMC iter: 1000
+[TrailMix] Processing MCMC iter: 1500
+[TrailMix] Processing MCMC iter: 2000
+[TrailMix] Processing MCMC iter: 2500
+[TrailMix] Processing MCMC iter: 3000
+[TrailMix] Processing MCMC iter: 3500
+[TrailMix] Processing MCMC iter: 4000
+[TrailMix] Processing MCMC iter: 4500
+[TrailMix] Processing MCMC iter: 5000
+[TrailMix] Processing MCMC iter: 5500
+[TrailMix] Processing MCMC iter: 6000
+Computing summary stats...
+autocorrelations...
+...Done. ESS: 
+...Done
+...Done
+Finished running chain: 1
